@@ -1,58 +1,57 @@
 # Tilt Shift Kamera
 
-Verwandle deinen Hof in eine lebendige Miniaturwelt. Tilt Shift Kamera fügt den
-Third-Person-Ansichten von Farming Simulator 25 einen live einstellbaren Tilt-Shift-Effekt
-hinzu: ein scharfes Band quer über den Bildschirm, das dem Ziel deiner Kamera folgt, eine
-weiche Unschärfe darüber und darunter, die mit der Tiefe zunimmt, helle Punkte, die zu
-Bokeh-Scheiben aufblühen, und eine Farbkorrektur, die alles wie ein bemaltes Modell
-aussehen lässt.
+Tilt Shift Kamera lässt Farming Simulator 25 wie eine Modelleisenbahn-Anlage aussehen. Die
+Mod legt einen Tilt-Shift-Effekt über die Third-Person-Ansichten: einen scharfen Streifen
+quer über den Bildschirm, der dem Ziel deiner Kamera folgt, und darüber und darunter eine
+Unschärfe, die mit der Tiefe stärker wird. Helle Punkte werden zu weichen Bokeh-Scheiben,
+und eine Farbkorrektur gibt der Szene die kräftigen, etwas spielzeughaften Farben eines
+bemalten Modells. Alles davon kannst du während des Spielens verstellen.
 
-Dazu kommen zusätzliche Objektivsteuerungen (Sichtfeld, eine flache Ansicht ohne
-Perspektive, Objektiv-Verschiebung, größere Kameradistanz), die Entfernungsunschärfe und
-Farbkorrektur des Spiels, ein Stop-Motion-Bildratenlimit sowie Regen, Schnee und Hagel, die
-mit der Miniatur unscharf werden und dem echten Himmel folgen können. Speichere die Looks,
-die dir gefallen, als Profile und wechsle per Taste zwischen ihnen.
+Im Panel findest du außerdem Objektiveinstellungen (Sichtfeld, eine flache Ansicht ohne
+Perspektive, Objektiv-Verschiebung, eine größere Kameradistanz) und die Entfernungsunschärfe
+und Farbkorrektur des Spiels selbst. Ein Bildratenlimit sorgt für Stop-Motion-Optik, und die
+Mod kann Regen, Schnee und Hagel zeichnen, die mit dem restlichen Bild unscharf werden und
+dem Wetter im Spiel folgen. Looks, die dir gefallen, speicherst du als Profile, jedes auf
+einer eigenen Taste.
 
-Wenn du mehr willst, sind drei Extras nur einen Schalter entfernt:
-[statische Kameras](static-cameras.md), die du rund um den Hof aufstellst,
-[Vorschaufenster](preview-windows.md), die jede Kamera live zeigen, und eine
-[Kamera-Zeitleiste](timeline.md), die von selbst zwischen ihnen schneidet, gemacht für
-Zeitraffer deiner Helfer bei der Feldarbeit.
+Drei optionale Extras sind aus, bis du sie einschaltest: [statische Kameras](static-cameras.md),
+die du rund um den Hof aufstellst, [Vorschaufenster](preview-windows.md), die diese Kameras
+live zeigen, und eine [Kamera-Zeitleiste](timeline.md), die von selbst zwischen ihnen
+umschaltet. Die Zeitleiste ist für Zeitraffer-Aufnahmen deiner Helfer auf dem Feld gedacht.
 
 ## Schnellstart
 
-1. **Mod installieren.** Kopiere `FS25_TiltShift.zip` in deinen Mod-Ordner
+1. Mod installieren. Kopiere `FS25_TiltShift.zip` in deinen Mod-Ordner
    (`Dokumente/My Games/FarmingSimulator2025/mods`) oder lade sie im Spiel über den ModHub
-   herunter. Aktiviere sie wie gewohnt für deinen Spielstand.
-2. **In eine Third-Person-Ansicht wechseln.** Der Effekt gilt nur für Orbit-Kameras: zu Fuß
-   in der Third-Person-Ansicht oder die Außenkamera eines Fahrzeugs.
-3. **Rechts-Strg + J drücken**, um die Effekte einzuschalten. Sie sind nach jedem Laden
-   eines Spielstands aus, damit dich der Look nie überrascht; deine Einstellungen bleiben
-   erhalten.
-4. **Rechts-Strg + K drücken**, um das Panel zu öffnen und den Look einzustellen. Wie du
-   dich darin bewegst, steht unter [Das Panel](panel.md), fertige Looks und eigene Profile
-   unter [Looks und Profile](looks-and-profiles.md), was jede Einstellung macht, unter
-   [Effekte](effects.md).
+   herunter, und aktiviere sie dann für deinen Spielstand.
+2. In eine Third-Person-Ansicht wechseln. Der Effekt wirkt nur bei Orbit-Kameras: zu Fuß in
+   der Third-Person-Ansicht oder bei der Außenkamera eines Fahrzeugs.
+3. **Rechts-Strg + J** drücken, um die Effekte einzuschalten. Nach jedem Laden eines
+   Spielstands sind sie aus, deine Einstellungen bleiben aber erhalten.
+4. **Rechts-Strg + K** drücken, um das Panel zu öffnen. Wie du dich darin bewegst, steht
+   unter [Das Panel](panel.md). [Looks und Profile](looks-and-profiles.md) erklärt die
+   fertigen Looks und das Speichern eigener, und unter [Effekte](effects.md) steht, was jede
+   Einstellung macht.
 
 ![Ein Hof von einer erhöhten statischen Kamera, im Miniatur-Tilt-Shift-Look](assets/hero.jpg)
 
 !!! tip "Wo der Effekt wirkt"
-    Kabinenansichten, First-Person- und feste Fahrzeugkameras bleiben unberührt. Der Effekt
-    funktioniert auch mit freien und filmischen Kameras anderer Mods, da er der jeweils
-    aktiven Kamera folgt. Shop, Werkstatt, Baumodus und der Schlafbildschirm zeigen immer das
-    normale Spiel.
+    Kabinenansichten, die Ego-Perspektive und feste Fahrzeugkameras bleiben unverändert.
+    Freie und filmische Kameras anderer Mods bekommen den Effekt ebenfalls, weil er der
+    jeweils aktiven Kamera folgt. Shop, Werkstatt, Baumodus und Schlafbildschirm zeigen
+    immer das normale Spiel.
 
 ## Extras
 
-Statische Kameras, Vorschaufenster und die Kamera-Zeitleiste sind ausgeschaltet, bis du sie
-in den **EXTRAS**-Zeilen des Abschnitts **TILT-SHIFT** im Panel einschaltest. Sie bauen
-aufeinander auf, daher erscheint jeder Schalter, sobald der vorherige an ist:
+Statische Kameras, Vorschaufenster und die Kamera-Zeitleiste bleiben aus, bis du sie in den
+EXTRAS-Zeilen des Abschnitts TILT-SHIFT im Panel einschaltest. Jedes Extra baut auf dem
+vorherigen auf, deshalb erscheint sein Schalter erst, wenn das vorherige an ist:
 
 1. **Statische Kameras**
-2. **Vorschaufenster** (braucht statische Kameras)
-3. **Kamera-Zeitleiste** (braucht Vorschaufenster)
+2. **Vorschaufenster**, sobald statische Kameras an sind
+3. **Kamera-Zeitleiste**, sobald Vorschaufenster an sind
 
 ## Mehrspielermodus
 
-Die Mod funktioniert im Mehrspielermodus. Alles, was sie tut, betrifft nur deinen eigenen
-Bildschirm, und jeder Spieler behält seine eigenen Kameras und seine eigene Zeitleiste.
+Die Mod funktioniert im Mehrspielermodus. Sie verändert nur deinen eigenen Bildschirm, und
+jeder Spieler hat seine eigenen Kameras und seine eigene Zeitleiste.

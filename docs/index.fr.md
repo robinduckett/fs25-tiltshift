@@ -1,59 +1,58 @@
 # Caméra Tilt Shift
 
-Transformez votre ferme en miniature vivante. Caméra Tilt Shift ajoute aux vues à la
-troisième personne de Farming Simulator 25 un effet tilt-shift réglable en direct : une
-bande nette en travers de l'écran qui suit la cible de votre caméra, un flou doux au-dessus
-et en dessous qui augmente avec la profondeur, des points lumineux qui s'épanouissent en
-disques de bokeh, et un étalonnage qui donne à tout l'air d'une maquette peinte.
+Caméra Tilt Shift donne à Farming Simulator 25 l'allure d'un réseau de train miniature. Le
+mod ajoute un effet tilt-shift aux vues à la troisième personne : une bande nette en travers
+de l'écran, qui suit ce que votre caméra regarde, avec au-dessus et en dessous un flou qui
+augmente avec la profondeur. Les points lumineux deviennent des disques de bokeh, et un
+étalonnage donne à la scène les couleurs vives, un peu jouet, d'une maquette peinte. Tout se
+règle pendant que vous jouez.
 
-Autour de l'effet, vous disposez de réglages d'objectif supplémentaires (champ de vision,
-vue à plat sans perspective, décentrement, distance de caméra étendue), du flou de distance
-et de l'étalonnage du jeu, d'une limite d'images façon stop motion, ainsi que de pluie,
-neige et grêle qui se floutent avec la miniature et peuvent suivre le ciel réel.
-Enregistrez les rendus qui vous plaisent comme profils et passez de l'un à l'autre d'une
-touche.
+Le panneau propose aussi des réglages d'objectif (champ de vision, vue à plat sans
+perspective, décentrement, caméra plus éloignée) ainsi que le flou de distance et
+l'étalonnage du jeu lui-même. Une limite d'images donne un rendu stop motion, et le mod
+peut dessiner pluie, neige et grêle, qui se floutent avec le reste de l'image et suivent la
+météo du jeu. Les rendus qui vous plaisent s'enregistrent en profils, chacun sur son propre
+raccourci.
 
-Pour aller plus loin, trois extras sont à portée d'interrupteur :
-des [caméras fixes](static-cameras.md) à poser autour de la ferme, des
-[fenêtres d'aperçu](preview-windows.md) qui montrent chaque caméra en direct, et une
-[timeline caméra](timeline.md) qui alterne toute seule entre elles, pensée pour les
-timelapses de vos ouvriers aux champs.
+Trois extras optionnels restent désactivés tant que vous ne les activez pas :
+des [caméras fixes](static-cameras.md) à placer autour de la ferme, des
+[fenêtres d'aperçu](preview-windows.md) qui montrent ces caméras en direct, et une
+[timeline caméra](timeline.md) qui passe de l'une à l'autre toute seule. La timeline a été
+pensée pour filmer en timelapse vos ouvriers aux champs.
 
 ## Démarrage rapide
 
-1. **Installez le mod.** Copiez `FS25_TiltShift.zip` dans votre dossier de mods
+1. Installez le mod. Copiez `FS25_TiltShift.zip` dans votre dossier de mods
    (`Documents/My Games/FarmingSimulator2025/mods`) ou téléchargez-le depuis le ModHub dans
-   le jeu. Activez-le pour votre partie comme d'habitude.
-2. **Passez à une vue à la troisième personne.** L'effet ne s'applique qu'aux caméras
-   orbitales : à pied à la troisième personne, ou la caméra extérieure d'un véhicule.
-3. **Appuyez sur Ctrl droit + J** pour activer les effets. Ils sont désactivés à chaque
-   chargement d'une partie, pour que le rendu ne vous surprenne jamais ; vos réglages sont
-   conservés.
-4. **Appuyez sur Ctrl droit + K** pour ouvrir le panneau et régler le rendu. Voir
-   [Le panneau](panel.md) pour s'y déplacer, [Rendus et profils](looks-and-profiles.md) pour
-   les rendus prêts à l'emploi et vos propres profils, et [Effets](effects.md) pour le rôle
-   de chaque réglage.
+   le jeu, puis activez-le pour votre partie.
+2. Passez à une vue à la troisième personne. L'effet ne s'applique qu'aux caméras orbitales :
+   à pied en troisième personne, ou la caméra extérieure d'un véhicule.
+3. Appuyez sur **Ctrl droit + J** pour activer les effets. Ils sont désactivés à chaque
+   chargement d'une partie, mais vos réglages sont conservés.
+4. Appuyez sur **Ctrl droit + K** pour ouvrir le panneau. [Le panneau](panel.md) explique
+   comment s'y déplacer, [Rendus et profils](looks-and-profiles.md) présente les rendus
+   prêts à l'emploi et l'enregistrement des vôtres, et [Effets](effects.md) détaille chaque
+   réglage.
 
 ![Une cour de ferme vue d'une caméra fixe en hauteur, avec le rendu miniature tilt-shift](assets/hero.jpg)
 
 !!! tip "Où l'effet s'applique"
-    Les vues cabine, la première personne et les caméras fixes des véhicules restent
-    intactes. L'effet fonctionne aussi avec les caméras libres et cinématiques d'autres
-    mods, car il suit la caméra active. La boutique, l'atelier, le mode construction et
-    l'écran de sommeil affichent toujours le jeu normal.
+    Les vues cabine, la première personne et les caméras fixes des véhicules ne sont pas
+    modifiées. Les caméras libres et cinématiques d'autres mods ont aussi l'effet, car il
+    suit la caméra active, quelle qu'elle soit. La boutique, l'atelier, le mode construction
+    et l'écran de sommeil affichent toujours le jeu sans effet.
 
 ## Extras
 
-Les caméras fixes, les fenêtres d'aperçu et la timeline caméra sont désactivées jusqu'à ce
-que vous les activiez dans les lignes **EXTRAS** de la section **TILT-SHIFT** du panneau.
-Elles s'appuient l'une sur l'autre : chaque interrupteur apparaît dès que le précédent est
-activé.
+Les caméras fixes, les fenêtres d'aperçu et la timeline caméra restent désactivées tant que
+vous ne les activez pas dans les lignes EXTRAS de la section TILT-SHIFT du panneau. Chacune
+dépend de la précédente, donc son interrupteur n'apparaît qu'une fois la précédente activée :
 
 1. **Caméras fixes**
-2. **Fenêtres d'aperçu** (nécessite les caméras fixes)
-3. **Timeline caméra** (nécessite les fenêtres d'aperçu)
+2. **Fenêtres d'aperçu**, une fois les caméras fixes activées
+3. **Timeline caméra**, une fois les fenêtres d'aperçu activées
 
 ## Multijoueur
 
-Le mod fonctionne en multijoueur. Tout ce qu'il fait reste local à votre écran, et chaque
-joueur garde ses propres caméras et sa propre timeline.
+Le mod fonctionne en multijoueur. Il ne modifie que votre propre écran, et chaque joueur a
+ses propres caméras et sa propre timeline.
