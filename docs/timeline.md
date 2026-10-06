@@ -9,6 +9,8 @@ fieldwork while the views change by themselves: ready to record a timelapse.
     [preview windows](preview-windows.md). With both on, set **Camera Timeline** in the
     panel's EXTRAS rows to ON. The CAMERA TIMELINE section and the editor window then appear.
 
+![The camera timeline editor with a preview window](assets/timeline-editor.jpg)
+
 ## The editor window
 
 The CAMERA TIMELINE window opens beside the panel. From top to bottom:

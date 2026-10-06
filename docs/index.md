@@ -31,7 +31,7 @@ timelapses of your workers in the field.
    for ready-made looks and saving your own, and [Effects](effects.md) for what every
    setting does.
 
-<!-- screenshot: a farm scene with the tilt-shift look (docs/assets/) -->
+![A farmyard from a raised static camera, with the miniature tilt-shift look](assets/hero.jpg)
 
 !!! tip "Where the effect applies"
     Cab views, first person and fixed vehicle cameras stay untouched. The effect also works

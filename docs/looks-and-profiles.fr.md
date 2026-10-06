@@ -5,7 +5,7 @@ couleurs, l'objectif, la météo, tout ce que contiennent les sections d'effets 
 Le mod fournit quelques **rendus prédéfinis**, et vous enregistrez les vôtres comme
 **profils**.
 
-<!-- screenshot: la ligne Rendu et les lignes PROFILS ENREGISTRÉS (docs/assets/) -->
+![Le panneau avec la section TILT SHIFT ouverte](assets/panel-main.png){ width="480" }
 
 ## Rendus prédéfinis
 

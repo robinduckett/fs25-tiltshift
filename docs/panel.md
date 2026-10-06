@@ -19,7 +19,7 @@ vehicle.
 Values you have changed since you last applied a look or saved a profile are shown in
 green.
 
-<!-- screenshot: the panel with the TILT SHIFT section open (docs/assets/) -->
+![The panel with the TILT SHIFT section open](assets/panel-main.png){ width="480" }
 
 ## Keyboard and gamepad
 

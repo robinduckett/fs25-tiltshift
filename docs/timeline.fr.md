@@ -10,6 +10,8 @@ travailler aux champs pendant que les vues changent d'elles-mêmes : prêt pour 
     **Timeline caméra** sur OUI dans les lignes EXTRAS du panneau. La section TIMELINE
     CAMÉRA et la fenêtre d'édition apparaissent alors.
 
+![La fenêtre d'édition de la timeline caméra avec une fenêtre d'aperçu](assets/timeline-editor.jpg)
+
 ## La fenêtre d'édition
 
 La fenêtre TIMELINE CAMÉRA s'ouvre à côté du panneau. De haut en bas :

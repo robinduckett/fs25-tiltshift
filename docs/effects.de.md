@@ -7,7 +7,7 @@ Einstellung.
 !!! tip
     Wähle einen Wert und drücke **Enter**, um ihn auf den Standard zurückzusetzen.
 
-<!-- screenshot: der Abschnitt VISUELLE EFFEKTE im Panel (docs/assets/) -->
+![Der Abschnitt VISUELLE EFFEKTE](assets/panel-effects.png){ width="480" }
 
 ## VISUELLE EFFEKTE
 

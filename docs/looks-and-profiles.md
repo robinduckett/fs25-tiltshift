@@ -4,7 +4,7 @@ A **look** is a full set of effect settings: the tilt-shift blur, the colours, t
 the weather, everything in the panel's effect sections. The mod comes with a few
 **built-in looks**, and you can save your own as **profiles**.
 
-<!-- screenshot: the Look row and the SAVED PROFILES rows (docs/assets/) -->
+![The panel with the TILT SHIFT section open](assets/panel-main.png){ width="480" }
 
 ## Built-in looks
 

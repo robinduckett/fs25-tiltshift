@@ -11,6 +11,8 @@ für eine Zeitraffer-Aufnahme.
     EXTRAS-Zeilen des Panels auf AN. Danach erscheinen der Abschnitt KAMERA-ZEITLEISTE und das
     Editor-Fenster.
 
+![Das Editor-Fenster der Kamera-Zeitleiste mit einem Vorschaufenster](assets/timeline-editor.jpg)
+
 ## Das Editor-Fenster
 
 Das Fenster KAMERA-ZEITLEISTE öffnet sich neben dem Panel. Von oben nach unten:

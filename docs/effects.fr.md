@@ -6,7 +6,7 @@ l'ordre du panneau. Les nombres entre parenthèses indiquent la plage de chaque 
 !!! tip
     Choisissez une valeur et appuyez sur **Entrée** pour la remettre par défaut.
 
-<!-- screenshot: la section EFFETS VISUELS ouverte dans le panneau (docs/assets/) -->
+![La section EFFETS VISUELS](assets/panel-effects.png){ width="480" }
 
 ## EFFETS VISUELS
 

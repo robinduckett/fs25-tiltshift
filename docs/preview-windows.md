@@ -7,6 +7,8 @@ shots at once and pick the one you want.
     Preview windows need [static cameras](static-cameras.md). With Static Cameras on, set
     **Preview Windows** in the panel's EXTRAS rows to ON.
 
+![The camera timeline editor with a preview window](assets/timeline-editor.jpg)
+
 ## Using the windows
 
 The windows appear while the panel is open. Each one has a title bar with the camera's

@@ -8,6 +8,8 @@ tous vos plans d'un coup et choisissez celui qui vous plaît.
     caméras fixes activées, passez **Fenêtres d'aperçu** sur OUI dans les lignes EXTRAS du
     panneau.
 
+![La fenêtre d'édition de la timeline caméra avec une fenêtre d'aperçu](assets/timeline-editor.jpg)
+
 ## Utiliser les fenêtres
 
 Les fenêtres apparaissent tant que le panneau est ouvert. Chacune a une barre de titre avec

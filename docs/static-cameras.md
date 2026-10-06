@@ -8,6 +8,10 @@ while the camera films.
     Open the panel (**Right Ctrl + K**) and set **Static Cameras** in the EXTRAS rows to ON.
     The STATIC CAMERAS section then appears in the panel.
 
+![The STATIC CAMERAS section](assets/panel-cameras.png){ width="480" }
+
+![A static camera on the pause-screen map, with Switch to Camera and Delete Camera](assets/map-marker.jpg)
+
 ## Adding and switching
 
 | Key | What it does |

@@ -34,7 +34,7 @@ Zeitraffer deiner Helfer bei der Feldarbeit.
    unter [Looks und Profile](looks-and-profiles.md), was jede Einstellung macht, unter
    [Effekte](effects.md).
 
-<!-- screenshot: eine Hofszene mit dem Tilt-Shift-Look (docs/assets/) -->
+![Ein Hof von einer erhöhten statischen Kamera, im Miniatur-Tilt-Shift-Look](assets/hero.jpg)
 
 !!! tip "Wo der Effekt wirkt"
     Kabinenansichten, First-Person- und feste Fahrzeugkameras bleiben unberührt. Der Effekt

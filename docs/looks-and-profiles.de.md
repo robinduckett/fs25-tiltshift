@@ -4,7 +4,7 @@ Ein **Look** ist ein vollständiger Satz von Effekteinstellungen: die Tilt-Shift
 die Farben, das Objektiv, das Wetter, alles in den Effektabschnitten des Panels. Die Mod
 bringt einige **Vorgabe-Looks** mit, und eigene Looks speicherst du als **Profile**.
 
-<!-- screenshot: die Look-Zeile und die Zeilen GESPEICHERTE PROFILE (docs/assets/) -->
+![Das Panel mit geöffnetem Abschnitt TILT SHIFT](assets/panel-main.png){ width="480" }
 
 ## Vorgabe-Looks
 

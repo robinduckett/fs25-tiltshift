@@ -7,6 +7,8 @@ Einstellungen auf einmal und wählst die passende.
     Vorschaufenster brauchen [statische Kameras](static-cameras.md). Sind die statischen
     Kameras an, stelle **Vorschaufenster** in den EXTRAS-Zeilen des Panels auf AN.
 
+![Das Editor-Fenster der Kamera-Zeitleiste mit einem Vorschaufenster](assets/timeline-editor.jpg)
+
 ## Die Fenster bedienen
 
 Die Fenster erscheinen, solange das Panel offen ist. Jedes hat eine Titelleiste mit Nummer

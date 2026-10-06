@@ -34,7 +34,7 @@ timelapses de vos ouvriers aux champs.
    les rendus prêts à l'emploi et vos propres profils, et [Effets](effects.md) pour le rôle
    de chaque réglage.
 
-<!-- screenshot: une scène de ferme avec le rendu tilt-shift (docs/assets/) -->
+![Une cour de ferme vue d'une caméra fixe en hauteur, avec le rendu miniature tilt-shift](assets/hero.jpg)
 
 !!! tip "Où l'effet s'applique"
     Les vues cabine, la première personne et les caméras fixes des véhicules restent

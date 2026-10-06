@@ -20,7 +20,7 @@ de votre véhicule.
 Les valeurs modifiées depuis la dernière application d'un rendu ou le dernier
 enregistrement d'un profil s'affichent en vert.
 
-<!-- screenshot: le panneau avec la section TILT-SHIFT ouverte (docs/assets/) -->
+![Le panneau avec la section TILT SHIFT ouverte](assets/panel-main.png){ width="480" }
 
 ## Clavier et manette
 

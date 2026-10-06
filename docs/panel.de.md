@@ -20,7 +20,7 @@ Fahrzeugs.
 Werte, die du seit dem letzten Anwenden eines Looks oder Speichern eines Profils geändert
 hast, erscheinen grün.
 
-<!-- screenshot: das Panel mit geöffnetem Abschnitt TILT-SHIFT (docs/assets/) -->
+![Das Panel mit geöffnetem Abschnitt TILT SHIFT](assets/panel-main.png){ width="480" }
 
 ## Tastatur und Gamepad
 

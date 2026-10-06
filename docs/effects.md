@@ -6,7 +6,7 @@ the panel shows them. Numbers in brackets are the range of each setting.
 !!! tip
     Select a value and press **Enter** to put it back to its default.
 
-<!-- screenshot: the VISUAL EFFECTS section open in the panel (docs/assets/) -->
+![The VISUAL EFFECTS section](assets/panel-effects.png){ width="480" }
 
 ## VISUAL EFFECTS
 

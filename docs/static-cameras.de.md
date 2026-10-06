@@ -8,6 +8,10 @@ arbeitest: Das Spiel läuft ganz normal weiter, während die Kamera filmt.
     Öffne das Panel (**Rechts-Strg + K**) und stelle **Statische Kameras** in den
     EXTRAS-Zeilen auf AN. Danach erscheint der Abschnitt STATISCHE KAMERAS im Panel.
 
+![Der Abschnitt STATISCHE KAMERAS](assets/panel-cameras.png){ width="480" }
+
+![Eine statische Kamera auf der Karte im Pausenmenü, mit Zur Kamera wechseln und Kamera löschen](assets/map-marker.jpg)
+
 ## Hinzufügen und wechseln
 
 | Taste | Funktion |

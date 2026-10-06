@@ -8,6 +8,10 @@ travailler : le jeu continue normalement pendant que la caméra filme.
     Ouvrez le panneau (**Ctrl droit + K**) et passez **Caméras fixes** sur OUI dans les
     lignes EXTRAS. La section CAMÉRAS FIXES apparaît alors dans le panneau.
 
+![La section CAMÉRAS FIXES](assets/panel-cameras.png){ width="480" }
+
+![Une caméra fixe sur la carte du menu pause, avec Passer à la caméra et Supprimer la caméra](assets/map-marker.jpg)
+
 ## Ajouter et changer de caméra
 
 | Touche | Action |
