@@ -34,8 +34,9 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+  logo: assets/logo.png
+  favicon: assets/logo.png
   icon:
-    logo: material/camera-iris
     repo: fontawesome/brands/github
 
 plugins:
@@ -57,6 +58,8 @@ plugins:
           nav_translations:
             Home: Start
             Using the mod: Bedienung
+            Getting started: Erste Schritte
+            Report an issue: Problem melden
             The panel: Das Panel
             Looks and profiles: Looks und Profile
             Effects: Effekte
@@ -74,6 +77,8 @@ plugins:
           nav_translations:
             Home: Accueil
             Using the mod: Utilisation
+            Getting started: Prise en main
+            Report an issue: Signaler un problème
             The panel: Le panneau
             Looks and profiles: Rendus et profils
             Effects: Effets
@@ -88,6 +93,7 @@ plugins:
 nav:
   - Home: index.md
   - Using the mod:
+      - Getting started: getting-started.md
       - The panel: panel.md
       - Looks and profiles: looks-and-profiles.md
       - Effects: effects.md
@@ -98,10 +104,18 @@ nav:
   - Reference:
       - Hotkeys: hotkeys.md
       - Limitations and FAQ: faq.md
+  - Report an issue: https://github.com/robinduckett/fs25-tiltshift/issues/new/choose
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
   - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - def_list
   - tables
   - toc:

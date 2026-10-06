@@ -1,0 +1,47 @@
+name: Report a problem
+description: Something in Tilt Shift Camera does not work as it should
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect to see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can it be reproduced?
+      description: The steps that lead to the problem, as far as you know them.
+      placeholder: |
+        1. Open the panel with Right Ctrl + K
+        2. ...
+  - type: input
+    id: mod
+    attributes:
+      label: Mod version
+      description: Shown in the game's mod list.
+  - type: input
+    id: game
+    attributes:
+      label: Game version and map
+      placeholder: 1.24.0.0, Riverbend Springs
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods
+      description: Camera and graphics mods matter most.
+  - type: textarea
+    id: log
+    attributes:
+      label: log.txt
+      description: >
+        Attach or paste `Documents/My Games/FarmingSimulator2025/log.txt` from the session
+        where the problem happened. Lines with "TiltShift" are the most useful.
+      render: text
+  - type: textarea
+    id: shots
+    attributes:
+      label: Screenshots
+      description: Drag images here if they help.

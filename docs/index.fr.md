@@ -1,58 +1,91 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
+<div class="ts-hero" markdown>
+
+![Caméra Tilt Shift](assets/logo.png){ .ts-logo }
+
+<div class="ts-hero-text" markdown>
+
 # Caméra Tilt Shift
 
-Caméra Tilt Shift donne à Farming Simulator 25 l'allure d'un réseau de train miniature. Le
-mod ajoute un effet tilt-shift aux vues à la troisième personne : une bande nette en travers
-de l'écran, qui suit ce que votre caméra regarde, avec au-dessus et en dessous un flou qui
-augmente avec la profondeur. Les points lumineux deviennent des disques de bokeh, et un
-étalonnage donne à la scène les couleurs vives, un peu jouet, d'une maquette peinte. Tout se
-règle pendant que vous jouez.
+<p class="ts-lead">Transformez votre ferme en miniature vivante. Caméra Tilt Shift ajoute aux vues à la troisième personne un effet tilt-shift réglable en direct : une bande de netteté basée sur la profondeur qui suit la cible de votre caméra, un bokeh pondéré par la luminosité, un étalonnage de saturation et de contraste, une limite d'images façon stop motion en option et des réglages d'objectif supplémentaires (champ de vision, vue orthographique, distance de caméra étendue). Une couche météo procédurale optionnelle ajoute pluie, neige et grêle qui se floutent avec la miniature et peuvent suivre le ciel réel. Enregistrez vos réglages préférés comme profils.</p>
 
-Le panneau propose aussi des réglages d'objectif (champ de vision, vue à plat sans
-perspective, décentrement, caméra plus éloignée) ainsi que le flou de distance et
-l'étalonnage du jeu lui-même. Une limite d'images donne un rendu stop motion, et le mod
-peut dessiner pluie, neige et grêle, qui se floutent avec le reste de l'image et suivent la
-météo du jeu. Les rendus qui vous plaisent s'enregistrent en profils, chacun sur son propre
-raccourci.
+[Prise en main](getting-started.md){ .md-button .md-button--primary }
+[:material-bug-outline: Signaler un problème](https://github.com/robinduckett/fs25-tiltshift/issues/new/choose){ .md-button }
 
-Trois extras optionnels restent désactivés tant que vous ne les activez pas :
-des [caméras fixes](static-cameras.md) à placer autour de la ferme, des
-[fenêtres d'aperçu](preview-windows.md) qui montrent ces caméras en direct, et une
-[timeline caméra](timeline.md) qui passe de l'une à l'autre toute seule. La timeline a été
-pensée pour filmer en timelapse vos ouvriers aux champs.
+</div>
 
-## Démarrage rapide
+</div>
 
-1. Installez le mod. Copiez `FS25_TiltShift.zip` dans votre dossier de mods
-   (`Documents/My Games/FarmingSimulator2025/mods`) ou téléchargez-le depuis le ModHub dans
-   le jeu, puis activez-le pour votre partie.
-2. Passez à une vue à la troisième personne. L'effet ne s'applique qu'aux caméras orbitales :
-   à pied en troisième personne, ou la caméra extérieure d'un véhicule.
-3. Appuyez sur **Ctrl droit + J** pour activer les effets. Ils sont désactivés à chaque
-   chargement d'une partie, mais vos réglages sont conservés.
-4. Appuyez sur **Ctrl droit + K** pour ouvrir le panneau. [Le panneau](panel.md) explique
-   comment s'y déplacer, [Rendus et profils](looks-and-profiles.md) présente les rendus
-   prêts à l'emploi et l'enregistrement des vôtres, et [Effets](effects.md) détaille chaque
-   réglage.
+![Une cour de ferme vue d'une caméra fixe en hauteur, avec le rendu miniature tilt-shift](assets/hero.jpg){ .ts-shot }
 
-![Une cour de ferme vue d'une caméra fixe en hauteur, avec le rendu miniature tilt-shift](assets/hero.jpg)
+## Ce que fait le mod
 
-!!! tip "Où l'effet s'applique"
-    Les vues cabine, la première personne et les caméras fixes des véhicules ne sont pas
-    modifiées. Les caméras libres et cinématiques d'autres mods ont aussi l'effet, car il
-    suit la caméra active, quelle qu'elle soit. La boutique, l'atelier, le mode construction
-    et l'écran de sommeil affichent toujours le jeu sans effet.
+L'effet ne s'applique qu'aux caméras à la troisième personne : les vues cabine, la première personne et les caméras fixes des véhicules restent intactes. Il fonctionne aussi avec les caméras libres et cinématiques d'autres mods, car il suit la caméra active.
+
+Le panneau (Ctrl droit + K) se pilote au clavier, à la manette et à la souris : un clic sur une section la plie ou la déplie, un clic sur une ligne la sélectionne, les valeurs se règlent avec les flèches, d'un clic sur &lt; et &gt; ou en les faisant glisser de côté, et une fois une ligne cliquée la molette ajuste sa valeur. L'interrupteur du titre active et désactive les effets. L'échelle de l'interface (0,75x, 1x, 1,25x) redimensionne ensemble le panneau et toutes les fenêtres.
 
 ## Extras
 
-Les caméras fixes, les fenêtres d'aperçu et la timeline caméra restent désactivées tant que
-vous ne les activez pas dans les lignes EXTRAS de la section TILT-SHIFT du panneau. Chacune
-dépend de la précédente, donc son interrupteur n'apparaît qu'une fois la précédente activée :
+Désactivés jusqu'à ce que vous les activiez l'un après l'autre dans la rubrique EXTRAS du panneau.
 
-1. **Caméras fixes**
-2. **Fenêtres d'aperçu**, une fois les caméras fixes activées
-3. **Timeline caméra**, une fois les fenêtres d'aperçu activées
+<div class="ts-cards" markdown>
 
-## Multijoueur
+<div class="ts-card" markdown>
 
-Le mod fonctionne en multijoueur. Il ne modifie que votre propre écran, et chaque joueur a
-ses propres caméras et sa propre timeline.
+### Caméras fixes
+
+Ctrl droit + N pose une caméra exactement là où se trouve votre vue, ancrée dans le monde. Passez à elle et revenez avec Ctrl droit + C, parcourez vos caméras avec Ctrl droit + V, et continuez à conduire ou à marcher pendant qu'elles filment. Chaque caméra garde son propre rendu tilt-shift (ou un profil) et peut être orientée depuis le panneau ou mise en place en vol libre avec la souris et les touches de déplacement. Les caméras appartiennent à votre partie, et en multijoueur chaque joueur garde les siennes. Chaque caméra apparaît aussi sur la carte du menu pause et sur la mini-carte : sélectionnez-la sur la carte pour passer à elle ou la supprimer.
+
+[En savoir plus](static-cameras.md)
+
+</div>
+
+<div class="ts-card" markdown>
+
+### Fenêtres d'aperçu
+
+Une image en direct de chaque caméra à côté du panneau. Déplacez une fenêtre par son titre, redimensionnez-la par son coin, épinglez-la pour la garder à l'écran panneau fermé, masquez-la, repositionnez sa caméra en vol libre ou supprimez-la (après confirmation). La caméra en cours de modification a un cadre vert, la caméra à l'antenne un cadre rouge.
+
+[En savoir plus](preview-windows.md)
+
+</div>
+
+<div class="ts-card" markdown>
+
+### Timeline caméra
+
+Une fenêtre d'édition qui alterne automatiquement entre vos caméras, pensée pour les timelapses de vos ouvriers aux champs. Glissez des caméras de la palette sur la piste, glissez les plans pour les réordonner et leur bord pour leur durée, zoomez à la molette et prévisualisez le montage dans le moniteur. Lancer la timeline (ou Ctrl droit + T) masque le panneau, toutes les fenêtres et le HUD, compte à rebours depuis 3 et joue la timeline dans la vue principale, en boucle ou une fois en restant sur la dernière caméra. Appuyez sur Échap pour revenir. La timeline est sauvegardée avec vos caméras.
+
+[En savoir plus](timeline.md)
+
+</div>
+
+</div>
+
+## Raccourcis clavier
+
+| Touche | Action |
+| --- | --- |
+| **Ctrl droit + K** | Ouvrir / fermer le panneau de configuration |
+| **Ctrl droit + J** | Tous les effets activés / désactivés (vos réglages actuels sont conservés, même non enregistrés) |
+| **Ctrl droit + 1-9** | Appliquer le profil 1-9 et activer les effets ; le même chiffre à nouveau les désactive |
+| **Ctrl droit + N** | Ajouter une caméra fixe à la vue actuelle |
+| **Ctrl droit + C** | Caméra fixe activée / désactivée (retour à la vue directe) |
+| **Ctrl droit + V** | Caméra fixe suivante |
+| **Ctrl droit + T** | Lancer la timeline caméra ; Ctrl droit + T ou Échap revient |
+| **Vol libre d'une caméra** | Les touches de déplacement la bougent, la souris l'oriente, Maj accélère, Entrée enregistre, Échap annule |
+| **Flèches ou pavé numérique** | Naviguer dans le panneau ; Gauche / Droite ajustent (Page préc. / Page suiv. pour les grands pas) |
+| **Entrée** | Plier / déplier une section ou exécuter la ligne choisie ; Échap : fermer le panneau |
+| **Manette** | La croix directionnelle navigue et ajuste tant que le panneau est ouvert |
+
+!!! note "Limitations connues"
+
+    - Les effets météo sont simulés en raison de limites fondamentales du moteur du jeu ; ils sont aussi fidèles que possible.
+    - Certaines décalcomanies, le verre et d'autres matériaux transparents ne sont pas visibles lorsque les effets sont actifs : les effets utilisent la refraction map, rendue avant les matériaux transparents.
+    - Les fenêtres d'aperçu montrent le monde sans effet : le rendu tilt-shift et la météo n'apparaissent que dans la vue principale.
+    - Tant qu'une caméra fixe est active, la vue à la première personne à pied passe en troisième personne pour que vous restiez visible, et la touche caméra du jeu (C) est remplacée jusqu'au retour à la vue directe.

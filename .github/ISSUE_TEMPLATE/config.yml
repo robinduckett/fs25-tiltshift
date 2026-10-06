@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Player guide
+    url: https://robinduckett.github.io/fs25-tiltshift/
+    about: How the panel, looks, static cameras and the timeline work.

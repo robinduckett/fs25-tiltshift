@@ -1,0 +1,80 @@
+/* Landing page: the mod icon beside the title, the description as cards. */
+
+.ts-hero {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin: 1rem 0 2rem;
+}
+
+/* the icon comes wrapped in a paragraph: size the paragraph, fill it */
+.ts-hero > p:first-child {
+  flex: 0 0 220px;
+  margin: 0;
+}
+
+.md-typeset .ts-hero .ts-logo {
+  display: block;
+  width: 100%;
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+}
+
+.ts-hero-text h1 {
+  margin: 0 0 0.6rem;
+  font-weight: 700;
+}
+
+.ts-lead {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+.ts-hero-text .md-button {
+  margin: 0.2rem 0.5rem 0.2rem 0;
+}
+
+.md-typeset .ts-shot {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  margin: 0 0 1.5rem;
+}
+
+.ts-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.ts-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  padding: 0.2rem 1rem 0.8rem;
+  background: var(--md-code-bg-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.ts-card h3 {
+  margin-top: 0.8rem;
+  color: var(--md-accent-fg-color);
+}
+
+.ts-card p:last-child {
+  margin-top: auto;
+}
+
+@media screen and (max-width: 44em) {
+  .ts-hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ts-hero > p:first-child {
+    flex-basis: auto;
+    width: 160px;
+  }
+}
