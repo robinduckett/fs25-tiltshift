@@ -7,10 +7,11 @@ weiche Unschärfe darüber und darunter, die mit der Tiefe zunimmt, helle Punkte
 Bokeh-Scheiben aufblühen, und eine Farbkorrektur, die alles wie ein bemaltes Modell
 aussehen lässt.
 
-Dazu kommen zusätzliche Objektivsteuerungen (Sichtfeld, orthografische Ansicht,
-Objektiv-Shift, größere Kameradistanz), die Tiefenschärfe und Farbkorrektur des Spiels, ein
-Stop-Motion-Bildratenlimit sowie Regen, Schnee und Hagel, die mit der Miniatur unscharf
-werden und dem echten Himmel folgen können.
+Dazu kommen zusätzliche Objektivsteuerungen (Sichtfeld, eine flache Ansicht ohne
+Perspektive, Objektiv-Verschiebung, größere Kameradistanz), die Entfernungsunschärfe und
+Farbkorrektur des Spiels, ein Stop-Motion-Bildratenlimit sowie Regen, Schnee und Hagel, die
+mit der Miniatur unscharf werden und dem echten Himmel folgen können. Speichere die Looks,
+die dir gefallen, als Profile und wechsle per Taste zwischen ihnen.
 
 Wenn du mehr willst, sind drei Extras nur einen Schalter entfernt:
 [statische Kameras](static-cameras.md), die du rund um den Hof aufstellst,
@@ -29,8 +30,11 @@ Zeitraffer deiner Helfer bei der Feldarbeit.
    eines Spielstands aus, damit dich der Look nie überrascht; deine Einstellungen bleiben
    erhalten.
 4. **Rechts-Strg + K drücken**, um das Panel zu öffnen und den Look einzustellen. Wie du
-   dich darin bewegst, steht unter [Das Panel](panel.md), was jede Einstellung macht, unter
+   dich darin bewegst, steht unter [Das Panel](panel.md), fertige Looks und eigene Profile
+   unter [Looks und Profile](looks-and-profiles.md), was jede Einstellung macht, unter
    [Effekte](effects.md).
+
+<!-- screenshot: eine Hofszene mit dem Tilt-Shift-Look (docs/assets/) -->
 
 !!! tip "Wo der Effekt wirkt"
     Kabinenansichten, First-Person- und feste Fahrzeugkameras bleiben unberührt. Der Effekt

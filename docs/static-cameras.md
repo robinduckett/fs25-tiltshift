@@ -39,24 +39,26 @@ Edit Camera
 :   Picks the camera the rows below it change. The heading above it names that camera.
     Press **Enter** to look through it.
 
-Settings
+Look
 :   The look this camera uses: **Own**, its own tilt-shift settings, or one of your saved
     profiles. A new camera starts with a copy of the look you had when you planted it. With
-    **Own**, any change you make while looking through the camera is kept with it.
+    **Own**, any change you make while looking through the camera is kept with it. See
+    [Looks and profiles](looks-and-profiles.md#static-cameras-and-profiles) for how a camera
+    that uses a profile behaves.
 
-Move to Player View
+Move to My View
 :   Moves the camera to where your own view is now, keeping its look.
 
 Preview Window
 :   Shows or hides this camera's [preview window](preview-windows.md).
 
-Reposition (fly)
+Fly Into Place
 :   Fly the camera into place yourself. See below.
 
 POSITION AND AIM
 :   Fine-tune the camera by the numbers. **Position X**, **Height** and **Position Z** move it
-    in steps of 0.25 m (2 m with Page Up and Page Down). **Yaw**, **Pitch** and **Roll** turn
-    it in steps of 1 degree (10 degrees). **Camera FoV** sets its field of view from 5 to
+    in steps of 0.25 m (2 m with Page Up and Page Down). **Turn**, **Tilt** and **Roll** turn
+    it in steps of 1 degree (10 degrees). **Field of View** sets its field of view from 5 to
     150 degrees.
 
 Delete Camera
@@ -64,7 +66,7 @@ Delete Camera
 
 ## Flying a camera into place
 
-Choose **Reposition (fly)** in the panel, or the fly button on the camera's preview window.
+Choose **Fly Into Place** in the panel, or the fly button on the camera's preview window.
 The panel closes and you look through the camera:
 
 - **W A S D** (your own movement keys) move it,

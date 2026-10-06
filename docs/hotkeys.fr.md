@@ -8,15 +8,17 @@ commandes du jeu ; leurs noms commencent par « Tilt Shift : ».
 | Touche | Action |
 | --- | --- |
 | **Ctrl droit + K** | Ouvrir ou fermer le panneau |
-| **Ctrl droit + J** | Effets tilt-shift activés ou désactivés (vos réglages sont conservés, même non enregistrés) |
-| **Ctrl droit + 1** à **9** | Appliquer le profil enregistré 1 à 9 et activer les effets ; le même chiffre à nouveau les désactive |
+| **Ctrl droit + J** | Tous les effets activés ou désactivés (vos réglages sont conservés, même non enregistrés) |
+| **Ctrl droit + 1** à **9** | Appliquer le profil enregistré qui porte ce numéro et activer les effets ; le même chiffre à nouveau les désactive |
 | **Ctrl droit + N** | Ajouter une caméra fixe à la vue actuelle |
 | **Ctrl droit + C** | Caméra fixe activée ou désactivée (retour à la vue directe) |
 | **Ctrl droit + V** | Caméra fixe suivante |
 | **Ctrl droit + T** | Lancer la timeline caméra ; à nouveau pour revenir |
 
 Les touches des caméras fixes et de la timeline fonctionnent une fois ces extras activés dans
-le panneau. Avant cela, elles affichent un court message pour le signaler.
+le panneau. Avant cela, elles affichent un court message pour le signaler. Le numéro de
+chaque profil s'affiche dans la ligne Rendu du panneau ; voir
+[Rendus et profils](looks-and-profiles.md#raccourcis-clavier).
 
 ## Dans le panneau
 

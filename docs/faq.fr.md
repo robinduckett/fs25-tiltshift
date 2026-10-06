@@ -13,7 +13,7 @@ Certains matériaux transparents disparaissent
     fait avant de dessiner les matériaux transparents.
 
 Les fenêtres d'aperçu montrent le monde sans effet
-:   Le rendu tilt-shift, la profondeur de champ et la météo n'apparaissent que dans la vue
+:   Le rendu tilt-shift, le flou de distance et la météo n'apparaissent que dans la vue
     principale, pas dans les fenêtres d'aperçu ni dans le moniteur de la timeline.
 
 Troisième personne uniquement
@@ -45,8 +45,14 @@ Je ne peux pas conduire quand le panneau est ouvert.
     **Ctrl droit + K**.
 
 Comment retrouver le rendu normal du jeu ?
-:   **Ctrl droit + J** désactive les effets sans rien perdre. **Réinitialiser tous les
+:   **Ctrl droit + J** désactive tous les effets sans rien perdre. **Réinitialiser tous les
     effets** dans le panneau désactive chaque effet et rétablit le rendu d'origine du jeu.
+
+J'ai modifié des réglages puis appuyé sur une touche de profil. Mes modifications sont-elles perdues ?
+:   Oui, si vous ne les avez pas enregistrées avant : **Ctrl droit + 1** à **9** appliquent
+    le profil tout de suite. Dans la ligne **Rendu** du panneau, une confirmation vous est
+    demandée avant d'abandonner des modifications non enregistrées. Voir
+    [Rendus et profils](looks-and-profiles.md).
 
 Le mod fonctionne-t-il en multijoueur ?
 :   Oui. Tout reste local à votre écran, et chaque joueur garde ses propres caméras et sa

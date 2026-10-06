@@ -8,15 +8,16 @@ Steuerungseinstellungen des Spiels ändern; ihre Namen beginnen mit „Tilt Shif
 | Taste | Funktion |
 | --- | --- |
 | **Rechts-Strg + K** | Panel öffnen oder schließen |
-| **Rechts-Strg + J** | Tilt-Shift-Effekte ein oder aus (deine Einstellungen bleiben erhalten, auch ungespeicherte) |
-| **Rechts-Strg + 1** bis **9** | Gespeichertes Profil 1 bis 9 anwenden und Effekte einschalten; dieselbe Zahl erneut schaltet sie aus |
+| **Rechts-Strg + J** | Alle Effekte ein oder aus (deine Einstellungen bleiben erhalten, auch ungespeicherte) |
+| **Rechts-Strg + 1** bis **9** | Das gespeicherte Profil mit dieser Nummer anwenden und Effekte einschalten; dieselbe Zahl erneut schaltet sie aus |
 | **Rechts-Strg + N** | Statische Kamera an der aktuellen Ansicht hinzufügen |
 | **Rechts-Strg + C** | Statische Kamera ein oder aus (zurück zur Live-Ansicht) |
 | **Rechts-Strg + V** | Nächste statische Kamera |
 | **Rechts-Strg + T** | Kamera-Zeitleiste starten; erneut, um zurückzukehren |
 
 Die Tasten für statische Kameras und Zeitleiste funktionieren, sobald diese Extras im Panel
-eingeschaltet sind. Bis dahin zeigen sie eine kurze Meldung dazu.
+eingeschaltet sind. Bis dahin zeigen sie eine kurze Meldung dazu. Welches Profil welche
+Nummer hat, zeigt die Look-Zeile im Panel; siehe [Looks und Profile](looks-and-profiles.md#tastenkombinationen).
 
 ## Im Panel
 

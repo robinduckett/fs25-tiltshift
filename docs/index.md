@@ -6,10 +6,11 @@ the screen that follows whatever your camera orbits, a soft blur above and below
 grows with depth, bright points that bloom into bokeh discs, and a colour grade that makes
 everything look like a painted model.
 
-Around the effect you get extra lens controls (field of view, orthographic view, lens shift,
-a longer camera distance), the game's own depth of field and colour grading, a stop-motion
-frame limit, and rain, snow and hail that blur along with the miniature and can follow the
-live sky.
+Around the effect you get extra lens controls (field of view, a flat view with no
+perspective, lens shift, a longer camera distance), the game's own distance blur and colour
+grading, a stop-motion frame limit, and rain, snow and hail that blur along with the
+miniature and can follow the live sky. Save the looks you like as profiles and switch
+between them with a key.
 
 When you want more, three extras are one switch away: [static cameras](static-cameras.md)
 you plant around the farm, [preview windows](preview-windows.md) that show every camera
@@ -23,11 +24,14 @@ timelapses of your workers in the field.
    Activate it for your savegame as usual.
 2. **Switch to a third-person view.** The effect only applies to orbit cameras: walking in
    third person, or the outside camera of a vehicle.
-3. **Press Right Ctrl + J** to turn the visuals on. They start off every time you load
+3. **Press Right Ctrl + J** to turn the effects on. They start off every time you load
    a game, so the look never surprises you; your settings are kept.
 4. **Press Right Ctrl + K** to open the panel and adjust the look. See
-   [The panel](panel.md) for how to get around it and [Effects](effects.md) for what every
+   [The panel](panel.md) for how to get around it, [Looks and profiles](looks-and-profiles.md)
+   for ready-made looks and saving your own, and [Effects](effects.md) for what every
    setting does.
+
+<!-- screenshot: a farm scene with the tilt-shift look (docs/assets/) -->
 
 !!! tip "Where the effect applies"
     Cab views, first person and fixed vehicle cameras stay untouched. The effect also works

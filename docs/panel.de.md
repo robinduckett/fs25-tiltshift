@@ -8,16 +8,19 @@ Fahrzeugs.
 ## Aufbau
 
 - **Die Titelleiste** zeigt TILT-SHIFT-KAMERA-KONFIGURATION. Der Schalter mit dem Augensymbol
-  rechts darin schaltet die Effekte ein und aus, genau wie **Rechts-Strg + J**.
-- **Die Zeile unter dem Titel** sagt dir, wessen Look die Effektzeilen gerade ändern: die
-  Live-Ansicht, eine statische Kamera mit eigenem Look oder eine Kamera, die ein
-  gespeichertes Profil nutzt.
-- **Abschnitte** wie TILT-SHIFT, SCREEN-SPACE-SHADER oder WETTER lassen sich ein- und
+  rechts darin schaltet alle Effekte ein und aus, genau wie **Rechts-Strg + J**.
+- **Die Zeile unter dem Titel** sagt dir, wessen Look die Effektzeilen gerade ändern und
+  woher er stammt: die Live-Ansicht mit einem gespeicherten Profil oder einem Vorgabe-Look,
+  eine statische Kamera mit eigenem Look oder eine Kamera, die ein gespeichertes Profil
+  nutzt.
+- **Abschnitte** wie TILT-SHIFT, VISUELLE EFFEKTE oder WETTER lassen sich ein- und
   ausklappen. Nur der erste ist anfangs offen; das Panel merkt sich, welche du geöffnet hast.
 - **Die Legende** unten zeigt die Tasten, die für die gewählte Zeile gelten.
 
-Werte, die du seit dem letzten Anwenden oder Speichern eines Profils geändert hast,
-erscheinen grün.
+Werte, die du seit dem letzten Anwenden eines Looks oder Speichern eines Profils geändert
+hast, erscheinen grün.
+
+<!-- screenshot: das Panel mit geöffnetem Abschnitt TILT-SHIFT (docs/assets/) -->
 
 ## Tastatur und Gamepad
 
@@ -47,7 +50,7 @@ wie Enter und die Zurück-Taste schließt das Panel.
   zuerst ihre Zeile an: Ein grüner Balken markiert sie, und das Mausrad verstellt jetzt
   diesen Wert. Ein erneuter Klick auf die Zeile gibt das Mausrad wieder zum Scrollen frei.
 - **Klick auf die Tastensymbole** in der Legende für Esc und Rechts-Strg + J schließt das
-  Panel bzw. schaltet die Effekte ein und aus.
+  Panel bzw. schaltet alle Effekte ein und aus.
 
 Über der Spielwelt, außerhalb des Panels, zoomt das Mausrad weiterhin deine Kamera.
 
@@ -55,12 +58,17 @@ wie Enter und die Zurück-Taste schließt das Panel.
 
 Der erste Abschnitt enthält die Steuerungen, die du am häufigsten brauchst:
 
-Effekte
+Alle Effekte
 :   Der Hauptschalter für den gesamten Look, wie **Rechts-Strg + J**. Ausschalten behält
     alle Einstellungen, gespeichert oder nicht.
 
-Vorgabe-Look, Gespeichertes Profil und die Speicherzeilen
-:   Einen fertigen Look oder einen eigenen wählen. Siehe [Looks und Profile](looks-and-profiles.md).
+Look
+:   Einen Vorgabe-Look oder eines deiner gespeicherten Profile wählen. Siehe
+    [Looks und Profile](looks-and-profiles.md).
+
+GESPEICHERTE PROFILE
+:   **Änderungen speichern**, **Als neues Profil speichern**, **Profil umbenennen** und
+    **Profil löschen**. Siehe [Looks und Profile](looks-and-profiles.md#einen-eigenen-look-speichern).
 
 EXTRAS
 :   **Statische Kameras**, **Vorschaufenster** und **Kamera-Zeitleiste**. Jede Zeile
@@ -73,6 +81,6 @@ UI-Skalierung
 
 Alle Effekte zurücksetzen
 :   Schaltet jeden Effekt aus und stellt den normalen Look des Spiels wieder her:
-    Tiefenschärfe, Bildratenlimit, Sichtfeld, orthografische Ansicht, Objektiv-Shift,
-    Farbkorrektur, Helligkeit, Schärfe, Kameradistanz und den Shader. Deine gespeicherten
-    Profile bleiben unberührt.
+    Tilt-Shift-Unschärfe, Entfernungsunschärfe, Stop-Motion, eigenes Sichtfeld, flache
+    Ansicht, Objektiv-Verschiebung, Farbkorrektur, Helligkeit, Schärfe und Kameradistanz.
+    Deine gespeicherten Profile bleiben unberührt.

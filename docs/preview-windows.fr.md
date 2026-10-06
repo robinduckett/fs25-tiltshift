@@ -44,5 +44,5 @@ Les boutons de la barre de titre, en partant de la droite :
   ménager les performances.
 - Avec beaucoup de caméras, le panneau affiche les fenêtres de huit caméras au plus autour
   de celle que vous modifiez.
-- Un aperçu montre le monde sans effet : le rendu tilt-shift, la profondeur de champ et la
+- Un aperçu montre le monde sans effet : le rendu tilt-shift, le flou de distance et la
   météo n'apparaissent que dans la vue principale.

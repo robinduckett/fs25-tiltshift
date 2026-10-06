@@ -41,33 +41,34 @@ Modifier la caméra
 :   Choisit la caméra que modifient les lignes en dessous. Le titre au-dessus nomme cette
     caméra. Appuyez sur **Entrée** pour regarder à travers.
 
-Réglages
+Rendu
 :   Le rendu de cette caméra : **Propres**, ses propres réglages tilt-shift, ou l'un de vos
     profils enregistrés. Une nouvelle caméra démarre avec une copie du rendu que vous aviez
     en la posant. Avec **Propres**, chaque modification faite en regardant à travers la
-    caméra est conservée avec elle.
+    caméra est conservée avec elle. Le comportement d'une caméra qui utilise un profil est
+    décrit dans [Rendus et profils](looks-and-profiles.md#cameras-fixes-et-profils).
 
-Déplacer à la vue du joueur
+Déplacer à ma vue
 :   Déplace la caméra là où se trouve votre propre vue, en gardant son rendu.
 
 Fenêtre d'aperçu
 :   Affiche ou masque la [fenêtre d'aperçu](preview-windows.md) de cette caméra.
 
-Repositionner (vol libre)
+Placer en vol libre
 :   Mettez la caméra en place en vol libre. Voir plus bas.
 
 POSITION ET VISÉE
 :   Ajustez la caméra au chiffre près. **Position X**, **Hauteur** et **Position Z** la
-    déplacent par pas de 0,25 m (2 m avec Page préc. et Page suiv.). **Lacet**, **Tangage**
-    et **Roulis** la tournent par pas de 1 degré (10 degrés). **Champ de vision caméra**
-    règle son champ de vision de 5 à 150 degrés.
+    déplacent par pas de 0,25 m (2 m avec Page préc. et Page suiv.). **Rotation**,
+    **Inclinaison** et **Roulis** la tournent par pas de 1 degré (10 degrés).
+    **Champ de vision** règle son champ de vision de 5 à 150 degrés.
 
 Supprimer la caméra
 :   Supprime la caméra après confirmation dans la boîte de dialogue Oui/Non du jeu.
 
 ## Mettre une caméra en place en vol libre
 
-Choisissez **Repositionner (vol libre)** dans le panneau, ou le bouton de vol de la fenêtre
+Choisissez **Placer en vol libre** dans le panneau, ou le bouton de vol de la fenêtre
 d'aperçu de la caméra. Le panneau se ferme et vous regardez à travers la caméra :
 
 - vos **touches de déplacement** (Z Q S D ou W A S D) la bougent,

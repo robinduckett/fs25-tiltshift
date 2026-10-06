@@ -8,14 +8,18 @@ vehicle.
 ## Layout
 
 - **The title bar** reads TILT SHIFT CAMERA CONFIG. The switch with the eye icon at its
-  right turns the visuals on and off, just like **Right Ctrl + J**.
-- **The line under the title** tells you whose look the effect rows are changing right now:
-  the live view, a static camera with its own look, or a camera that uses a saved profile.
-- **Sections** such as TILT SHIFT, SCREEN-SPACE SHADER or WEATHER fold and unfold. Only the
+  right turns all effects on and off, just like **Right Ctrl + J**.
+- **The line under the title** tells you whose look the effect rows are changing right now
+  and where it came from: the live view with a saved profile or a built-in look, a static
+  camera with its own look, or a camera that uses a saved profile.
+- **Sections** such as TILT SHIFT, VISUAL EFFECTS or WEATHER fold and unfold. Only the
   first one starts open; the panel remembers which ones you opened.
 - **The legend** at the bottom shows the keys that work on the selected row.
 
-Values you have changed since you last applied or saved a profile are shown in green.
+Values you have changed since you last applied a look or saved a profile are shown in
+green.
+
+<!-- screenshot: the panel with the TILT SHIFT section open (docs/assets/) -->
 
 ## Keyboard and gamepad
 
@@ -44,7 +48,7 @@ like Enter and the back button closes the panel.
   first: a green bar marks it and the wheel now adjusts that value. Click the row again
   to give the wheel back to scrolling.
 - **Click the key chips** in the legend for Esc and Right Ctrl + J to close the panel or
-  turn the visuals on and off.
+  turn all effects on and off.
 
 Over the game world, outside the panel, the mouse wheel still zooms your camera.
 
@@ -52,12 +56,17 @@ Over the game world, outside the panel, the mouse wheel still zooms your camera.
 
 The first section holds the controls you use most:
 
-Visuals
+All Effects
 :   The master switch for the whole look, the same as **Right Ctrl + J**. Turning it off
     keeps every setting, saved or not.
 
-Built-in Look, Saved Profile and the save rows
-:   Pick a ready-made look or one of your own. See [Looks and profiles](looks-and-profiles.md).
+Look
+:   Pick a built-in look or one of your saved profiles. See
+    [Looks and profiles](looks-and-profiles.md).
+
+SAVED PROFILES
+:   **Save Changes**, **Save as New Profile**, **Rename Profile** and **Delete Profile**. See
+    [Looks and profiles](looks-and-profiles.md#saving-your-own-look).
 
 EXTRAS
 :   **Static Cameras**, **Preview Windows** and **Camera Timeline**. Each one appears once the
@@ -69,6 +78,6 @@ UI Scale
     own HUD.
 
 Reset All Effects
-:   Switches every effect off and puts the game's own look back: depth of field, frame limit,
-    field of view, orthographic view, lens shift, colour grade, brightness, sharpness,
-    camera distance and the shader. Your saved profiles are not touched.
+:   Switches every effect off and puts the game's own look back: tilt-shift blur, distance
+    blur, stop motion, custom field of view, flat view, lens shift, colour grading,
+    brightness, sharpness and camera distance. Your saved profiles are not touched.

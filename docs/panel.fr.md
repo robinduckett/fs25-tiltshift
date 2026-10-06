@@ -8,16 +8,19 @@ de votre véhicule.
 ## Disposition
 
 - **La barre de titre** indique CONFIGURATION TILT-SHIFT. L'interrupteur avec l'icône d'œil
-  à sa droite active et désactive les effets, comme **Ctrl droit + J**.
-- **La ligne sous le titre** indique quel rendu les lignes d'effets modifient en ce moment :
-  la vue directe, une caméra fixe avec son propre rendu, ou une caméra qui utilise un profil
-  enregistré.
-- **Les sections** comme TILT-SHIFT, SHADER ÉCRAN ou MÉTÉO se plient et se déplient. Seule
-  la première est ouverte au départ ; le panneau retient celles que vous avez ouvertes.
+  à sa droite active et désactive tous les effets, comme **Ctrl droit + J**.
+- **La ligne sous le titre** indique quel rendu les lignes d'effets modifient en ce moment
+  et d'où il vient : la vue directe avec un profil enregistré ou un rendu prédéfini, une
+  caméra fixe avec son propre rendu, ou une caméra qui utilise un profil enregistré.
+- **Les sections** comme TILT-SHIFT, EFFETS VISUELS ou MÉTÉO se plient et se déplient.
+  Seule la première est ouverte au départ ; le panneau retient celles que vous avez
+  ouvertes.
 - **La légende** en bas montre les touches valables pour la ligne choisie.
 
-Les valeurs modifiées depuis la dernière application ou le dernier enregistrement d'un
-profil s'affichent en vert.
+Les valeurs modifiées depuis la dernière application d'un rendu ou le dernier
+enregistrement d'un profil s'affichent en vert.
+
+<!-- screenshot: le panneau avec la section TILT-SHIFT ouverte (docs/assets/) -->
 
 ## Clavier et manette
 
@@ -48,7 +51,7 @@ de validation agit comme Entrée et le bouton retour ferme le panneau.
   sur sa ligne : une barre verte la marque et la molette ajuste désormais cette valeur.
   Cliquez à nouveau sur la ligne pour rendre la molette au défilement.
 - **Cliquez sur les touches** de la légende pour Échap et Ctrl droit + J afin de fermer le
-  panneau ou d'activer et désactiver les effets.
+  panneau ou d'activer et désactiver tous les effets.
 
 Au-dessus du monde, hors du panneau, la molette zoome toujours votre caméra.
 
@@ -56,12 +59,18 @@ Au-dessus du monde, hors du panneau, la molette zoome toujours votre caméra.
 
 La première section regroupe les réglages les plus utilisés :
 
-Effets
+Tous les effets
 :   L'interrupteur principal de tout le rendu, comme **Ctrl droit + J**. Le désactiver
     conserve tous les réglages, enregistrés ou non.
 
-Rendu prédéfini, Profil enregistré et les lignes d'enregistrement
-:   Choisir un rendu tout prêt ou l'un des vôtres. Voir [Rendus et profils](looks-and-profiles.md).
+Rendu
+:   Choisir un rendu prédéfini ou l'un de vos profils enregistrés. Voir
+    [Rendus et profils](looks-and-profiles.md).
+
+PROFILS ENREGISTRÉS
+:   **Enregistrer les modifications**, **Enregistrer comme nouveau profil**,
+    **Renommer le profil** et **Supprimer le profil**. Voir
+    [Rendus et profils](looks-and-profiles.md#enregistrer-votre-propre-rendu).
 
 EXTRAS
 :   **Caméras fixes**, **Fenêtres d'aperçu** et **Timeline caméra**. Chacune apparaît dès que
@@ -73,7 +82,7 @@ EXTRAS
     correspond au HUD du jeu.
 
 Réinitialiser tous les effets
-:   Désactive chaque effet et rétablit le rendu d'origine du jeu : profondeur de champ,
-    limite d'images, champ de vision, vue orthographique, décentrement, étalonnage,
-    luminosité, netteté, distance de la caméra et le shader. Vos profils enregistrés ne sont
-    pas touchés.
+:   Désactive chaque effet et rétablit le rendu d'origine du jeu : flou tilt-shift, flou de
+    distance, stop motion, champ de vision personnalisé, vue à plat, décentrement,
+    étalonnage, luminosité, netteté et distance de la caméra. Vos profils enregistrés ne
+    sont pas touchés.

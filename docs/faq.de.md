@@ -13,7 +13,7 @@ Einige transparente Materialien verschwinden
     transparente Materialien zeichnet.
 
 Vorschaufenster zeigen die Welt ohne Effekt
-:   Tilt-Shift-Look, Tiefenschärfe und Wettereffekte erscheinen nur in der Hauptansicht,
+:   Tilt-Shift-Look, Entfernungsunschärfe und Wettereffekte erscheinen nur in der Hauptansicht,
     nicht in den Vorschaufenstern oder im Monitor der Zeitleiste.
 
 Nur Third-Person
@@ -45,9 +45,14 @@ Ich kann bei offenem Panel nicht fahren.
     **Rechts-Strg + K**.
 
 Wie komme ich zum normalen Look des Spiels zurück?
-:   **Rechts-Strg + J** schaltet die Effekte aus, ohne etwas zu verlieren. **Alle Effekte
+:   **Rechts-Strg + J** schaltet alle Effekte aus, ohne etwas zu verlieren. **Alle Effekte
     zurücksetzen** im Panel schaltet jeden Effekt aus und stellt den normalen Look des Spiels
     wieder her.
+
+Ich habe Einstellungen geändert und eine Profiltaste gedrückt. Sind meine Änderungen weg?
+:   Ja, wenn du sie nicht vorher gespeichert hast: **Rechts-Strg + 1** bis **9** wenden das
+    Profil sofort an. In der **Look**-Zeile des Panels wirst du gefragt, bevor ungespeicherte
+    Änderungen verworfen werden. Siehe [Looks und Profile](looks-and-profiles.md).
 
 Funktioniert die Mod im Mehrspielermodus?
 :   Ja. Alles betrifft nur deinen eigenen Bildschirm, und jeder Spieler behält seine eigenen

@@ -13,7 +13,7 @@ Some transparent materials disappear
     transparent materials.
 
 Preview windows show the plain world
-:   The tilt-shift look, depth of field and the weather effects appear on the main view only,
+:   The tilt-shift look, the distance blur and the weather effects appear on the main view only,
     not in the preview windows or the timeline monitor.
 
 Third person only
@@ -23,7 +23,7 @@ Third person only
 ## FAQ
 
 I installed the mod, but nothing changes.
-:   The visuals start off every time you load a game. Press **Right Ctrl + J**, and make sure
+:   The effects start off every time you load a game. Press **Right Ctrl + J**, and make sure
     you are in a third-person view.
 
 Where are the static cameras?
@@ -43,8 +43,13 @@ I can't drive while the panel is open.
 :   Your keys drive the panel while it is open. Close it with **Esc** or **Right Ctrl + K**.
 
 How do I go back to the game's normal look?
-:   **Right Ctrl + J** turns the visuals off without losing anything. **Reset All Effects** in
+:   **Right Ctrl + J** turns all effects off without losing anything. **Reset All Effects** in
     the panel switches every effect off and puts the game's own look back.
+
+I changed some settings and pressed a profile key. Are my changes gone?
+:   Yes, unless you saved them first: the **Right Ctrl + 1** to **9** keys apply the profile
+    straight away. In the panel's **Look** row you are asked before unsaved changes are
+    discarded. See [Looks and profiles](looks-and-profiles.md).
 
 Does it work in multiplayer?
 :   Yes. Everything is local to your own screen, and each player keeps their own cameras and

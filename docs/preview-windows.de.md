@@ -42,5 +42,5 @@ Die Tasten in der Titelleiste, von rechts:
   zu sparen.
 - Bei vielen Kameras zeigt das Panel Fenster für bis zu acht Kameras rund um die, die du
   bearbeitest.
-- Eine Vorschau zeigt die Welt ohne Effekt: Tilt-Shift-Look, Tiefenschärfe und Wettereffekte
+- Eine Vorschau zeigt die Welt ohne Effekt: Tilt-Shift-Look, Entfernungsunschärfe und Wettereffekte
   erscheinen nur in der Hauptansicht.

@@ -8,15 +8,16 @@ settings, where their names start with "Tilt Shift:".
 | Key | What it does |
 | --- | --- |
 | **Right Ctrl + K** | Open or close the panel |
-| **Right Ctrl + J** | Turn the tilt-shift visuals on or off (your settings are kept, saved or not) |
-| **Right Ctrl + 1** to **9** | Apply saved profile 1 to 9 and turn the visuals on; the same number again turns them off |
+| **Right Ctrl + J** | All effects on or off (your settings are kept, saved or not) |
+| **Right Ctrl + 1** to **9** | Apply the saved profile with that number and turn the effects on; the same number again turns them off |
 | **Right Ctrl + N** | Add a static camera at the current view |
 | **Right Ctrl + C** | Static camera on or off (back to the live view) |
 | **Right Ctrl + V** | Next static camera |
 | **Right Ctrl + T** | Start the camera timeline; again to go back |
 
 The static camera and timeline keys work once those extras are switched on in the panel.
-Until then, they show a short message saying so.
+Until then, they show a short message saying so. Which profile has which number is shown in
+the panel's Look row; see [Looks and profiles](looks-and-profiles.md#hotkeys).
 
 ## In the panel
 

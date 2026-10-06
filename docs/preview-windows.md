@@ -40,5 +40,5 @@ The buttons in the title bar, from the right:
 - Pinned windows update a little less often while the panel is closed, to save performance.
 - With many cameras, the panel shows windows for up to eight cameras around the one you
   are editing.
-- A preview shows the plain world from its camera: the tilt-shift look, depth of field and
-  the weather effects appear on the main view only.
+- A preview shows the plain world from its camera: the tilt-shift look, the distance blur
+  and the weather effects appear on the main view only.

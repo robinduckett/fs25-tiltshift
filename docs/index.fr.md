@@ -7,9 +7,11 @@ et en dessous qui augmente avec la profondeur, des points lumineux qui s'épanou
 disques de bokeh, et un étalonnage qui donne à tout l'air d'une maquette peinte.
 
 Autour de l'effet, vous disposez de réglages d'objectif supplémentaires (champ de vision,
-vue orthographique, décentrement, distance de caméra étendue), de la profondeur de champ et
-de l'étalonnage du jeu, d'une limite d'images façon stop motion, ainsi que de pluie, neige
-et grêle qui se floutent avec la miniature et peuvent suivre le ciel réel.
+vue à plat sans perspective, décentrement, distance de caméra étendue), du flou de distance
+et de l'étalonnage du jeu, d'une limite d'images façon stop motion, ainsi que de pluie,
+neige et grêle qui se floutent avec la miniature et peuvent suivre le ciel réel.
+Enregistrez les rendus qui vous plaisent comme profils et passez de l'un à l'autre d'une
+touche.
 
 Pour aller plus loin, trois extras sont à portée d'interrupteur :
 des [caméras fixes](static-cameras.md) à poser autour de la ferme, des
@@ -28,8 +30,11 @@ timelapses de vos ouvriers aux champs.
    chargement d'une partie, pour que le rendu ne vous surprenne jamais ; vos réglages sont
    conservés.
 4. **Appuyez sur Ctrl droit + K** pour ouvrir le panneau et régler le rendu. Voir
-   [Le panneau](panel.md) pour s'y déplacer et [Effets](effects.md) pour le rôle de chaque
-   réglage.
+   [Le panneau](panel.md) pour s'y déplacer, [Rendus et profils](looks-and-profiles.md) pour
+   les rendus prêts à l'emploi et vos propres profils, et [Effets](effects.md) pour le rôle
+   de chaque réglage.
+
+<!-- screenshot: une scène de ferme avec le rendu tilt-shift (docs/assets/) -->
 
 !!! tip "Où l'effet s'applique"
     Les vues cabine, la première personne et les caméras fixes des véhicules restent
