@@ -1,0 +1,117 @@
+site_name: Tilt Shift Camera
+site_description: Player guide for the Tilt Shift Camera mod for Farming Simulator 25
+site_author: Robin (diod.es)
+site_url: https://robinduckett.github.io/fs25-tiltshift/
+repo_url: https://github.com/robinduckett/fs25-tiltshift
+repo_name: robinduckett/fs25-tiltshift
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  icon:
+    logo: material/camera-iris
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
+          site_name: Tilt Shift Kamera
+          nav_translations:
+            Home: Start
+            Using the mod: Bedienung
+            The panel: Das Panel
+            Looks and profiles: Looks und Profile
+            Effects: Effekte
+            Extras: Extras
+            Static cameras: Statische Kameras
+            Preview windows: Vorschaufenster
+            Camera timeline: Kamera-Zeitleiste
+            Reference: Referenz
+            Hotkeys: Tastenkombinationen
+            Limitations and FAQ: Einschränkungen und FAQ
+        - locale: fr
+          name: Français
+          build: true
+          site_name: Caméra Tilt Shift
+          nav_translations:
+            Home: Accueil
+            Using the mod: Utilisation
+            The panel: Le panneau
+            Looks and profiles: Rendus et profils
+            Effects: Effets
+            Extras: Extras
+            Static cameras: Caméras fixes
+            Preview windows: Fenêtres d'aperçu
+            Camera timeline: Timeline caméra
+            Reference: Référence
+            Hotkeys: Raccourcis clavier
+            Limitations and FAQ: Limitations et FAQ
+
+nav:
+  - Home: index.md
+  - Using the mod:
+      - The panel: panel.md
+      - Looks and profiles: looks-and-profiles.md
+      - Effects: effects.md
+  - Extras:
+      - Static cameras: static-cameras.md
+      - Preview windows: preview-windows.md
+      - Camera timeline: timeline.md
+  - Reference:
+      - Hotkeys: hotkeys.md
+      - Limitations and FAQ: faq.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
