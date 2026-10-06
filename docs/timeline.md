@@ -1,8 +1,8 @@
 # Camera timeline
 
-The camera timeline cuts between your static cameras on its own. Build a list of shots,
-each one a camera held for a number of seconds, then start it and let your workers do the
-fieldwork while the views change by themselves: ready to record a timelapse.
+The camera timeline switches between your static cameras by itself. You build a list of
+shots, each one a camera held for a number of seconds, and start it. While your workers get
+on with the fieldwork the view keeps changing, which makes it easy to record a timelapse.
 
 !!! info "Switch it on first"
     The timeline needs [static cameras](static-cameras.md) and
@@ -13,49 +13,50 @@ fieldwork while the views change by themselves: ready to record a timelapse.
 
 ## The editor window
 
-The CAMERA TIMELINE window opens beside the panel. From top to bottom:
+The CAMERA TIMELINE window opens beside the panel. From top to bottom it has:
 
 The monitor
-:   A picture of the camera at the playhead. Click it to play or pause the cut in the
+:   The picture from the camera at the playhead. Click it to play or pause the cut in the
     monitor.
 
 Transport
-:   The **play** button plays the cut in the monitor only: the main view stays where it is.
-    Next to it is the time. The **repeat** button at the right switches between **Loop** and
-    **Once** (the repeat icon with a no-entry sign).
+:   The play button plays the cut in the monitor only, leaving the main view where it is.
+    The time is shown next to it. The repeat button on the right switches between Loop and
+    Once; Once shows the repeat icon with a no-entry sign over it.
 
 Camera palette
-:   One chip per camera. **Click** a chip to add a shot of that camera at the end, or
-    **drag** it onto the track to insert the shot where you drop it.
+:   One chip for each camera. Click a chip to add a shot of that camera at the end, or drag
+    it onto the track to insert the shot where you drop it.
 
 Ruler and track
-:   One block per shot, coloured by camera.
+:   One block per shot, coloured by camera. On the track you can:
 
-    - **Click** a block to select it; the playhead jumps to its start.
-    - **Drag** a block to move it earlier or later.
-    - **Drag its right edge** to change how long it lasts, in whole seconds.
-    - Click its **×** to delete it.
-    - **Click** the ruler or an empty part of the track to move the playhead. **Drag** along
-      the ruler to scrub through the cut; drag an empty part of the track to scroll.
-    - The **mouse wheel** zooms in and out around the pointer. When zoomed in, a scroll bar
-      appears under the track. You can zoom and scroll past the end of the last shot.
+    - click a block to select it, which moves the playhead to its start;
+    - drag a block to move it earlier or later;
+    - drag its right edge to make it longer or shorter, in whole seconds;
+    - click its × to delete it.
+
+    Clicking the ruler or an empty part of the track moves the playhead. Dragging along the
+    ruler scrubs through the cut, and dragging an empty part of the track scrolls it. The
+    mouse wheel zooms in and out around the pointer, and a scroll bar appears under the
+    track while you are zoomed in. You can zoom and scroll past the end of the last shot.
 
 Start Timeline
-:   Plays the timeline for real, on the main view. Its shortcut, **Right Ctrl + T**, is
-    shown beside it.
+:   Plays the timeline on the main view. Its shortcut, **Right Ctrl + T**, is shown next to
+    it.
 
-Like a preview window, the editor moves by its title bar and resizes by the grip in its
-bottom-right corner. The **pin** keeps it on screen with the panel closed, and the **×**
-hides it (the panel's **Editor Window** row shows it again). While the monitor plays, the
-preview window of the camera in the monitor gets a red frame.
+The editor window works like a preview window: drag its title bar to move it and the grip
+in its bottom-right corner to resize it. The pin keeps it on screen when the panel is
+closed, and × hides it (the panel's Editor Window row brings it back). While the monitor is
+playing, the preview window of the camera in the monitor gets a red frame.
 
 ## The CAMERA TIMELINE section
 
-Everything in the window can be done from the panel too, with the keyboard or a gamepad.
+Everything the window does can also be done from the panel, with the keyboard or a gamepad.
 
 Play
-:   Shows where the timeline is (Stopped, or the shot and the seconds left). **Enter** or a
-    click starts it, the same as Start Timeline.
+:   Shows whether the timeline is stopped or, while it plays, the shot and the seconds
+    left. Press **Enter** or click it to start the timeline, the same as Start Timeline.
 
 Repeat
 :   **Loop** or **Once**.
@@ -67,45 +68,44 @@ Preview in Window
 :   Plays or stops the cut in the window's monitor.
 
 Edit Shot
-:   Picks the shot the rows below change. The heading above it counts your shots and their
-    total length. Press **Enter** to look through the shot's camera.
+:   Picks the shot that the rows below it change. The heading above it shows how many shots
+    there are and their total length. Press **Enter** to look through the shot's camera.
 
 Camera
-:   The camera this shot shows.
+:   The camera the shot shows.
 
 Duration
 :   How long the shot lasts, from 1 second to an hour, in steps of 1 second (10 seconds with
     Page Up and Page Down).
 
 Move Shot
-:   Moves the shot earlier (left) or later (right).
+:   Moves the shot earlier (Left) or later (Right).
 
 Add Shot
-:   Adds a shot after the selected one, as long as it and showing the next camera, so
-    pressing it a few times walks through all your cameras.
+:   Adds a shot after the selected one, with the same duration and the next camera in the
+    list. Pressing it a few times gives you one shot of each camera.
 
 Delete Shot
 :   Deletes the selected shot.
 
 ## Starting the timeline
 
-Press **Start Timeline**, choose the **Play** row, or press **Right Ctrl + T**:
+Press **Start Timeline**, choose the Play row, or press **Right Ctrl + T**. The panel
+closes, and every window is hidden (pinned ones too), along with the game's HUD. A message
+counts down "Timeline starting in 3..", with "Press Esc to go back" underneath. When it
+reaches the end, the messages go away and the timeline plays on the main view. It changes
+cameras without showing any messages.
 
-1. The panel closes and every window is hidden, pinned ones too, along with the game's HUD.
-2. "Timeline starting in 3.." counts down from 3, above "Press Esc to go back".
-3. The messages disappear and the timeline plays on the main view, switching cameras
-   without any messages on screen.
+With **Loop** the timeline repeats until you stop it. With **Once** it plays every shot and
+then stays on the last camera.
 
-With **Loop**, it keeps going until you stop it. With **Once**, it plays every shot and then
-stays on the last camera.
+Press **Esc** or **Right Ctrl + T** to go back. You return to the view you had before, the
+HUD comes back, and the panel opens again if it was open when you started.
 
-Press **Esc** or **Right Ctrl + T** to go back: you return to the view you had before, the
-HUD comes back, and the panel opens again if it was open.
-
-The timeline's clock stops while the game is paused or you are sleeping, so a shot never
-runs out while nothing happens.
+The timeline's clock stops while the game is paused or you are asleep, so no shot gets used
+up while nothing is happening.
 
 ## Saving
 
-The timeline is saved with your cameras, in your savegame. Deleting a camera also removes
-its shots.
+The timeline is saved with your cameras, in the savegame. Deleting a camera also deletes its
+shots.

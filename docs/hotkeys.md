@@ -1,7 +1,7 @@
 # Hotkeys
 
-These are the default keys. You can change the mod's own keys in the game's controls
-settings, where their names start with "Tilt Shift:".
+These are the default keys. You can change the mod's keys in the game's controls settings,
+where their names start with "Tilt Shift:".
 
 ## Anywhere in the game
 
@@ -13,11 +13,12 @@ settings, where their names start with "Tilt Shift:".
 | **Right Ctrl + N** | Add a static camera at the current view |
 | **Right Ctrl + C** | Static camera on or off (back to the live view) |
 | **Right Ctrl + V** | Next static camera |
-| **Right Ctrl + T** | Start the camera timeline; again to go back |
+| **Right Ctrl + T** | Start the camera timeline; press again to go back |
 
-The static camera and timeline keys work once those extras are switched on in the panel.
-Until then, they show a short message saying so. Which profile has which number is shown in
-the panel's Look row; see [Looks and profiles](looks-and-profiles.md#hotkeys).
+The static camera and timeline keys only work once those extras are switched on in the
+panel. Before that, pressing them shows a short message saying so. The Look row in the
+panel shows which profile has which number; see
+[Looks and profiles](looks-and-profiles.md#hotkeys).
 
 ## In the panel
 
@@ -30,7 +31,7 @@ the panel's Look row; see [Looks and profiles](looks-and-profiles.md#hotkeys).
 | **Esc** | Close the panel |
 | Gamepad **d-pad** | Select and change |
 
-See [The panel](panel.md#mouse) for the mouse.
+For the mouse, see [The panel](panel.md#mouse).
 
 ## Flying a camera
 
@@ -38,11 +39,11 @@ See [The panel](panel.md#mouse) for the mouse.
 | --- | --- |
 | **W A S D** (your movement keys) | Move the camera |
 | Mouse | Turn the camera |
-| **Shift** | Move fast |
+| **Shift** | Move faster |
 | **Enter** | Save the new position |
 | **Esc** | Cancel and put the camera back |
 
-## During the timeline
+## While the timeline plays
 
 | Key | What it does |
 | --- | --- |
