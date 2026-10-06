@@ -1,19 +1,19 @@
 # Looks and profiles
 
-A look is a complete set of effect settings: everything in the panel's effect sections,
-from the tilt-shift blur to the colours, the lens and the weather. The mod comes with a few
-built-in looks, and you can save your own as profiles.
+A look is a full set of effect settings: everything in the panel's effect sections, such as
+the blur, the colours, the lens and the weather. The mod comes with five built-in looks,
+and you can save your own looks as profiles.
 
 ![The panel with the TILT SHIFT section open](assets/panel-main.png){ width="480" }
 
 ## Built-in looks
 
 Robin 3rd Person
-:   The tuned tilt-shift look: tilt-shift blur with Focus Follows Subject, blur by distance
-    and bokeh. It switches every other effect off first.
+:   The recommended look for third person: the tilt-shift blur with Focus Follows Subject,
+    Blur by Distance and bokeh. Every other effect is turned off.
 
 Miniature
-:   Distance blur on the background and a strong colour grade.
+:   The game's distance blur on the background and a strong colour grade.
 
 Miniature + Stop Motion
 :   Miniature at 15 frames per second.
@@ -22,106 +22,107 @@ Subtle
 :   A lighter distance blur and colour grade.
 
 Everything Off
-:   Switches every effect off, like **Reset All Effects**.
+:   Turns every effect off, like **Reset All Effects**.
 
-Miniature, Miniature + Stop Motion and Subtle leave the tilt-shift blur and the weather as
-they were. A built-in look can't be edited, but you can save what it gives you as one of
-your own profiles.
+Miniature, Miniature + Stop Motion and Subtle do not change the tilt-shift blur or the
+weather settings. You cannot edit a built-in look, but you can change its settings and
+save the result as a profile.
 
 ## Choosing a look
 
-The Look row at the top of the TILT SHIFT section shows the look on screen. Its list starts
-with the built-in looks, followed by your saved profiles.
+The Look row at the top of the TILT SHIFT section shows the current look. It lists the
+built-in looks first, then your saved profiles.
 
-Left and Right (or the `<` and `>` beside the value) move through the list without
-changing anything on screen. Press Enter, or click the row, to apply the look you have
-moved to; applying a look also turns the effects on. If you move to another row without
-applying, the Look row goes back to showing the look on screen.
+Press Left or Right (or click the `<` and `>` next to the value) to go through the list.
+This only shows the names: nothing changes on screen until you press Enter or click the
+row, which applies the look and turns the effects on. If you move to another row without
+applying, the Look row shows the current look again.
 
-A saved profile with a hotkey has its number in front of its name, for example
+Saved profiles that have a hotkey show the number before the name, for example
 **2 · Harvest**.
 
-Once you change a setting, the Look row adds "(changed)", as in **2 · Harvest (changed)**,
-and the values you changed turn green. If you then apply a different look, the game asks
-"Discard your unsaved changes and apply …?" first. **Apply** goes ahead and **Cancel**
-keeps your changes.
+When you change a setting, the Look row adds "(changed)", as in **2 · Harvest (changed)**,
+and the values you changed turn green. If you then apply a different look, the game first
+asks "Discard your unsaved changes and apply …?". Choose **Apply** to continue or
+**Cancel** to keep your changes.
 
-The row shows **Custom** when what is on screen isn't one of the listed looks, for example
-after you delete the profile it came from.
+If the current settings do not belong to any look in the list, for example because you
+deleted the profile they came from, the Look row shows **Custom**.
 
 ## Saving your own look
 
-The SAVED PROFILES rows under the Look row act on the saved profile that is on screen. A
-row that can't do anything at the moment is dimmed.
+The SAVED PROFILES rows below the Look row work on the profile that is currently applied.
+Rows you cannot use at the moment are greyed out.
 
 Save Changes
-:   Saves your changes into the profile on screen, whose name is shown at the right of the
-    row. It only works when a saved profile is on screen and has changes.
+:   Saves your changes to the current profile. The profile's name is shown on the right of
+    the row. Only available when a saved profile is applied and you have changed something.
 
 Save as New Profile
-:   Saves what is on screen as a new profile right away, named Profile 1, Profile 2 and so
-    on. The new profile becomes the look on screen.
+:   Saves the current settings as a new profile, named Profile 1, Profile 2 and so on, and
+    makes it the current look.
 
 Rename Profile
-:   Opens the game's text box so you can give the profile on screen a new name, up to 32
-    characters long. Characters that can't be used in a file name (`\ / : * ? " < > |`)
-    are dropped, and a name that another profile already has is refused.
+:   Opens the game's text box so you can rename the current profile. Names can be up to 32
+    characters long. Characters that are not allowed in file names (`\ / : * ? " < > |`)
+    are removed, and you cannot use a name that another profile already has.
 
 Delete Profile
-:   Deletes the profile on screen once you confirm. The picture doesn't change; the Look
-    row just shows it as **Custom**.
+:   Deletes the current profile after you confirm. The settings on screen stay as they are,
+    and the Look row shows **Custom**.
 
-To change a profile that isn't on screen, apply it in the Look row first.
+To change a profile that is not the current one, apply it in the Look row first.
 
-On a fresh install the mod saves its default look as **Profile 1**, on hotkey 1.
+When you first install the mod, it saves its default settings as **Profile 1**, on
+hotkey 1.
 
 ## Hotkeys
 
-**Right Ctrl + 1** to **Right Ctrl + 9** apply your saved profiles immediately, without
-asking, and turn the effects on. Press the same number again to turn the effects off.
+**Right Ctrl + 1** to **Right Ctrl + 9** apply your saved profiles straight away, without
+asking about unsaved changes, and turn the effects on. Pressing the same number again turns
+the effects off.
 
-A profile keeps its number for as long as it exists. A new profile gets the lowest free
-number, deleting a profile frees its number, and renaming a profile doesn't change it. If
-you have more than nine profiles, the extra ones have no hotkey but still appear in the
-Look row.
+Each profile keeps its number until you delete it. A new profile gets the lowest free
+number, and renaming a profile does not change its number. If you have more than nine
+profiles, the extra ones have no hotkey but are still listed in the Look row.
 
 ## The line under the title
 
-The line under the panel's title tells you what the effect rows are changing and where the
-look came from:
+The line under the panel's title shows what the effect settings currently apply to and
+which look they came from:
 
 | The line reads | Meaning |
 | --- | --- |
 | Editing: live view | Your own view, not based on a saved profile or built-in look |
 | Editing: live view, from profile Harvest | Your own view, based on a saved profile |
 | Editing: live view, built-in look Miniature | Your own view, based on a built-in look |
-| Editing: Camera 1, its own look | A static camera with its own look |
+| Editing: Camera 1, its own look | A static camera with its own settings |
 | Editing: Camera 1, uses profile Harvest | A static camera that uses a saved profile |
 
 ## Static cameras and profiles
 
-A [static camera](static-cameras.md) has its own Look row, which is either **Own** (the
-camera keeps its own settings) or one of your saved profiles.
+Each [static camera](static-cameras.md) has a Look setting of its own. It is either
+**Own**, meaning the camera keeps its own settings, or one of your saved profiles.
 
-With **Own**, anything you change while looking through the camera is stored with the
-camera, so it never counts as an unsaved change.
+With **Own**, any change you make while looking through the camera is saved with the
+camera, so it never shows as an unsaved change.
 
-With a profile, looking through the camera applies that profile. Changes you make there
-show as "(changed)", and **Save Changes** writes them into the profile, which updates every
-camera that uses it. Changes you don't save are lost when you switch to another view.
+With a profile, looking through the camera applies that profile. Changes you make show as
+"(changed)", and **Save Changes** saves them to the profile, which also updates every other
+camera that uses it. If you switch away without saving, the changes are lost.
 
-Applying a look while looking through a camera works like this:
+If you apply a look while looking through a camera:
 
-- Another saved profile on a camera that uses a profile: the camera switches to that
-  profile.
-- A saved profile on a camera with its own look: the profile's settings are copied into the
-  camera's own look.
-- A built-in look on any camera: the camera gets that look as its own.
+- applying a saved profile to a camera that uses a profile switches the camera to the new
+  profile;
+- applying a saved profile to a camera with its own settings copies the profile's settings
+  into the camera;
+- applying a built-in look to any camera gives the camera that look as its own settings.
 
-Renaming a profile renames it for every camera that uses it. Deleting a profile leaves its
-look on those cameras as their own.
+Renaming a profile updates every camera that uses it. Deleting a profile leaves its
+settings on those cameras as their own.
 
 ## After a restart
 
-The mod remembers which look was on screen. If you changed a saved profile and didn't save
-it, the Look row still shows "(changed)" the next time you play.
+The mod remembers the current look when you quit. If you changed a saved profile without
+saving, the Look row still shows "(changed)" the next time you play.

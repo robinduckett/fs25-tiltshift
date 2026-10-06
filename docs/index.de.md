@@ -12,7 +12,7 @@ hide:
 
 # Tilt Shift Kamera
 
-<p class="ts-lead">Verwandle deinen Hof in eine lebendige Miniaturwelt. Tilt Shift Kamera fügt den Third-Person-Ansichten einen live einstellbaren Tilt-Shift-Effekt hinzu: ein tiefenbasiertes Schärfeband, das dem Ziel deiner Kamera folgt, helligkeitsgewichtetes Bokeh, Sättigungs- und Kontrastkorrektur, ein optionales Stop-Motion-Bildratenlimit sowie zusätzliche Objektivsteuerungen (Sichtfeld, orthografische Ansicht, erweiterte Kameradistanz). Eine optionale prozedurale Wetterebene fügt Regen, Schnee und Hagel hinzu, die mit der Miniatur unscharf werden und dem echten Himmel folgen können. Speichere deine Lieblings-Looks als Profile.</p>
+<p class="ts-lead">Tilt Shift Kamera fügt den Third-Person-Ansichten einen Tilt-Shift-Effekt hinzu. Ein Streifen quer über den Bildschirm bleibt scharf, alles darüber und darunter wird unscharf. Dadurch wirkt die Szene wie ein Miniaturmodell. Standardmäßig folgt der scharfe Streifen dem, worum deine Kamera kreist. Außerdem kannst du helle Punkte als Bokeh darstellen, die Farben kräftiger machen und die Bildecken abdunkeln, das Sichtfeld ändern, die Perspektive entfernen, das Objektiv verschieben, die Kamera weiter herauszoomen und die Bildrate für einen Stop-Motion-Look begrenzen. Die Mod kann eigenen Regen, Schnee und Hagel darstellen, der dem Wetter im Spiel folgt und mit dem restlichen Bild unscharf wird. Looks, die dir gefallen, speicherst du als Profile.</p>
 
 [Erste Schritte](getting-started.md){ .md-button .md-button--primary }
 [:material-bug-outline: Problem melden](https://github.com/robinduckett/fs25-tiltshift/issues/new/choose){ .md-button }
@@ -25,13 +25,13 @@ hide:
 
 ## Was die Mod macht
 
-Der Effekt gilt nur für Third-Person-Kameras: Kabinenansichten, First-Person- und feste Fahrzeugkameras bleiben unberührt. Er funktioniert auch mit freien und filmischen Kameras anderer Mods, da er der aktiven Kamera folgt.
+Der Effekt wirkt nur bei Third-Person-Kameras. Kabinenansichten, die Ego-Perspektive und feste Fahrzeugkameras sind nicht betroffen. Er funktioniert auch mit freien und filmischen Kameras anderer Mods, weil er immer der aktiven Kamera folgt.
 
-Das Panel (Rechts-Strg + K) lässt sich mit Tastatur, Gamepad und Maus bedienen: Klick auf einen Abschnitt klappt ihn ein oder aus, Klick auf eine Zeile wählt sie, Werte stellst du mit den Pfeiltasten, per Klick auf &lt; und &gt; oder durch seitliches Ziehen ein, und nach einem Klick auf eine Zeile verstellt das Mausrad ihren Wert. Der Schalter im Titel schaltet die Effekte ein und aus. Die UI-Skalierung (0,75x, 1x, 1,25x) ändert Panel und alle Fenster gemeinsam.
+Alle Einstellungen befinden sich in einem Panel (Rechts-Strg + K), das du mit Tastatur, Gamepad oder Maus bedienen kannst. Ein Klick auf einen Abschnitt klappt ihn ein oder aus, ein Klick auf eine Zeile wählt sie. Werte änderst du mit den Pfeiltasten, mit einem Klick auf &lt; und &gt; daneben oder indem du sie zur Seite ziehst. Nachdem du eine Zeile angeklickt hast, ändert das Mausrad ihren Wert. Der Schalter im Titel des Panels schaltet alle Effekte ein und aus. Die UI-Skalierung (0,75x, 1x oder 1,25x) ändert die Größe des Panels und aller Fenster der Mod.
 
 ## Extras
 
-Ausgeschaltet bis du sie im Bereich EXTRAS des Panels nacheinander einschaltest.
+Drei Extras sind ausgeschaltet, bis du sie nacheinander in den EXTRAS-Zeilen des Panels einschaltest.
 
 <div class="ts-cards" markdown>
 
@@ -39,7 +39,7 @@ Ausgeschaltet bis du sie im Bereich EXTRAS des Panels nacheinander einschaltest.
 
 ### Statische Kameras
 
-Rechts-Strg + N setzt eine Kamera genau dort, wo dein Blick ist, verankert in der Welt. Mit Rechts-Strg + C wechselst du zu ihr und zurück, mit Rechts-Strg + V durch deine Kameras, während du weiterfährst oder weitergehst. Jede Kamera behält ihren eigenen Tilt-Shift-Look (oder ein Profil) und lässt sich im Panel ausrichten oder mit Maus und W A S D an ihren Platz fliegen. Kameras gehören zum Spielstand, im Mehrspielermodus behält jeder Spieler seine eigenen. Jede Kamera erscheint auch auf der Karte im Pausenmenü und auf der Minikarte: wähle sie auf der Karte aus, um zu ihr zu wechseln oder sie zu löschen.
+Rechts-Strg + N fügt an deiner aktuellen Ansicht eine Kamera hinzu, die fest in der Welt steht. Mit Rechts-Strg + C wechselst du zu ihr und zurück, mit Rechts-Strg + V zur nächsten Kamera, während du weiterfährst oder weitergehst. Jede Kamera hat ihre eigenen Effekteinstellungen oder nutzt eines deiner Profile. Du kannst eine Kamera im Panel ausrichten oder mit Maus und W A S D in Position fliegen. Kameras werden mit deinem Spielstand gespeichert, und im Mehrspielermodus hat jeder Spieler seine eigenen. Jede Kamera erscheint außerdem auf der Karte im Pausenmenü und auf der Minikarte, wo du sie auswählen kannst, um zu ihr zu wechseln oder sie zu löschen.
 
 [Mehr](static-cameras.md)
 
@@ -49,7 +49,7 @@ Rechts-Strg + N setzt eine Kamera genau dort, wo dein Blick ist, verankert in de
 
 ### Vorschaufenster
 
-Ein Livebild jeder Kamera neben dem Panel. Ein Fenster am Titel verschieben, an der Ecke in der Größe ändern, anheften, damit es bei geschlossenem Panel sichtbar bleibt, ausblenden, seine Kamera neu einfliegen oder sie (nach einer Rückfrage) löschen. Die bearbeitete Kamera hat einen grünen Rahmen, die Kamera auf Sendung einen roten.
+Das Livebild jeder Kamera, neben dem Panel angezeigt. Du kannst ein Fenster an der Titelleiste verschieben, an der Ecke in der Größe ändern, anheften, damit es bei geschlossenem Panel sichtbar bleibt, ausblenden, seine Kamera an eine neue Position fliegen oder die Kamera löschen (nach einer Rückfrage). Die Kamera, die du bearbeitest, hat einen grünen Rahmen, die Kamera auf Sendung einen roten.
 
 [Mehr](preview-windows.md)
 
@@ -59,7 +59,7 @@ Ein Livebild jeder Kamera neben dem Panel. Ein Fenster am Titel verschieben, an 
 
 ### Kamera-Zeitleiste
 
-Ein Editor-Fenster, das automatisch zwischen deinen Kameras schneidet, gemacht für Zeitraffer deiner Helfer bei der Feldarbeit. Kameras aus der Palette auf die Spur ziehen, Einstellungen zum Umordnen ziehen und an der Kante die Dauer ändern, mit dem Mausrad zoomen und den Schnitt im Monitor ansehen. Zeitleiste starten (oder Rechts-Strg + T) blendet Panel, alle Fenster und das HUD aus, zählt von 3 herunter und spielt die Zeitleiste in der Hauptansicht ab, in Schleife oder einmal, wobei am Ende die letzte Kamera stehen bleibt. Mit Esc kehrst du zurück. Die Zeitleiste wird mit deinen Kameras gespeichert.
+Ein Editor-Fenster, das automatisch zwischen deinen Kameras wechselt, zum Beispiel für einen Zeitraffer deiner Helfer bei der Feldarbeit. Ziehe Kameras aus der Palette auf die Spur, verschiebe Einstellungen, um ihre Reihenfolge zu ändern, und ziehe an ihren Kanten, um ihre Länge zu ändern. Mit dem Mausrad zoomst du, und im Monitor siehst du eine Vorschau. Zeitleiste starten (oder Rechts-Strg + T) blendet das Panel, alle Fenster und das HUD aus, zählt von 3 herunter und spielt die Zeitleiste dann in der Hauptansicht ab, entweder in Schleife oder einmal, wobei am Ende die letzte Kamera stehen bleibt. Mit Esc kehrst du zurück. Die Zeitleiste wird mit deinen Kameras gespeichert.
 
 [Mehr](timeline.md)
 
@@ -71,21 +71,21 @@ Ein Editor-Fenster, das automatisch zwischen deinen Kameras schneidet, gemacht f
 
 | Taste | Funktion |
 | --- | --- |
-| **Rechts-Strg + K** | Konfigurationspanel öffnen / schließen |
-| **Rechts-Strg + J** | Alle Effekte ein / aus (die aktuellen Einstellungen bleiben erhalten, auch ungespeicherte) |
-| **Rechts-Strg + 1-9** | Profil 1-9 anwenden und Effekte einschalten; dieselbe Zahl erneut schaltet sie aus |
-| **Rechts-Strg + N** | Statische Kamera an der aktuellen Ansicht hinzufügen |
-| **Rechts-Strg + C** | Statische Kamera ein / aus (zurück zur Live-Ansicht) |
-| **Rechts-Strg + V** | Nächste statische Kamera |
-| **Rechts-Strg + T** | Kamera-Zeitleiste starten; Rechts-Strg + T oder Esc kehrt zurück |
-| **Kamera fliegen** | W A S D bewegen sie, die Maus dreht sie, Umschalt ist schnell, Enter speichert, Esc bricht ab |
-| **Pfeiltasten oder Ziffernblock** | Im Panel navigieren; Links / Rechts verstellen (Bild-auf / Bild-ab für große Schritte) |
-| **Enter** | Abschnitt ein- / ausklappen oder gewählte Zeile ausführen; Esc: Panel schließen |
-| **Gamepad** | Steuerkreuz navigiert und verstellt, solange das Panel offen ist |
+| **Rechts-Strg + K** | Panel öffnen oder schließen |
+| **Rechts-Strg + J** | Alle Effekte ein- oder ausschalten (deine Einstellungen bleiben erhalten, ob gespeichert oder nicht) |
+| **Rechts-Strg + 1-9** | Profil 1-9 anwenden und die Effekte einschalten; dieselbe Zahl noch einmal schaltet sie aus |
+| **Rechts-Strg + N** | Statische Kamera an deiner aktuellen Ansicht hinzufügen |
+| **Rechts-Strg + C** | Zu einer statischen Kamera wechseln oder zurück zur Live-Ansicht |
+| **Rechts-Strg + V** | Zur nächsten statischen Kamera wechseln |
+| **Rechts-Strg + T** | Kamera-Zeitleiste starten; Rechts-Strg + T oder Esc stoppt sie |
+| **Kamera fliegen** | W A S D bewegen sie, die Maus dreht sie, Umschalt fliegt schneller, Enter speichert, Esc bricht ab |
+| **Pfeiltasten oder Ziffernblock** | Zeilen im Panel wählen; Links und Rechts ändern den Wert (Bild auf und Bild ab für große Schritte) |
+| **Enter** | Abschnitt ein- oder ausklappen oder die gewählte Zeile ausführen; Esc: Panel schließen |
+| **Gamepad** | Das Steuerkreuz wählt Zeilen und ändert Werte, solange das Panel offen ist |
 
 !!! note "Bekannte Einschränkungen"
 
-    - Die Wettereffekte sind simuliert, da die Spiel-Engine hier grundlegende Grenzen setzt; sie sind so nah am Original, wie ich sie hinbekomme.
-    - Einige Decals, Glas und andere transparente Materialien sind bei aktivem Effekt nicht sichtbar: Die Effekte nutzen die Refraction-Map, die vor den transparenten Materialien gerendert wird.
-    - Vorschaufenster zeigen die Welt ohne Effekt: Tilt-Shift-Look und Wetter erscheinen nur in der Hauptansicht.
-    - Solange eine statische Kamera aktiv ist, wird die Ego-Perspektive zu Fuß auf die Third-Person-Ansicht umgeschaltet, damit du sichtbar bleibst, und die Kamerataste des Spiels (C) ist bis zur Rückkehr in die Live-Ansicht überschrieben.
+    - Regen, Schnee und Hagel sind wegen Grenzen der Spiel-Engine nachgebildet. Ich habe sie dem Wetter im Spiel so weit wie möglich angeglichen.
+    - Einige Decals, Glas und andere transparente Materialien sind nicht sichtbar, solange die Effekte an sind. Die Effekte arbeiten auf einer Kopie des Bildes, die das Spiel anlegt, bevor es transparente Materialien zeichnet.
+    - Vorschaufenster zeigen das Bild jeder Kamera ohne die Effekte. Tilt-Shift-Unschärfe und Wetter sind nur in der Hauptansicht zu sehen.
+    - Solange du durch eine statische Kamera schaust, schaltet das Spiel dich zu Fuß von der Ego-Perspektive in die dritte Person, damit deine Spielfigur zu sehen ist, und die Kamerataste des Spiels (C) hat keine Wirkung, bis du zur Live-Ansicht zurückkehrst.

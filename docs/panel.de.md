@@ -1,71 +1,71 @@
 # Das Panel
 
-Alle Einstellungen der Mod liegen in einem Panel am Bildschirmrand. **Rechts-Strg + K**
-öffnet es, **Rechts-Strg + K** oder **Esc** schließt es. Das Spiel läuft weiter, solange das
-Panel offen ist, aber deine Tasten steuern dann das Panel statt deiner Figur oder deines
-Fahrzeugs.
+Alle Einstellungen der Mod befinden sich in einem Panel am rechten Bildschirmrand. Mit
+**Rechts-Strg + K** öffnest du es, mit **Rechts-Strg + K** oder **Esc** schließt du es.
+Das Spiel läuft weiter, während das Panel offen ist, aber deine Tasten steuern dann das
+Panel statt deiner Spielfigur oder deines Fahrzeugs.
 
 ## Aufbau
 
-In der Titelleiste steht TILT-SHIFT-KAMERA-KONFIGURATION. Das Augensymbol und der Schalter
-rechts daneben schalten alle Effekte ein und aus, genau wie **Rechts-Strg + J**.
+In der Titelleiste steht TILT SHIFT CAMERA CONFIG. Der Schalter am rechten Ende neben dem
+Augensymbol schaltet alle Effekte ein und aus, genau wie **Rechts-Strg + J**.
 
-Unter dem Titel steht eine Zeile, die sagt, wessen Look die Effektzeilen gerade ändern und
-woher dieser Look kommt. Das kann deine Live-Ansicht mit einem gespeicherten Profil oder
-einem Vorgabe-Look sein, eine statische Kamera mit eigenem Look oder eine Kamera, die ein
-gespeichertes Profil nutzt.
+Die Zeile unter dem Titel zeigt, worauf sich die Effekteinstellungen gerade beziehen:
+auf deine eigene Ansicht oder auf eine statische Kamera, und von welchem gespeicherten
+Profil oder Vorgabe-Look sie stammen.
 
-Die Zeilen sind in Abschnitte wie TILT-SHIFT, VISUELLE EFFEKTE und WETTER gegliedert, die
-sich ein- und ausklappen lassen. Am Anfang ist nur der erste Abschnitt offen, und das Panel
-merkt sich, welche du öffnest. Unten zeigt eine Legende die Tasten, die für die gewählte
-Zeile gelten.
+Die Einstellungen sind in Abschnitte gegliedert, zum Beispiel TILT-SHIFT, VISUELLE EFFEKTE
+und WETTER, die du ein- und ausklappen kannst. Beim ersten Öffnen ist nur der erste
+Abschnitt aufgeklappt, danach merkt sich das Panel, welche Abschnitte du offen gelassen
+hast. Die Legende unten zeigt die Tasten, die für die gewählte Zeile gelten.
 
-Ein Wert, den du seit dem letzten Anwenden eines Looks oder Speichern eines Profils geändert
-hast, wird grün.
+Werte, die du seit dem letzten Anwenden eines Looks oder Speichern eines Profils geändert
+hast, werden grün angezeigt.
 
-![Das Panel mit geöffnetem Abschnitt TILT SHIFT](assets/panel-main.png){ width="480" }
+![Das Panel mit geöffnetem Abschnitt TILT-SHIFT](assets/panel-main.png){ width="480" }
 
 ## Tastatur und Gamepad
 
 | Taste | Funktion |
 | --- | --- |
-| Pfeiltasten **Hoch / Runter** | Zeile darüber oder darunter wählen |
-| Pfeiltasten **Links / Rechts** | Gewählten Wert oder Option ändern |
-| **Bild-auf / Bild-ab** | Wert in großen Schritten ändern |
+| **Pfeil hoch / runter** | Zeile darüber oder darunter wählen |
+| **Pfeil links / rechts** | Gewählten Wert oder gewählte Option ändern |
+| **Bild auf / Bild ab** | Wert in großen Schritten ändern |
 | **Enter** oder **Leertaste** | Abschnitt ein- oder ausklappen, Aktion ausführen, Schalter umlegen oder Wert auf den Standard zurücksetzen |
 | **Esc** | Panel schließen |
 
-Der Ziffernblock geht auch: 8 und 2 bewegen die Auswahl, 4 und 6 ändern den Wert, 7 und 9
-machen große Schritte, und 5 wirkt wie Enter.
+Du kannst auch den Ziffernblock benutzen: 8 und 2 wechseln die Zeile, 4 und 6 ändern den
+Wert, 7 und 9 ändern ihn in großen Schritten, und 5 wirkt wie Enter.
 
-Am Gamepad bewegt das Steuerkreuz die Auswahl und ändert Werte. Die Bestätigen-Taste wirkt
-wie Enter, und die Zurück-Taste schließt das Panel.
+Am Gamepad wählst du mit dem Steuerkreuz Zeilen und änderst Werte. Die Bestätigungstaste
+wirkt wie Enter, die Zurück-Taste schließt das Panel.
 
 ## Maus
 
-Ein Klick auf eine Abschnittsüberschrift klappt den Abschnitt ein oder aus, ein Klick auf
-eine Zeile wählt sie. Schalter und Aktionen werden sofort beim Klick ausgeführt.
+Klicke auf einen Abschnittstitel, um ihn ein- oder auszuklappen, und auf eine Zeile, um sie
+zu wählen. Ein Klick auf einen Schalter oder eine Aktion führt sie sofort aus.
 
-Einen Wert änderst du mit einem Klick auf `<` oder `>` daneben (mit gedrückter
-**Umschalt**-Taste in großen Schritten) oder indem du ihn seitlich ziehst.
+Um einen Wert zu ändern, klicke auf `<` oder `>` daneben oder ziehe den Wert zur Seite.
+Halte beim Klicken **Umschalt** gedrückt, um in großen Schritten zu ändern.
 
-Das Mausrad scrollt die Liste. Um eine Einstellung mit dem Mausrad zu ändern, klickst du
-zuerst ihre Zeile an. Dann erscheint ein grüner Balken an der Zeile, und das Mausrad ändert
-diesen Wert, bis du die Zeile noch einmal anklickst.
+Das Mausrad scrollt die Liste. Wenn du stattdessen einen Wert mit dem Mausrad ändern
+willst, klicke zuerst auf seine Zeile: Links an der Zeile erscheint ein grüner Balken, und
+das Mausrad ändert jetzt diesen Wert. Klicke die Zeile noch einmal an, damit das Mausrad
+wieder scrollt.
 
-Die Tastensymbole für Esc und Rechts-Strg + J in der Legende lassen sich ebenfalls
-anklicken. Außerhalb des Panels zoomt das Mausrad wie gewohnt deine Kamera.
+Du kannst auch auf die Tasten Esc und Rechts-Strg + J in der Legende klicken. Außerhalb des
+Panels zoomt das Mausrad wie gewohnt deine Kamera.
 
 ## Der Abschnitt TILT-SHIFT
 
-Im ersten Abschnitt liegen die Einstellungen, die du am häufigsten brauchst.
+Der erste Abschnitt enthält die Einstellungen, die du am häufigsten brauchst.
 
 Alle Effekte
-:   Der Schalter für den ganzen Look, genau wie **Rechts-Strg + J**. Beim Ausschalten
-    bleiben alle Einstellungen erhalten, gespeichert oder nicht.
+:   Schaltet alle Effekte ein oder aus, wie **Rechts-Strg + J**. Deine Einstellungen bleiben
+    erhalten, ob gespeichert oder nicht.
 
 Look
-:   Einen Vorgabe-Look oder eines deiner gespeicherten Profile wählen. Siehe
+:   Wähle einen Vorgabe-Look oder eines deiner gespeicherten Profile. Siehe
     [Looks und Profile](looks-and-profiles.md).
 
 GESPEICHERTE PROFILE
@@ -73,16 +73,16 @@ GESPEICHERTE PROFILE
     Siehe [Looks und Profile](looks-and-profiles.md#einen-eigenen-look-speichern).
 
 EXTRAS
-:   Statische Kameras, Vorschaufenster und Kamera-Zeitleiste. Jeder Schalter erscheint,
-    sobald der darüber an ist. Siehe [Statische Kameras](static-cameras.md),
+:   Statische Kameras, Vorschaufenster und Kamera-Zeitleiste. Jede Zeile erscheint erst,
+    wenn die darüber eingeschaltet ist. Siehe [Statische Kameras](static-cameras.md),
     [Vorschaufenster](preview-windows.md) und [Kamera-Zeitleiste](timeline.md).
 
 UI-Skalierung
-:   0,75x, 1x oder 1,25x, für das Panel und alle Fenster zugleich. Bei 1x ist das Panel so
-    groß wie das HUD des Spiels.
+:   0,75x, 1x oder 1,25x. Ändert die Größe des Panels und aller Fenster der Mod. Bei 1x
+    ist das Panel so groß wie das HUD des Spiels.
 
 Alle Effekte zurücksetzen
-:   Schaltet jeden Effekt aus und stellt den normalen Look des Spiels wieder her. Das
-    betrifft Tilt-Shift-Unschärfe, Entfernungsunschärfe, Stop-Motion, eigenes Sichtfeld,
-    flache Ansicht, Objektiv-Verschiebung, Farbkorrektur, Helligkeit, Schärfe und
-    Kameradistanz. Deine gespeicherten Profile bleiben, wie sie sind.
+:   Schaltet alle Effekte aus und stellt das normale Aussehen des Spiels wieder her: die
+    Tilt-Shift-Unschärfe, Entfernungsunschärfe, Stop-Motion, das eigene Sichtfeld, die
+    flache Ansicht, die Objektivverschiebung, Farbkorrektur, Helligkeit, Schärfe und
+    Kameradistanz. Deine gespeicherten Profile bleiben unverändert.

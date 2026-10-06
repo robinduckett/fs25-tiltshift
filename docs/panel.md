@@ -1,23 +1,24 @@
 # The panel
 
-All of the mod's settings are in one panel at the side of the screen. **Right Ctrl + K**
-opens it, and **Right Ctrl + K** or **Esc** closes it. The game keeps running while the
-panel is open, but your keys go to the panel instead of your character or vehicle.
+All of the mod's settings are in one panel on the right of the screen. Press
+**Right Ctrl + K** to open it and **Right Ctrl + K** or **Esc** to close it. The game keeps
+running while the panel is open, but your keys control the panel instead of your character
+or vehicle.
 
 ## Layout
 
-The title bar reads TILT SHIFT CAMERA CONFIG. The eye icon and the switch at its right end
-turn all effects on and off, the same as **Right Ctrl + J**.
+The title bar reads TILT SHIFT CAMERA CONFIG. The switch at its right end, next to the eye
+icon, turns all effects on and off, like **Right Ctrl + J**.
 
-Under the title, a line says whose look the effect rows are changing and where that look
-came from. That can be your live view with a saved profile or a built-in look, a static
-camera with its own look, or a camera that uses a saved profile.
+The line under the title tells you what the effect settings currently apply to: your own
+view or a static camera, and which saved profile or built-in look it started from.
 
-The rows are grouped in sections such as TILT SHIFT, VISUAL EFFECTS and WEATHER, which fold
-and unfold. Only the first section is open at the start, and the panel remembers which ones
-you open. At the bottom, a legend shows the keys that work on the selected row.
+The settings are grouped into sections, such as TILT SHIFT, VISUAL EFFECTS and WEATHER,
+which you can fold and unfold. Only the first section is open the first time you use the
+panel; after that it remembers which sections you left open. The legend at the bottom shows
+the keys you can use on the selected row.
 
-A value you have changed since you last applied a look or saved a profile turns green.
+Values you have changed since you last applied a look or saved a profile are shown in green.
 
 ![The panel with the TILT SHIFT section open](assets/panel-main.png){ width="480" }
 
@@ -28,40 +29,40 @@ A value you have changed since you last applied a look or saved a profile turns 
 | **Up / Down** arrows | Select the row above or below |
 | **Left / Right** arrows | Change the selected value or option |
 | **Page Up / Page Down** | Change the value in big steps |
-| **Enter** or **Space** | Fold or unfold a section, run an action, flip a switch, or put a value back to its default |
+| **Enter** or **Space** | Fold or unfold a section, run an action, flip a switch, or reset a value to its default |
 | **Esc** | Close the panel |
 
-The number pad works as well: 8 and 2 move the selection, 4 and 6 change the value, 7 and 9
-take big steps, and 5 does the same as Enter.
+You can also use the number pad: 8 and 2 move the selection, 4 and 6 change the value, 7
+and 9 change it in big steps, and 5 works like Enter.
 
-On a gamepad, the d-pad moves the selection and changes values. The confirm button works
-like Enter, and the back button closes the panel.
+On a gamepad, use the d-pad to move the selection and change values, the confirm button as
+Enter and the back button to close the panel.
 
 ## Mouse
 
-Click a section header to fold or unfold it, and click a row to select it. Switches and
-actions run as soon as you click them.
+Click a section header to fold or unfold it, and click a row to select it. Clicking a
+switch or an action row runs it straight away.
 
-To change a value, click the `<` or `>` beside it (hold **Shift** for big steps), or drag
-the value sideways.
+To change a value, click the `<` or `>` next to it, or drag it sideways. Hold **Shift**
+while clicking for big steps.
 
-The mouse wheel scrolls the list. To change a setting with the wheel, click its row first.
-A green bar appears on the row, and the wheel now changes that value until you click the
-row again.
+The mouse wheel scrolls the list. To change a value with the wheel instead, click its row
+first: a green bar appears on the left of the row, and the wheel now changes that value.
+Click the row again to go back to scrolling.
 
-The Esc and Right Ctrl + J chips in the legend can be clicked too. Outside the panel, the
-mouse wheel still zooms your camera as usual.
+You can also click the Esc and Right Ctrl + J keys shown in the legend. Over the game world,
+outside the panel, the mouse wheel zooms your camera as usual.
 
 ## The TILT SHIFT section
 
-The first section has the controls you will use most.
+The first section holds the settings you will use most.
 
 All Effects
-:   The switch for the whole look, the same as **Right Ctrl + J**. Turning it off keeps
-    every setting, saved or not.
+:   Turns all effects on or off, like **Right Ctrl + J**. Your settings are kept, whether
+    you have saved them or not.
 
 Look
-:   Pick a built-in look or one of your saved profiles. See
+:   Choose a built-in look or one of your saved profiles. See
     [Looks and profiles](looks-and-profiles.md).
 
 SAVED PROFILES
@@ -69,16 +70,15 @@ SAVED PROFILES
     [Looks and profiles](looks-and-profiles.md#saving-your-own-look).
 
 EXTRAS
-:   Static Cameras, Preview Windows and Camera Timeline. Each switch appears once the one
+:   Static Cameras, Preview Windows and Camera Timeline. Each row appears once the one
     above it is on. See [Static cameras](static-cameras.md),
     [Preview windows](preview-windows.md) and [Camera timeline](timeline.md).
 
 UI Scale
-:   0.75x, 1x or 1.25x, for the panel and all the windows at once. At 1x the panel matches
-    the size of the game's HUD.
+:   0.75x, 1x or 1.25x. Changes the size of the panel and all the mod's windows. At 1x the
+    panel matches the size of the game's HUD.
 
 Reset All Effects
-:   Switches every effect off and restores the game's own look. That covers the tilt-shift
-    blur, distance blur, stop motion, custom field of view, flat view, lens shift, colour
-    grading, brightness, sharpness and camera distance. Your saved profiles stay as they
-    are.
+:   Turns every effect off and restores the game's normal look: the tilt-shift blur,
+    distance blur, stop motion, custom field of view, flat view, lens shift, colour grading,
+    brightness, sharpness and camera distance. Your saved profiles are not changed.

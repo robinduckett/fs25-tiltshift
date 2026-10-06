@@ -2,58 +2,63 @@
 
 ## Bekannte Einschränkungen
 
-Das Wetter ist nachgebildet
-:   Der Regen des Spiels ist nicht Teil des Bildes, mit dem der Effekt arbeitet, deshalb
-    zeichnet die Mod eigenen Regen, Schnee und Hagel. Ich habe sie so nah wie möglich an
-    das Spiel angelehnt, gleich sind sie aber nicht.
+Regen, Schnee und Hagel sind nachgebildet
+:   Der Regen des Spiels ist nicht Teil des Bildes, auf das der Effekt wirkt. Deshalb
+    zeichnet die Mod eigenen Regen, Schnee und Hagel. Ich habe sie dem Wetter im Spiel so
+    weit wie möglich angeglichen, aber sie sehen nicht genau gleich aus.
 
-Manche transparenten Materialien verschwinden
-:   Einige Decals, Glas und andere transparente Materialien sind bei eingeschalteten
-    Effekten nicht zu sehen. Die Effekte arbeiten mit einer Kopie des Bildes, die das Spiel
-    anlegt, bevor es transparente Materialien zeichnet.
+Manche transparenten Materialien sind ausgeblendet
+:   Einige Decals, Glas und andere transparente Materialien sind nicht sichtbar, solange die
+    Effekte an sind. Das liegt daran, dass die Effekte auf einer Kopie des Bildes arbeiten,
+    die das Spiel anlegt, bevor es transparente Materialien zeichnet.
 
-Vorschaufenster zeigen die Welt ohne Effekte
-:   Tilt-Shift-Look, Entfernungsunschärfe und Wetter erscheinen nur in der Hauptansicht,
-    nicht in den Vorschaufenstern oder im Monitor der Zeitleiste.
+Vorschaufenster zeigen das Bild ohne Effekte
+:   Tilt-Shift-Unschärfe, Entfernungsunschärfe und Wettereffekte sind nur in der
+    Hauptansicht zu sehen, nicht in den Vorschaufenstern oder im Monitor der Zeitleiste.
 
-Nur Third-Person-Ansicht
-:   Der Effekt wirkt bei Orbit-Kameras. Kabinenansichten, die Ego-Perspektive und feste
-    Fahrzeugkameras bleiben unverändert.
+Nur dritte Person
+:   Der Effekt wirkt nur bei Third-Person-Kameras. Kabinenansichten, die Ego-Perspektive
+    und feste Fahrzeugkameras sind nicht betroffen.
 
 ## FAQ
 
 Ich habe die Mod installiert, aber nichts ändert sich.
-:   Die Effekte sind nach jedem Laden eines Spielstands aus. Drücke **Rechts-Strg + J** und
-    prüfe, ob du in einer Third-Person-Ansicht bist.
+:   Beim Laden eines Spielstands sind die Effekte immer ausgeschaltet. Drücke
+    **Rechts-Strg + J** und achte darauf, dass du in einer Third-Person-Ansicht bist.
 
 Wo sind die statischen Kameras?
-:   Sie sind aus, bis du sie einschaltest. Öffne das Panel und stelle **Statische Kameras**
-    in den EXTRAS-Zeilen auf AN. Vorschaufenster und Kamera-Zeitleiste schaltest du genauso
-    ein, eins nach dem anderen.
+:   Sie sind ausgeschaltet, bis du sie einschaltest. Öffne das Panel und stelle
+    **Statische Kameras** in den EXTRAS-Zeilen auf AN. Vorschaufenster und
+    Kamera-Zeitleiste schaltest du an derselben Stelle ein, eines nach dem anderen.
 
-Warum wechselt meine Ego-Perspektive in die Third-Person-Ansicht?
-:   Solange eine statische Kamera auf dem Bildschirm ist, setzt dich das Spiel zu Fuß in
-    die Third-Person-Ansicht, damit du im Bild zu sehen bist. **Rechts-Strg + C** bringt
-    dich zurück zur Live-Ansicht.
+Warum hat meine Ansicht von der Ego-Perspektive in die dritte Person gewechselt?
+:   Solange du durch eine statische Kamera schaust, schaltet das Spiel dich zu Fuß in die
+    dritte Person, damit deine Spielfigur zu sehen ist. Mit **Rechts-Strg + C** kehrst du
+    zur Live-Ansicht zurück.
 
-Die Kamerataste des Spiels (C) tut nichts.
-:   Die Mod übernimmt sie, solange eine statische Kamera auf dem Bildschirm ist, damit sie
-    dich nicht aus dem Bild holt. **Rechts-Strg + C** bringt dich zurück zur Live-Ansicht.
+Die Kamerataste des Spiels (C) funktioniert nicht.
+:   Sie ist deaktiviert, solange du durch eine statische Kamera schaust, damit sie dich
+    nicht versehentlich wegschaltet. Mit **Rechts-Strg + C** kehrst du zur Live-Ansicht
+    zurück.
 
-Ich kann bei offenem Panel nicht fahren.
+Ich kann nicht fahren, während das Panel offen ist.
 :   Solange das Panel offen ist, steuern deine Tasten das Panel. Schließe es mit **Esc**
     oder **Rechts-Strg + K**.
 
-Wie bekomme ich den normalen Look des Spiels zurück?
+Wie bekomme ich das normale Aussehen des Spiels zurück?
 :   **Rechts-Strg + J** schaltet alle Effekte aus und behält deine Einstellungen.
-    **Alle Effekte zurücksetzen** im Panel schaltet jeden Effekt aus und stellt den Look
-    des Spiels wieder her.
+    **Alle Effekte zurücksetzen** im Panel schaltet alle Effekte aus und stellt das normale
+    Aussehen des Spiels wieder her.
 
-Ich habe Einstellungen geändert und eine Profiltaste gedrückt. Sind meine Änderungen weg?
-:   Ja, wenn du sie nicht vorher gespeichert hast. Die Tasten **Rechts-Strg + 1** bis **9**
-    wenden das Profil sofort an. Nur die Look-Zeile im Panel fragt nach, bevor sie
-    ungespeicherte Änderungen verwirft. Siehe [Looks und Profile](looks-and-profiles.md).
+Ich habe Einstellungen geändert und dann eine Profiltaste gedrückt. Sind meine Änderungen weg?
+:   Ja, wenn du sie nicht vorher gespeichert hast. **Rechts-Strg + 1** bis **9** wenden das
+    Profil sofort an. Nur die Zeile Look im Panel fragt nach, bevor ungespeicherte
+    Änderungen verworfen werden. Siehe [Looks und Profile](looks-and-profiles.md).
 
 Funktioniert die Mod im Mehrspielermodus?
-:   Ja. Sie verändert nur deinen eigenen Bildschirm, und jeder Spieler hat seine eigenen
-    Kameras und seine eigene Zeitleiste.
+:   Ja. Sie verändert nur das Bild auf deinem eigenen Bildschirm, und jeder Spieler hat
+    seine eigenen Kameras und seine eigene Zeitleiste.
+
+Wo melde ich ein Problem?
+:   Über [Problem melden](https://github.com/robinduckett/fs25-tiltshift/issues/new/choose).
+    Bitte hänge deine `log.txt` aus `Dokumente/My Games/FarmingSimulator2025` an.

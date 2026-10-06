@@ -1,49 +1,51 @@
 # Vorschaufenster
 
-Vorschaufenster zeigen jede statische Kamera live neben dem Panel. So kannst du deine
-Bildausschnitte vergleichen und dir den passenden aussuchen.
+Vorschaufenster zeigen neben dem Panel das Livebild jeder statischen Kamera, sodass du
+alle Kameras auf einmal sehen kannst.
 
 !!! info "Zuerst einschalten"
-    Vorschaufenster brauchen [statische Kameras](static-cameras.md). Sind Statische Kameras
-    an, stelle **Vorschaufenster** in den EXTRAS-Zeilen des Panels auf AN.
+    Vorschaufenster setzen [statische Kameras](static-cameras.md) voraus. Wenn Statische
+    Kameras an ist, stelle **Vorschaufenster** in den EXTRAS-Zeilen des Panels auf AN.
 
 ![Das Editor-Fenster der Kamera-Zeitleiste mit einem Vorschaufenster](assets/timeline-editor.jpg)
 
 ## Die Fenster bedienen
 
-Die Fenster erscheinen, solange das Panel offen ist. Jedes hat eine Titelleiste mit Nummer
-und Namen der Kamera und darunter das Livebild.
+Die Fenster werden angezeigt, solange das Panel offen ist. Jedes Fenster hat eine
+Titelleiste mit Nummer und Namen der Kamera und darunter das Livebild der Kamera.
 
-Ziehe die Titelleiste, um ein Fenster zu verschieben, oder den Griff in der unteren rechten
-Ecke, um seine Größe zu ändern; das Bild behält dabei sein Seitenverhältnis. Ein Klick auf
-das Bild macht diese Kamera zu der, die du im Panel bearbeitest.
+Um ein Fenster zu verschieben, ziehst du es an der Titelleiste. Um die Größe zu ändern,
+ziehst du am Griff in der rechten unteren Ecke; das Bild behält dabei sein
+Seitenverhältnis. Ein Klick auf das Bild wählt diese Kamera zum Bearbeiten im Panel aus.
 
-Ein Klick auf den Rahmen oder die Nadel heftet das Fenster an. Ein angeheftetes Fenster
-bleibt auf dem Bildschirm, wenn du das Panel schließt; die anderen schließen sich mit ihm.
+Damit ein Fenster auch nach dem Schließen des Panels sichtbar bleibt, klicke auf seinen
+Rahmen oder auf die Nadel. Fenster, die nicht angeheftet sind, schließen sich mit dem
+Panel.
 
 Die Schaltflächen in der Titelleiste, von rechts nach links:
 
 | Schaltfläche | Funktion |
 | --- | --- |
-| × | Blendet das Fenster aus. Die Zeile Vorschaufenster der Kamera im Panel zeigt es wieder an |
-| Papierkorb | Löscht die Kamera nach der Ja/Nein-Frage des Spiels |
-| Fliegen | Damit fliegst du die Kamera an eine neue Position (siehe [Eine Kamera an ihren Platz fliegen](static-cameras.md#eine-kamera-an-ihren-platz-fliegen)) |
-| Nadel | Hält das Fenster bei geschlossenem Panel auf dem Bildschirm |
+| × | Blendet das Fenster aus. Mit der Zeile Vorschaufenster der Kamera im Panel holst du es zurück |
+| Mülleimer | Löscht die Kamera, nach dem Ja/Nein-Dialog des Spiels |
+| Fliegen | Damit fliegst du die Kamera an eine neue Position (siehe [Eine Kamera in Position fliegen](static-cameras.md#eine-kamera-in-position-fliegen)) |
+| Nadel | Hält das Fenster auf dem Bildschirm, wenn das Panel geschlossen ist |
 
 ## Rahmenfarben
 
-Ein grüner Rahmen markiert die Kamera, die du im Panel bearbeitest. Ein roter Rahmen
-markiert die Kamera auf Sendung, also die, die der Monitor der
-[Kamera-Zeitleiste](timeline.md) gerade zeigt.
+Die Kamera, die du im Panel bearbeitest, hat einen grünen Rahmen. Die Kamera auf Sendung,
+also die, die gerade im Monitor der [Kamera-Zeitleiste](timeline.md) zu sehen ist, hat
+einen roten Rahmen.
 
 ## Details
 
-Position, Größe und Anheften der Fenster werden mit deinen Kameras gespeichert, und die
-Zeile UI-Skalierung im Panel ändert ihre Größe zusammen mit dem Panel.
+Position, Größe und Anheftung jedes Fensters werden mit deinen Kameras gespeichert. Die
+Zeile UI-Skalierung im Panel ändert die Größe der Fenster zusammen mit dem Panel.
 
-Um Leistung zu sparen, aktualisieren sich angeheftete Fenster bei geschlossenem Panel etwas
-seltener. Hast du viele Kameras, zeigt das Panel Fenster für bis zu acht davon, rund um die
-Kamera, die du gerade bearbeitest.
+Angeheftete Fenster werden bei geschlossenem Panel etwas seltener aktualisiert, um Leistung
+zu sparen. Hast du viele Kameras, zeigt das Panel Fenster für bis zu acht davon, rund um
+die Kamera, die du gerade bearbeitest.
 
-Eine Vorschau zeigt die Welt aus Sicht ihrer Kamera ohne die Effekte der Mod. Tilt-Shift-Look,
-Entfernungsunschärfe und Wetter erscheinen nur in der Hauptansicht.
+Die Vorschaufenster zeigen das Bild jeder Kamera ohne die Effekte der Mod.
+Tilt-Shift-Unschärfe, Entfernungsunschärfe und Wettereffekte sind nur in der Hauptansicht
+zu sehen.

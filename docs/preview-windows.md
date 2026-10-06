@@ -1,7 +1,7 @@
 # Preview windows
 
-Preview windows show each static camera live, next to the panel, so you can compare your
-shots and pick the one you want.
+Preview windows show the live view from each static camera next to the panel, so you can
+see all your cameras at once.
 
 !!! info "Switch them on first"
     Preview windows need [static cameras](static-cameras.md). With Static Cameras on, set
@@ -11,38 +11,38 @@ shots and pick the one you want.
 
 ## Using the windows
 
-The windows appear while the panel is open. Each has a title bar with the camera's number
-and name, and the live picture below it.
+The windows are shown while the panel is open. Each window has a title bar with the
+camera's number and name, and the camera's live view below it.
 
-Drag the title bar to move a window, or drag the grip in its bottom-right corner to resize
-it; the picture keeps its proportions. Clicking the picture makes that camera the one you
-are editing in the panel.
+To move a window, drag its title bar. To resize it, drag the grip in its bottom-right
+corner; the picture keeps its proportions. Click the picture to select that camera for
+editing in the panel.
 
-Clicking the frame or the pin button pins the window. A pinned window stays on screen when
-you close the panel, while the others close with it.
+To keep a window on screen after you close the panel, click its frame or its pin button.
+Windows that are not pinned close with the panel.
 
 The buttons in the title bar, from right to left:
 
 | Button | What it does |
 | --- | --- |
-| × | Hides the window. The camera's Preview Window row in the panel shows it again |
-| Bin | Deletes the camera, after the game's Yes/No question |
+| × | Hides the window. Use the camera's Preview Window row in the panel to show it again |
+| Bin | Deletes the camera, after the game's Yes/No dialog |
 | Fly | Lets you fly the camera to a new position (see [Flying a camera into place](static-cameras.md#flying-a-camera-into-place)) |
 | Pin | Keeps the window on screen when the panel is closed |
 
 ## Frame colours
 
-A green frame marks the camera you are editing in the panel. A red frame marks the camera
-on air, which is the one the [camera timeline](timeline.md)'s monitor is showing.
+The camera you are editing in the panel has a green frame. The camera on air, which is the
+one shown in the [camera timeline](timeline.md)'s monitor, has a red frame.
 
 ## Details
 
-The windows' positions, sizes and pins are saved with your cameras, and the UI Scale row in
-the panel resizes them along with the panel.
+The position, size and pin of each window are saved with your cameras. The UI Scale row in
+the panel changes the size of the windows along with the panel.
 
-To save performance, pinned windows refresh a little less often while the panel is closed.
+Pinned windows update a little less often while the panel is closed, to save performance.
 If you have a lot of cameras, the panel shows windows for up to eight of them, centred on
-the one you are editing.
+the camera you are editing.
 
-A preview shows the world from its camera without the mod's effects. The tilt-shift look,
-the distance blur and the weather only appear in the main view.
+The preview windows show each camera's view without the mod's effects. The tilt-shift
+blur, the distance blur and the weather effects are only shown in the main view.

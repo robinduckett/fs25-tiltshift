@@ -1,24 +1,23 @@
 # Hotkeys
 
-These are the default keys. You can change the mod's keys in the game's controls settings,
-where their names start with "Tilt Shift:".
+These are the default keys. You can change the mod's keys in the game's control settings;
+their names start with "Tilt Shift:".
 
 ## Anywhere in the game
 
 | Key | What it does |
 | --- | --- |
 | **Right Ctrl + K** | Open or close the panel |
-| **Right Ctrl + J** | All effects on or off (your settings are kept, saved or not) |
-| **Right Ctrl + 1** to **9** | Apply the saved profile with that number and turn the effects on; the same number again turns them off |
-| **Right Ctrl + N** | Add a static camera at the current view |
-| **Right Ctrl + C** | Static camera on or off (back to the live view) |
-| **Right Ctrl + V** | Next static camera |
-| **Right Ctrl + T** | Start the camera timeline; press again to go back |
+| **Right Ctrl + J** | Turn all effects on or off (your settings are kept, whether saved or not) |
+| **Right Ctrl + 1** to **9** | Apply the saved profile with that number and turn the effects on. Press the same number again to turn the effects off |
+| **Right Ctrl + N** | Add a static camera at your current view |
+| **Right Ctrl + C** | Switch to a static camera, or back to the live view |
+| **Right Ctrl + V** | Switch to the next static camera |
+| **Right Ctrl + T** | Start the camera timeline. Press it again to stop |
 
-The static camera and timeline keys only work once those extras are switched on in the
-panel. Before that, pressing them shows a short message saying so. The Look row in the
-panel shows which profile has which number; see
-[Looks and profiles](looks-and-profiles.md#hotkeys).
+The static camera and timeline keys only work once you have switched those extras on in
+the panel. Until then, pressing them shows a short message. The Look row in the panel shows
+which profile has which number; see [Looks and profiles](looks-and-profiles.md#hotkeys).
 
 ## In the panel
 
@@ -29,7 +28,7 @@ panel shows which profile has which number; see
 | **Page Up / Page Down**, or numpad **7 / 9** | Change the value in big steps |
 | **Enter** or **Space**, or numpad **5** | Fold a section, run an action, flip a switch, or reset a value to its default |
 | **Esc** | Close the panel |
-| Gamepad **d-pad** | Select and change |
+| Gamepad **d-pad** | Select a row and change the value |
 
 For the mouse, see [The panel](panel.md#mouse).
 

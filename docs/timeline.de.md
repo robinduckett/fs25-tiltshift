@@ -1,15 +1,15 @@
 # Kamera-Zeitleiste
 
-Die Kamera-Zeitleiste schaltet von selbst zwischen deinen statischen Kameras um. Du legst
-eine Liste von Einstellungen an, jede eine Kamera für eine bestimmte Anzahl Sekunden, und
-startest sie. Während deine Helfer die Feldarbeit erledigen, wechselt die Ansicht ständig,
-und du kannst ganz einfach einen Zeitraffer aufnehmen.
+Die Kamera-Zeitleiste wechselt automatisch zwischen deinen statischen Kameras. Du legst
+eine Liste von Einstellungen an, die jeweils eine Kamera für eine bestimmte Zahl von
+Sekunden zeigen, und startest dann die Zeitleiste. Das eignet sich zum Beispiel, um einen
+Zeitraffer aufzunehmen, während deine Helfer die Feldarbeit erledigen.
 
 !!! info "Zuerst einschalten"
-    Die Zeitleiste braucht [statische Kameras](static-cameras.md) und
-    [Vorschaufenster](preview-windows.md). Sind beide an, stelle **Kamera-Zeitleiste** in
-    den EXTRAS-Zeilen des Panels auf AN. Danach erscheinen der Abschnitt KAMERA-ZEITLEISTE
-    und das Editor-Fenster.
+    Die Zeitleiste setzt [statische Kameras](static-cameras.md) und
+    [Vorschaufenster](preview-windows.md) voraus. Wenn beide an sind, stelle
+    **Kamera-Zeitleiste** in den EXTRAS-Zeilen des Panels auf AN. Danach erscheinen der
+    Abschnitt KAMERA-ZEITLEISTE und das Editor-Fenster.
 
 ![Das Editor-Fenster der Kamera-Zeitleiste mit einem Vorschaufenster](assets/timeline-editor.jpg)
 
@@ -17,54 +17,55 @@ und du kannst ganz einfach einen Zeitraffer aufnehmen.
 
 Das Fenster KAMERA-ZEITLEISTE öffnet sich neben dem Panel. Von oben nach unten enthält es:
 
-Der Monitor
-:   Das Bild der Kamera am Abspielkopf. Ein Klick darauf spielt den Schnitt im Monitor ab
-    oder hält ihn an.
+Monitor
+:   Zeigt das Bild der Kamera an der Abspielposition. Ein Klick darauf spielt die
+    Zeitleiste im Monitor ab oder pausiert sie.
 
-Transportleiste
-:   Die Abspiel-Schaltfläche spielt den Schnitt nur im Monitor ab; die Hauptansicht bleibt,
-    wie sie ist. Daneben steht die Zeit. Die Wiederholen-Schaltfläche rechts wechselt
-    zwischen Schleife und Einmal; bei Einmal liegt ein Verbotszeichen über dem
-    Wiederholen-Symbol.
+Wiedergabe
+:   Die Abspiel-Schaltfläche spielt die Zeitleiste nur im Monitor ab; die Hauptansicht
+    ändert sich dabei nicht. Daneben steht die Zeit. Die Wiederholen-Schaltfläche rechts
+    wechselt zwischen Schleife und Einmal. Bei Einmal ist das Wiederholen-Symbol
+    durchgestrichen.
 
 Kamerapalette
-:   Ein Chip pro Kamera. Ein Klick auf einen Chip hängt eine Einstellung mit dieser Kamera
-    am Ende an. Ziehst du ihn auf die Spur, wird die Einstellung dort eingefügt, wo du ihn
-    loslässt.
+:   Ein Chip pro Kamera. Ein Klick auf einen Chip fügt am Ende der Zeitleiste eine
+    Einstellung mit dieser Kamera hinzu. Ziehst du ihn auf die Spur, wird die Einstellung
+    an dieser Stelle eingefügt.
 
 Lineal und Spur
-:   Ein Block pro Einstellung, gefärbt nach Kamera. Auf der Spur kannst du:
+:   Die Spur zeigt für jede Einstellung einen Block, gefärbt nach Kamera. Du kannst:
 
-    - einen Block anklicken, um ihn zu wählen, wobei der Abspielkopf an seinen Anfang
-      springt;
-    - einen Block ziehen, um ihn früher oder später zu legen;
-    - seine rechte Kante ziehen, um ihn in ganzen Sekunden länger oder kürzer zu machen;
-    - sein × anklicken, um ihn zu löschen.
+    - auf einen Block klicken, um ihn auszuwählen und die Abspielposition an seinen Anfang
+      zu setzen;
+    - einen Block ziehen, um die Einstellung früher oder später zu legen;
+    - die rechte Kante eines Blocks ziehen, um die Länge der Einstellung in ganzen Sekunden
+      zu ändern;
+    - auf das × eines Blocks klicken, um die Einstellung zu löschen.
 
-    Ein Klick auf das Lineal oder eine leere Stelle der Spur setzt den Abspielkopf. Ziehst
-    du über das Lineal, spulst du durch den Schnitt, und ziehst du eine leere Stelle der
-    Spur, scrollst du sie. Das Mausrad zoomt um den Mauszeiger herum hinein und heraus, und
-    solange du hineingezoomt bist, erscheint unter der Spur eine Bildlaufleiste. Du kannst
+    Ein Klick auf das Lineal oder eine leere Stelle der Spur setzt die Abspielposition.
+    Ziehst du über das Lineal, spulst du durch die Zeitleiste; ziehst du eine leere Stelle
+    der Spur, scrollst du sie. Mit dem Mausrad zoomst du um den Mauszeiger herum hinein und
+    heraus; beim Hineinzoomen erscheint unter der Spur eine Bildlaufleiste. Du kannst auch
     über das Ende der letzten Einstellung hinaus zoomen und scrollen.
 
 Zeitleiste starten
-:   Spielt die Zeitleiste in der Hauptansicht ab. Das Kürzel **Rechts-Strg + T** steht
-    daneben.
+:   Spielt die Zeitleiste in der Hauptansicht ab. Die Tastenkombination dafür,
+    **Rechts-Strg + T**, steht neben der Schaltfläche.
 
-Das Editor-Fenster funktioniert wie ein Vorschaufenster: Du verschiebst es an der
-Titelleiste und änderst seine Größe am Griff unten rechts. Die Nadel hält es bei
-geschlossenem Panel auf dem Bildschirm, und × blendet es aus (die Zeile Editor-Fenster im
-Panel holt es zurück). Solange der Monitor abspielt, bekommt das Vorschaufenster der Kamera
-im Monitor einen roten Rahmen.
+Das Editor-Fenster verschiebst du an der Titelleiste und änderst seine Größe am Griff in
+der rechten unteren Ecke, genau wie ein Vorschaufenster. Die Nadel hält es bei
+geschlossenem Panel auf dem Bildschirm, und das × blendet es aus (mit der Zeile
+Editor-Fenster im Panel holst du es zurück). Während der Monitor abspielt, hat das
+Vorschaufenster der Kamera, die im Monitor zu sehen ist, einen roten Rahmen.
 
 ## Der Abschnitt KAMERA-ZEITLEISTE
 
-Alles, was das Fenster kann, geht auch im Panel, mit Tastatur oder Gamepad.
+Alles, was das Fenster kann, geht auch im Panel, mit der Tastatur oder dem Gamepad.
 
 Abspielen
-:   Zeigt, ob die Zeitleiste gestoppt ist, oder während sie läuft die Einstellung und die
-    verbleibenden Sekunden. **Enter** oder ein Klick startet die Zeitleiste, genau wie
-    Zeitleiste starten.
+:   Zeigt, ob die Zeitleiste gestoppt ist, oder während der Wiedergabe die aktuelle
+    Einstellung und die verbleibenden Sekunden. Mit **Enter** oder einem Klick auf die
+    Zeile startest du die Zeitleiste, wie mit Zeitleiste starten.
 
 Wiederholen
 :   **Schleife** oder **Einmal**.
@@ -73,49 +74,50 @@ Editor-Fenster
 :   **Sichtbar** oder **Ausgeblendet**.
 
 Vorschau im Fenster
-:   Spielt den Schnitt im Monitor des Fensters ab oder stoppt ihn.
+:   Spielt die Zeitleiste im Monitor des Editor-Fensters ab oder stoppt sie.
 
 Einstellung bearbeiten
-:   Wählt die Einstellung, die die Zeilen darunter ändern. Die Überschrift darüber zeigt,
-    wie viele Einstellungen es gibt und wie lang sie zusammen sind. Mit **Enter** schaust
-    du durch die Kamera der Einstellung.
+:   Wählt die Einstellung, die die Zeilen darunter ändern. Die Überschrift darüber zeigt
+    die Zahl der Einstellungen und ihre Gesamtlänge. Drücke **Enter**, um durch die Kamera
+    der Einstellung zu schauen.
 
 Kamera
 :   Die Kamera, die die Einstellung zeigt.
 
 Dauer
-:   Wie lange die Einstellung dauert, von 1 Sekunde bis zu einer Stunde, in Schritten von
-    1 Sekunde (10 Sekunden mit Bild-auf und Bild-ab).
+:   Wie lange die Einstellung dauert, von 1 Sekunde bis 1 Stunde, in Schritten von
+    1 Sekunde (mit Bild auf und Bild ab in Schritten von 10 Sekunden).
 
 Einstellung verschieben
 :   Legt die Einstellung früher (Links) oder später (Rechts).
 
 Einstellung hinzufügen
-:   Fügt nach der gewählten Einstellung eine neue mit derselben Dauer und der nächsten
-    Kamera der Liste ein. Drückst du es ein paar Mal, hast du eine Einstellung pro Kamera.
+:   Fügt nach der ausgewählten Einstellung eine neue hinzu, mit derselben Dauer und der
+    nächsten Kamera. Drückst du es mehrmals, bekommst du für jede Kamera eine Einstellung.
 
 Einstellung löschen
-:   Löscht die gewählte Einstellung.
+:   Löscht die ausgewählte Einstellung.
 
 ## Die Zeitleiste starten
 
-Drücke **Zeitleiste starten**, wähle die Zeile Abspielen oder drücke **Rechts-Strg + T**.
-Das Panel schließt sich, und alle Fenster verschwinden (auch angeheftete), ebenso das HUD
-des Spiels. Eine Meldung zählt „Zeitleiste startet in 3..“ herunter, darunter steht „Esc
-drücken, um zurückzukehren“. Danach verschwinden die Meldungen, und die Zeitleiste läuft in
-der Hauptansicht. Beim Kamerawechsel erscheinen keine Meldungen.
+Um die Zeitleiste zu starten, klicke auf **Zeitleiste starten**, wähle die Zeile Abspielen
+oder drücke **Rechts-Strg + T**. Das Panel schließt sich, und alle Fenster werden
+ausgeblendet, auch angeheftete, ebenso das HUD des Spiels. Die Meldung „Zeitleiste startet
+in 3..“ zählt herunter, darunter steht „Esc drücken, um zurückzukehren“. Danach
+verschwinden die Meldungen, und die Zeitleiste läuft in der Hauptansicht. Beim
+Kamerawechsel werden keine Meldungen angezeigt.
 
-Mit **Schleife** wiederholt sich die Zeitleiste, bis du sie stoppst. Mit **Einmal** spielt
-sie jede Einstellung ab und bleibt dann bei der letzten Kamera stehen.
+Bei **Schleife** wiederholt sich die Zeitleiste, bis du sie stoppst. Bei **Einmal** spielt
+sie jede Einstellung einmal ab und bleibt dann auf der letzten Kamera.
 
-Mit **Esc** oder **Rechts-Strg + T** kehrst du zurück. Du landest wieder in der Ansicht von
-vorher, das HUD kommt zurück, und das Panel öffnet sich wieder, wenn es beim Start offen
-war.
+Mit **Esc** oder **Rechts-Strg + T** stoppst du sie. Du kehrst zu deiner vorherigen
+Ansicht zurück, das HUD erscheint wieder, und das Panel öffnet sich erneut, wenn es beim
+Start offen war.
 
-Die Uhr der Zeitleiste hält an, solange das Spiel pausiert ist oder du schläfst. So läuft
-keine Einstellung ab, während nichts passiert.
+Die Uhr der Zeitleiste hält an, solange das Spiel pausiert ist oder du schläfst. So laufen
+keine Einstellungen ab, während nichts passiert.
 
 ## Speichern
 
-Die Zeitleiste wird mit deinen Kameras im Spielstand gespeichert. Löschst du eine Kamera,
-werden auch ihre Einstellungen gelöscht.
+Die Zeitleiste wird zusammen mit deinen Kameras im Spielstand gespeichert. Löschst du eine
+Kamera, werden auch ihre Einstellungen gelöscht.

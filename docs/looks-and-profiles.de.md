@@ -1,135 +1,140 @@
 # Looks und Profile
 
-Ein Look ist ein vollständiger Satz an Effekteinstellungen: alles in den Effektabschnitten
-des Panels, von der Tilt-Shift-Unschärfe über die Farben bis zu Objektiv und Wetter. Die Mod
-bringt einige Vorgabe-Looks mit, und eigene Looks speicherst du als Profile.
+Ein Look ist ein kompletter Satz an Effekteinstellungen: alles in den Effektabschnitten des
+Panels, also zum Beispiel Unschärfe, Farben, Objektiv und Wetter. Die Mod bringt fünf
+Vorgabe-Looks mit, und du kannst eigene Looks als Profile speichern.
 
-![Das Panel mit geöffnetem Abschnitt TILT SHIFT](assets/panel-main.png){ width="480" }
+![Das Panel mit geöffnetem Abschnitt TILT-SHIFT](assets/panel-main.png){ width="480" }
 
 ## Vorgabe-Looks
 
 Robin 3rd Person
-:   Der abgestimmte Tilt-Shift-Look: Tilt-Shift-Unschärfe mit „Schärfe folgt dem Ziel“,
-    Unschärfe nach Entfernung und Bokeh. Vorher schaltet er alle anderen Effekte aus.
+:   Der empfohlene Look für die dritte Person: die Tilt-Shift-Unschärfe mit „Schärfe folgt
+    dem Ziel“, „Unschärfe nach Entfernung“ und Bokeh. Alle anderen Effekte werden
+    ausgeschaltet.
 
-Miniatur
-:   Entfernungsunschärfe im Hintergrund und eine kräftige Farbkorrektur.
+Miniature
+:   Die Entfernungsunschärfe des Spiels auf dem Hintergrund und eine kräftige
+    Farbkorrektur.
 
-Miniatur + Stop-Motion
-:   Miniatur mit 15 Bildern pro Sekunde.
+Miniature + Stop Motion
+:   Miniature mit 15 Bildern pro Sekunde.
 
-Dezent
+Subtle
 :   Eine schwächere Entfernungsunschärfe und Farbkorrektur.
 
-Alles aus
-:   Schaltet jeden Effekt aus, wie **Alle Effekte zurücksetzen**.
+Everything Off
+:   Schaltet alle Effekte aus, wie **Alle Effekte zurücksetzen**.
 
-Miniatur, Miniatur + Stop-Motion und Dezent lassen Tilt-Shift-Unschärfe und Wetter, wie sie
-waren. Einen Vorgabe-Look kannst du nicht bearbeiten, aber du kannst das Ergebnis als
-eigenes Profil speichern.
+Miniature, Miniature + Stop Motion und Subtle ändern weder die Tilt-Shift-Unschärfe noch
+die Wettereinstellungen. Einen Vorgabe-Look kannst du nicht bearbeiten, aber du kannst
+seine Einstellungen ändern und das Ergebnis als Profil speichern.
 
 ## Einen Look wählen
 
-Die Zeile Look oben im Abschnitt TILT-SHIFT zeigt den Look, der gerade auf dem Bildschirm
-ist. Ihre Liste beginnt mit den Vorgabe-Looks, danach kommen deine gespeicherten Profile.
+Die Zeile Look oben im Abschnitt TILT-SHIFT zeigt den aktuellen Look. Die Liste enthält
+zuerst die Vorgabe-Looks, danach deine gespeicherten Profile.
 
-Mit Links und Rechts (oder `<` und `>` neben dem Wert) blätterst du durch die Liste, ohne
-dass sich auf dem Bildschirm etwas ändert. Enter oder ein Klick auf die Zeile wendet den
-Look an, bei dem du stehst; dabei werden auch die Effekte eingeschaltet. Gehst du ohne
-Anwenden in eine andere Zeile, zeigt die Look-Zeile wieder den Look auf dem Bildschirm.
+Mit Links und Rechts (oder einem Klick auf `<` und `>` neben dem Wert) blätterst du durch
+die Liste. Dabei werden nur die Namen angezeigt: Am Bild ändert sich erst etwas, wenn du
+Enter drückst oder auf die Zeile klickst. Dann wird der Look angewendet und die Effekte
+werden eingeschaltet. Wechselst du zu einer anderen Zeile, ohne anzuwenden, zeigt die Zeile
+Look wieder den aktuellen Look.
 
-Ein gespeichertes Profil mit Taste hat seine Nummer vor dem Namen, zum Beispiel
+Gespeicherte Profile mit Tastenkombination zeigen die Nummer vor dem Namen, zum Beispiel
 **2 · Ernte**.
 
-Sobald du eine Einstellung änderst, ergänzt die Look-Zeile „(geändert)“, etwa
-**2 · Ernte (geändert)**, und die geänderten Werte werden grün. Willst du dann einen anderen
-Look anwenden, fragt das Spiel zuerst: „Ungespeicherte Änderungen verwerfen und … anwenden?“
-**Anwenden** macht weiter, **Abbrechen** behält deine Änderungen.
+Sobald du eine Einstellung änderst, steht in der Zeile Look zusätzlich „(geändert)“, etwa
+**2 · Ernte (geändert)**, und die geänderten Werte werden grün. Wendest du dann einen
+anderen Look an, fragt das Spiel zuerst: „Ungespeicherte Änderungen verwerfen und …
+anwenden?“ Wähle **Anwenden**, um fortzufahren, oder **Abbrechen**, um deine Änderungen zu
+behalten.
 
-Die Zeile zeigt **Eigener**, wenn das Bild keinem Look aus der Liste entspricht, zum
-Beispiel nachdem du das Profil gelöscht hast, aus dem es stammt.
+Gehören die aktuellen Einstellungen zu keinem Look in der Liste, zum Beispiel weil du das
+Profil gelöscht hast, aus dem sie stammen, zeigt die Zeile Look **Eigener**.
 
 ## Einen eigenen Look speichern
 
-Die Zeilen unter GESPEICHERTE PROFILE wirken auf das gespeicherte Profil, das gerade auf dem
-Bildschirm ist. Eine Zeile, die im Moment nichts tun kann, ist abgeblendet.
+Die Zeilen unter GESPEICHERTE PROFILE beziehen sich auf das Profil, das gerade angewendet
+ist. Zeilen, die du gerade nicht benutzen kannst, sind ausgegraut.
 
 Änderungen speichern
-:   Speichert deine Änderungen in das Profil auf dem Bildschirm, dessen Name rechts in der
-    Zeile steht. Das geht nur, wenn ein gespeichertes Profil auf dem Bildschirm ist und
-    Änderungen hat.
+:   Speichert deine Änderungen im aktuellen Profil. Der Name des Profils steht rechts in
+    der Zeile. Nur verfügbar, wenn ein gespeichertes Profil angewendet ist und du etwas
+    geändert hast.
 
 Als neues Profil speichern
-:   Speichert das aktuelle Bild sofort als neues Profil mit dem Namen Profil 1, Profil 2
-    und so weiter. Das neue Profil wird zum Look auf dem Bildschirm.
+:   Speichert die aktuellen Einstellungen als neues Profil mit dem Namen Profil 1, Profil 2
+    und so weiter und macht es zum aktuellen Look.
 
 Profil umbenennen
-:   Öffnet das Textfeld des Spiels, in dem du dem Profil auf dem Bildschirm einen neuen
-    Namen mit bis zu 32 Zeichen gibst. Zeichen, die in einem Dateinamen nicht erlaubt sind
-    (`\ / : * ? " < > |`), fallen weg, und einen Namen, den schon ein anderes Profil hat,
-    lehnt die Mod ab.
+:   Öffnet das Texteingabefeld des Spiels, in dem du das aktuelle Profil umbenennen kannst.
+    Namen dürfen bis zu 32 Zeichen lang sein. Zeichen, die in Dateinamen nicht erlaubt
+    sind (`\ / : * ? " < > |`), werden entfernt, und einen Namen, den schon ein anderes
+    Profil trägt, kannst du nicht verwenden.
 
 Profil löschen
-:   Löscht das Profil auf dem Bildschirm, nachdem du bestätigt hast. Das Bild bleibt gleich;
-    die Look-Zeile zeigt es dann als **Eigener**.
+:   Löscht das aktuelle Profil, nachdem du bestätigt hast. Die Einstellungen auf dem
+    Bildschirm bleiben erhalten, und die Zeile Look zeigt **Eigener**.
 
-Willst du ein Profil ändern, das nicht auf dem Bildschirm ist, wendest du es zuerst in der
-Look-Zeile an.
+Um ein Profil zu ändern, das gerade nicht angewendet ist, wende es zuerst in der Zeile Look
+an.
 
-Bei einer Neuinstallation speichert die Mod ihren Standard-Look als **Profile 1** auf
-Taste 1.
+Beim ersten Start nach der Installation speichert die Mod ihre Standardeinstellungen als
+**Profile 1** auf der Tastenkombination 1.
 
 ## Tastenkombinationen
 
 **Rechts-Strg + 1** bis **Rechts-Strg + 9** wenden deine gespeicherten Profile sofort an,
-ohne Rückfrage, und schalten die Effekte ein. Dieselbe Zahl noch einmal schaltet die Effekte
-aus.
+ohne nach ungespeicherten Änderungen zu fragen, und schalten die Effekte ein. Drückst du
+dieselbe Zahl noch einmal, werden die Effekte ausgeschaltet.
 
-Ein Profil behält seine Nummer, solange es existiert. Ein neues Profil bekommt die
-niedrigste freie Nummer, beim Löschen wird die Nummer frei, und beim Umbenennen bleibt sie
-gleich. Hast du mehr als neun Profile, haben die übrigen keine Taste, stehen aber trotzdem
-in der Look-Zeile.
+Jedes Profil behält seine Nummer, bis du es löschst. Ein neues Profil bekommt die
+niedrigste freie Nummer, und beim Umbenennen bleibt die Nummer gleich. Hast du mehr als
+neun Profile, haben die übrigen keine Tastenkombination, stehen aber trotzdem in der Zeile
+Look.
 
 ## Die Zeile unter dem Titel
 
-Die Zeile unter dem Titel des Panels zeigt, was die Effektzeilen gerade ändern und woher der
-Look kommt:
+Die Zeile unter dem Titel des Panels zeigt, worauf sich die Effekteinstellungen gerade
+beziehen und von welchem Look sie stammen:
 
-| In der Zeile steht | Bedeutung |
+| Die Zeile lautet | Bedeutung |
 | --- | --- |
-| Bearbeitung: Live-Ansicht | Deine eigene Ansicht, nicht aus einem gespeicherten Profil oder Vorgabe-Look |
-| Bearbeitung: Live-Ansicht, aus Profil Ernte | Deine eigene Ansicht, aus einem gespeicherten Profil |
-| Bearbeitung: Live-Ansicht, Vorgabe-Look Miniatur | Deine eigene Ansicht, aus einem Vorgabe-Look |
-| Bearbeitung: Kamera 1, eigener Look | Eine statische Kamera mit eigenem Look |
+| Bearbeitung: Live-Ansicht | Deine eigene Ansicht, ohne gespeichertes Profil oder Vorgabe-Look |
+| Bearbeitung: Live-Ansicht, aus Profil Ernte | Deine eigene Ansicht, auf Grundlage eines gespeicherten Profils |
+| Bearbeitung: Live-Ansicht, Vorgabe-Look Miniature | Deine eigene Ansicht, auf Grundlage eines Vorgabe-Looks |
+| Bearbeitung: Kamera 1, eigener Look | Eine statische Kamera mit eigenen Einstellungen |
 | Bearbeitung: Kamera 1, nutzt Profil Ernte | Eine statische Kamera, die ein gespeichertes Profil nutzt |
 
 ## Statische Kameras und Profile
 
-Eine [statische Kamera](static-cameras.md) hat eine eigene Look-Zeile. Dort steht entweder
-**Eigene** (die Kamera behält ihre eigenen Einstellungen) oder eines deiner gespeicherten
-Profile.
+Jede [statische Kamera](static-cameras.md) hat eine eigene Einstellung Look. Sie steht
+entweder auf **Eigene**, dann hat die Kamera ihre eigenen Einstellungen, oder auf einem
+deiner gespeicherten Profile.
 
-Bei **Eigene** wird alles, was du beim Blick durch die Kamera änderst, bei der Kamera
-gespeichert. Das zählt deshalb nie als ungespeicherte Änderung.
+Bei **Eigene** wird jede Änderung, die du beim Blick durch die Kamera machst, mit der
+Kamera gespeichert. Sie gilt deshalb nie als ungespeicherte Änderung.
 
-Bei einem Profil wird beim Blick durch die Kamera dieses Profil angewendet. Änderungen, die
-du dort machst, erscheinen als „(geändert)“, und **Änderungen speichern** schreibt sie ins
-Profil, womit jede Kamera, die es nutzt, sie bekommt. Was du nicht speicherst, geht
-verloren, sobald du in eine andere Ansicht wechselst.
+Bei einem Profil wird beim Blick durch die Kamera dieses Profil angewendet. Änderungen
+werden als „(geändert)“ angezeigt, und **Änderungen speichern** speichert sie im Profil.
+Damit ändern sich auch alle anderen Kameras, die dieses Profil nutzen. Wechselst du die
+Ansicht, ohne zu speichern, gehen die Änderungen verloren.
 
-Wendest du beim Blick durch eine Kamera einen Look an, passiert Folgendes:
+Wendest du einen Look an, während du durch eine Kamera schaust, gilt:
 
-- Ein anderes gespeichertes Profil bei einer Kamera mit Profil: Die Kamera nutzt danach
-  dieses Profil.
-- Ein gespeichertes Profil bei einer Kamera mit eigenem Look: Die Einstellungen des Profils
-  werden in den eigenen Look der Kamera kopiert.
-- Ein Vorgabe-Look bei einer beliebigen Kamera: Die Kamera bekommt diesen Look als eigenen.
+- ein gespeichertes Profil auf einer Kamera, die ein Profil nutzt: Die Kamera wechselt zum
+  neuen Profil;
+- ein gespeichertes Profil auf einer Kamera mit eigenen Einstellungen: Die Einstellungen
+  des Profils werden in die Kamera übernommen;
+- ein Vorgabe-Look auf einer beliebigen Kamera: Die Kamera übernimmt diesen Look als ihre
+  eigenen Einstellungen.
 
-Benennst du ein Profil um, gilt der neue Name für jede Kamera, die es nutzt. Löschst du ein
-Profil, behalten diese Kameras seinen Look als eigenen.
+Benennst du ein Profil um, ändert sich der Name bei allen Kameras, die es nutzen. Löschst
+du ein Profil, behalten diese Kameras seine Einstellungen als eigene.
 
 ## Nach einem Neustart
 
-Die Mod merkt sich, welcher Look auf dem Bildschirm war. Hast du ein gespeichertes Profil
-geändert und nicht gespeichert, zeigt die Look-Zeile beim nächsten Spielen weiterhin
+Die Mod merkt sich beim Beenden den aktuellen Look. Hast du ein gespeichertes Profil
+geändert, ohne zu speichern, zeigt die Zeile Look beim nächsten Spielen weiterhin
 „(geändert)“.

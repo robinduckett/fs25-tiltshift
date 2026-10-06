@@ -12,7 +12,7 @@ hide:
 
 # Tilt Shift Camera
 
-<p class="ts-lead">Turn your farm into a living miniature. Tilt Shift Camera adds a live, fully tweakable tilt-shift effect to third-person views: a depth-aware blur band that tracks whatever your camera orbits, luminance-weighted bokeh, saturation and contrast grading, an optional stop-motion frame limit and extra lens controls (FoV override, orthographic view, extended camera distance). An optional procedural weather layer adds rain, snow and hail that blur along with the miniature and can follow the live sky. Save your favourite looks as profiles.</p>
+<p class="ts-lead">Tilt Shift Camera adds a tilt-shift effect to the third-person views. A band across the screen stays sharp and everything above and below it is blurred, which makes the scene look like a miniature model. By default the sharp band follows whatever your camera orbits. You can also add bokeh on bright points, stronger colours and a vignette, change the field of view, remove perspective, shift the lens, zoom the camera out further, and limit the frame rate for a stop-motion look. The mod can draw its own rain, snow and hail, which follow the game's weather and blur with the rest of the picture. Save the looks you like as profiles.</p>
 
 [Getting started](getting-started.md){ .md-button .md-button--primary }
 [:material-bug-outline: Report an issue](https://github.com/robinduckett/fs25-tiltshift/issues/new/choose){ .md-button }
@@ -25,13 +25,13 @@ hide:
 
 ## What it does
 
-The effect applies to third-person cameras only: cab views, first person and fixed vehicle cameras stay untouched. It also works with free and cinematic cameras from other mods, since it follows the active camera.
+The effect only applies to third-person cameras. Cab views, first person and fixed vehicle cameras are not affected. It also works with free and cinematic cameras from other mods, because it follows whichever camera is active.
 
-The panel (Right Ctrl + K) works with keyboard, gamepad and mouse: click a section to fold it, click a row to select it, step values with the arrow keys, by clicking the &lt; and &gt; beside them or by dragging them sideways, and once a row is clicked the mouse wheel adjusts it. The switch in its title turns all effects on and off. UI Scale (0.75x, 1x, 1.25x) sizes the panel and every window together.
+All settings are in one panel (Right Ctrl + K), which you can use with the keyboard, a gamepad or the mouse. Click a section to fold or unfold it and a row to select it. Change a value with the arrow keys, by clicking the &lt; and &gt; next to it, or by dragging it sideways. After you click a row, the mouse wheel changes its value. The switch in the panel's title turns all effects on and off. UI Scale (0.75x, 1x or 1.25x) changes the size of the panel and all the mod's windows.
 
 ## Extras
 
-Off until you switch them on in the panel's EXTRAS rows, one after the other.
+Three extras are off until you switch them on, one after the other, in the EXTRAS rows of the panel.
 
 <div class="ts-cards" markdown>
 
@@ -39,7 +39,7 @@ Off until you switch them on in the panel's EXTRAS rows, one after the other.
 
 ### Static cameras
 
-Right Ctrl + N plants a camera exactly where your view is, anchored to the world. Switch to it and back with Right Ctrl + C, step through your cameras with Right Ctrl + V, and keep driving or walking while they film. Each camera keeps its own tilt-shift look (or a profile), and can be aimed from the panel or flown into place with the mouse and W A S D. Cameras belong to your savegame, and in multiplayer each player keeps their own. Every camera also appears on the pause-screen map and the minimap: select it on the map to switch to it or to delete it.
+Right Ctrl + N adds a camera at your current view, fixed in place in the world. Right Ctrl + C switches to it and back, and Right Ctrl + V switches to the next camera, while you keep driving or walking. Each camera has its own effect settings or uses one of your profiles. You can aim a camera in the panel, or fly it into place with the mouse and W A S D. Cameras are saved with your savegame, and in multiplayer each player has their own. Every camera is also shown on the pause menu map and on the minimap, where you can select it to switch to it or delete it.
 
 [More](static-cameras.md)
 
@@ -49,7 +49,7 @@ Right Ctrl + N plants a camera exactly where your view is, anchored to the world
 
 ### Preview windows
 
-A live picture from each camera beside the panel. Drag a window by its title, resize it by its corner, pin it to keep it on screen with the panel closed, hide it, fly its camera into a new position, or delete it (after a confirmation). The camera being edited has a green frame, the camera on air a red one.
+A live view from each camera, shown next to the panel. You can move a window by its title bar, resize it from its corner, pin it so that it stays on screen when the panel is closed, hide it, fly its camera to a new position, or delete the camera (after a confirmation). The camera you are editing has a green frame, and the camera on air has a red one.
 
 [More](preview-windows.md)
 
@@ -59,7 +59,7 @@ A live picture from each camera beside the panel. Drag a window by its title, re
 
 ### Camera timeline
 
-An editor window to cut between your cameras automatically, made for timelapses of your workers in the field. Drag cameras from its palette onto the track, drag shots to reorder them and their edges to time them, zoom with the mouse wheel, and preview the cut in its monitor. Start Timeline (or Right Ctrl + T) hides the panel, every window and the HUD, counts down from 3 and plays the timeline on the main view, in a loop or once, holding the last camera at the end. Press Esc to go back. The timeline is saved with your cameras.
+An editor window that switches between your cameras automatically, for example to record a timelapse of your workers in the field. Drag cameras from the palette onto the track, drag shots to change their order and their edges to change their length, zoom with the mouse wheel, and preview the result in the monitor. Start Timeline (or Right Ctrl + T) hides the panel, all windows and the HUD, counts down from 3 and then plays the timeline on the main view, either in a loop or once, staying on the last camera at the end. Press Esc to go back. The timeline is saved with your cameras.
 
 [More](timeline.md)
 
@@ -71,21 +71,21 @@ An editor window to cut between your cameras automatically, made for timelapses 
 
 | Key | What it does |
 | --- | --- |
-| **Right Ctrl + K** | Open / close the configuration panel |
-| **Right Ctrl + J** | All effects on / off (your current settings are kept, saved or not) |
-| **Right Ctrl + 1-9** | Apply profile 1-9 and turn the effects on; the same number again turns them off |
-| **Right Ctrl + N** | Add a static camera at the current view |
-| **Right Ctrl + C** | Static camera on / off (back to the live view) |
-| **Right Ctrl + V** | Next static camera |
-| **Right Ctrl + T** | Start the camera timeline; Right Ctrl + T or Esc goes back |
-| **Flying a camera** | W A S D move it, the mouse turns it, Shift is fast, Enter saves, Esc cancels |
-| **Arrow keys or numpad** | Navigate the panel; Left / Right adjust (Page Up / Page Down for big steps) |
-| **Enter** | Fold / unfold a section or run the selected row; Esc: close the panel |
-| **Gamepad** | The d-pad navigates and adjusts while the panel is open |
+| **Right Ctrl + K** | Open or close the panel |
+| **Right Ctrl + J** | Turn all effects on or off (your settings are kept, whether saved or not) |
+| **Right Ctrl + 1-9** | Apply profile 1-9 and turn the effects on; press the same number again to turn them off |
+| **Right Ctrl + N** | Add a static camera at your current view |
+| **Right Ctrl + C** | Switch to a static camera, or back to the live view |
+| **Right Ctrl + V** | Switch to the next static camera |
+| **Right Ctrl + T** | Start the camera timeline; press Right Ctrl + T or Esc to stop |
+| **Flying a camera** | W A S D move it, the mouse turns it, Shift moves faster, Enter saves, Esc cancels |
+| **Arrow keys or number pad** | Select rows in the panel; Left and Right change the value (Page Up and Page Down for big steps) |
+| **Enter** | Fold or unfold a section, or run the selected row; Esc: close the panel |
+| **Gamepad** | The d-pad selects rows and changes values while the panel is open |
 
 !!! note "Known limitations"
 
-    - Weather effects are simulated because of fundamental limitations in the game engine; they are as close as I can get them.
-    - Some decals, glass and other transparent materials are not visible while the effects are applied: the effects use the refraction map, which is rendered before transparent materials.
-    - Preview windows show the plain world from each camera: the tilt-shift look and the weather appear on the main view only.
-    - While a static camera is active, first person on foot is switched to third person so that you stay visible, and the game's own camera key (C) is overridden until you return to the live view.
+    - Rain, snow and hail are simulated, because of limits in the game engine. I have made them as close to the game's weather as I can.
+    - Some decals, glass and other transparent materials are not visible while the effects are on. The effects work on a copy of the picture that the game makes before it draws transparent materials.
+    - Preview windows show each camera's view without the effects. The tilt-shift blur and the weather are only shown in the main view.
+    - While you look through a static camera, the game switches you from first person to third person on foot so that your character is visible, and the game's own camera key (C) does nothing until you go back to the live view.

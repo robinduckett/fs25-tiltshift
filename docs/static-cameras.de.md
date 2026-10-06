@@ -1,12 +1,12 @@
 # Statische Kameras
 
-Eine statische Kamera ist wie ein Stativ, das in der Welt stehen bleibt. Stell ein paar
-rund um ein Feld auf und schalte zwischen ihnen um, während du weiterspielst; das Spiel
-hält nicht an, solange eine statische Kamera auf dem Bildschirm ist.
+Eine statische Kamera steht an einem festen Punkt in der Welt. Du kannst mehrere aufstellen,
+zum Beispiel rund um ein Feld, und zwischen ihnen wechseln, während du weiterspielst. Das
+Spiel wird nicht angehalten, wenn du durch eine statische Kamera schaust.
 
 !!! info "Zuerst einschalten"
     Öffne das Panel (**Rechts-Strg + K**) und stelle **Statische Kameras** in den
-    EXTRAS-Zeilen auf AN. Danach erscheint der Abschnitt STATISCHE KAMERAS im Panel.
+    EXTRAS-Zeilen auf AN. Danach erscheint im Panel der Abschnitt STATISCHE KAMERAS.
 
 ![Der Abschnitt STATISCHE KAMERAS](assets/panel-cameras.png){ width="480" }
 
@@ -16,82 +16,84 @@ hält nicht an, solange eine statische Kamera auf dem Bildschirm ist.
 
 | Taste | Funktion |
 | --- | --- |
-| **Rechts-Strg + N** | Eine Kamera genau dort aufstellen, wo dein Blick gerade ist |
-| **Rechts-Strg + C** | Zur zuletzt genutzten statischen Kamera wechseln oder zurück zur Live-Ansicht |
-| **Rechts-Strg + V** | Zur nächsten statischen Kamera |
+| **Rechts-Strg + N** | Kamera an deiner aktuellen Ansicht hinzufügen |
+| **Rechts-Strg + C** | Zur zuletzt benutzten statischen Kamera wechseln oder zurück zur Live-Ansicht |
+| **Rechts-Strg + V** | Zur nächsten statischen Kamera wechseln |
 
-Neue Kameras heißen Kamera 1, Kamera 2 und so weiter. Beim Wechseln zeigt eine Meldung oben
-auf dem Bildschirm, durch welche Kamera du gerade schaust.
+Neue Kameras heißen Kamera 1, Kamera 2 und so weiter. Wenn du die Kamera wechselst, zeigt
+eine Meldung oben auf dem Bildschirm, durch welche Kamera du gerade schaust.
 
-Solange eine statische Kamera auf dem Bildschirm ist:
+Solange du durch eine statische Kamera schaust:
 
-- Zu Fuß setzt dich das Spiel in die Third-Person-Ansicht, damit du im Bild zu sehen bist.
-- Die Mod übernimmt die Kamerataste des Spiels (**C**), bis du zur Live-Ansicht
-  zurückkehrst. So holt dich ein Druck darauf nicht aus dem Bild.
-- Ein- oder Aussteigen ändert die Ansicht nicht.
-- Menüs, der Schlafbildschirm und Kamera-Mods für Filmaufnahmen übernehmen den Bildschirm
-  wie gewohnt.
+- schaltet das Spiel dich zu Fuß in die dritte Person, damit deine Spielfigur zu sehen ist;
+- hat die Kamerataste des Spiels (**C**) keine Wirkung, bis du zur Live-Ansicht
+  zurückkehrst, damit sie dich nicht versehentlich von der statischen Kamera wegschaltet;
+- ändert sich die Ansicht nicht, wenn du in ein Fahrzeug ein- oder aussteigst;
+- übernehmen Menüs, der Schlafbildschirm und filmische Kamera-Mods den Bildschirm wie
+  gewohnt.
 
 ## Der Abschnitt STATISCHE KAMERAS
 
 Ansicht
-:   Was auf dem Bildschirm ist: **Live** oder eine deiner Kameras. Links und Rechts
-    wechseln zwischen ihnen.
+:   Was auf dem Bildschirm zu sehen ist: **Live** (deine eigene Ansicht) oder eine deiner
+    Kameras. Mit Links und Rechts wechselst du.
 
 Kamera hier hinzufügen
-:   Dasselbe wie **Rechts-Strg + N**.
+:   Fügt eine Kamera an deiner aktuellen Ansicht hinzu, wie **Rechts-Strg + N**.
 
 Kamera bearbeiten
-:   Wählt die Kamera, die die Zeilen darunter ändern; die Überschrift darüber nennt sie.
-    Mit **Enter** schaust du durch sie.
+:   Wählt die Kamera, die die Zeilen darunter ändern. Die Überschrift über der Zeile zeigt
+    den Namen dieser Kamera. Drücke **Enter**, um durch sie zu schauen.
 
 Look
-:   Entweder **Eigene**, die eigenen Tilt-Shift-Einstellungen der Kamera, oder eines deiner
-    gespeicherten Profile. Eine neue Kamera startet mit einer Kopie des Looks, den du beim
-    Aufstellen hattest. Bei **Eigene** wird alles, was du beim Blick durch die Kamera
-    änderst, bei ihr gespeichert. Wie sich Kameras mit Profil verhalten, steht unter
-    [Looks und Profile](looks-and-profiles.md#statische-kameras-und-profile).
+:   **Eigene**, dann hat die Kamera ihre eigenen Effekteinstellungen, oder eines deiner
+    gespeicherten Profile. Eine neue Kamera startet mit einer Kopie der Einstellungen, die
+    du beim Hinzufügen hattest. Bei **Eigene** wird jede Änderung, die du beim Blick durch
+    die Kamera machst, mit ihr gespeichert. Wie sich Kameras mit Profil verhalten, steht
+    unter [Looks und Profile](looks-and-profiles.md#statische-kameras-und-profile).
 
 Zu meiner Ansicht verschieben
-:   Setzt die Kamera dorthin, wo deine eigene Ansicht gerade ist. Ihr Look bleibt gleich.
+:   Verschiebt die Kamera an deine aktuelle Ansicht. Ihre Effekteinstellungen bleiben
+    gleich.
 
 Vorschaufenster
-:   Zeigt das [Vorschaufenster](preview-windows.md) dieser Kamera an oder blendet es aus.
+:   Zeigt das [Vorschaufenster](preview-windows.md) dieser Kamera oder blendet es aus.
 
 In Position fliegen
-:   Damit fliegst du die Kamera selbst an ihren Platz, wie unten beschrieben.
+:   Damit fliegst du die Kamera selbst an eine neue Position. Siehe unten.
 
 POSITION UND AUSRICHTUNG
-:   Position und Richtung der Kamera als Zahlen einstellen. Position X, Höhe und Position Z
-    verschieben sie in Schritten von 0,25 m, mit Bild-auf und Bild-ab in Schritten von 2 m.
-    Drehen, Neigen und Rollen drehen sie in Schritten von 1 Grad, mit Bild-auf und Bild-ab
-    in Schritten von 10 Grad. Das Sichtfeld reicht von 5 bis 150 Grad.
+:   Legt Position und Blickrichtung der Kamera genau fest. Position X, Höhe und Position Z
+    verschieben sie in Schritten von 0,25 m, mit Bild auf und Bild ab in Schritten von
+    2 m. Drehen, Neigen und Rollen drehen sie in Schritten von 1 Grad, mit Bild auf und
+    Bild ab in Schritten von 10 Grad. Das Sichtfeld lässt sich von 5 bis 150 Grad
+    einstellen.
 
 Kamera löschen
-:   Löscht die Kamera, sobald du im Ja/Nein-Dialog des Spiels bestätigst.
+:   Löscht die Kamera, nachdem du im Ja/Nein-Dialog des Spiels bestätigt hast.
 
-## Eine Kamera an ihren Platz fliegen
+## Eine Kamera in Position fliegen
 
-Wähle **In Position fliegen** im Panel oder klicke auf die Flug-Schaltfläche im
-Vorschaufenster der Kamera. Das Panel schließt sich, und du schaust durch die Kamera. Deine
-Bewegungstasten (**W A S D**) verschieben sie, die Maus dreht sie, und mit gedrückter
-**Umschalt**-Taste geht es schneller. **Enter** speichert die neue Position, **Esc** bricht
-ab und setzt die Kamera dorthin zurück, wo sie war.
+Wähle im Panel **In Position fliegen** oder klicke auf die Flug-Schaltfläche im
+Vorschaufenster der Kamera. Das Panel schließt sich, und du schaust durch die Kamera. Mit
+deinen Bewegungstasten (**W A S D**) bewegst du die Kamera, mit der Maus drehst du sie.
+Halte **Umschalt** gedrückt, um schneller zu fliegen. Mit **Enter** speicherst du die neue
+Position, mit **Esc** brichst du ab und die Kamera kehrt an ihren alten Platz zurück.
 
-Danach öffnet sich das Panel wieder, und du schaust weiter durch die Kamera.
+Danach öffnet sich das Panel wieder, und du schaust weiterhin durch die Kamera.
 
 ## Auf der Karte
 
-Jede statische Kamera hat eine Markierung auf der Karte im Pausenmenü und auf der Minikarte.
-Wählst du eine Markierung auf der großen Karte aus, gibt es zwei zusätzliche Aktionen:
-**Zur Kamera wechseln** schaut durch sie, und **Kamera löschen** löscht sie nach derselben
-Ja/Nein-Frage.
+Jede statische Kamera wird auf der Karte im Pausenmenü und auf der Minikarte angezeigt.
+Wählst du eine Kamera auf der Karte im Pausenmenü aus, erscheinen zwei weitere Optionen:
+**Zur Kamera wechseln**, um durch sie zu schauen, und **Kamera löschen**, um sie zu löschen
+(nach einer Rückfrage).
 
 ## Speichern
 
-Kameras gehören zum Spielstand und werden gespeichert, wenn du das Spiel speicherst. Im
-Mehrspielermodus hat jeder Spieler seine eigenen Kameras.
+Kameras gehören zu deinem Spielstand und werden gespeichert, wenn du das Spiel speicherst.
+Im Mehrspielermodus hat jeder Spieler seine eigenen Kameras.
 
-Schaltest du **Statische Kameras** im Panel aus, verschwindet alles, was zu den Kameras
-gehört, und du kehrst zur Live-Ansicht zurück. Deine Kameras werden dabei nicht gelöscht;
-sie sind wieder da, sobald du sie einschaltest.
+Stellst du **Statische Kameras** im Panel auf AUS, werden die Kameras und alles, was dazu
+gehört, ausgeblendet, und du kehrst zur Live-Ansicht zurück. Deine Kameras werden dabei
+nicht gelöscht: Sie sind wieder da, sobald du Statische Kameras einschaltest.
