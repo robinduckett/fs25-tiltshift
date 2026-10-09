@@ -42,9 +42,11 @@ Saved profiles that have a hotkey show the number before the name, for example
 **2 · Harvest**.
 
 When you change a setting, the Look row adds "(changed)", as in **2 · Harvest (changed)**,
-and the values you changed turn green. If you then apply a different look, the game first
-asks "Discard your unsaved changes and apply …?". Choose **Apply** to continue or
-**Cancel** to keep your changes.
+and the values you changed turn green and get an asterisk. If you then apply a different
+look, the game first asks "Discard your unsaved changes and apply …?". Choose **Apply** to
+continue or **Cancel** to keep your changes. If you close the panel instead, it asks "Save
+your changes to profile … before closing?": **Save** writes them to the profile,
+**Don't save** closes the panel and keeps them on screen as unsaved changes.
 
 If the current settings do not belong to any look in the list, for example because you
 deleted the profile they came from, the Look row shows **Custom**.

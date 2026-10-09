@@ -41,7 +41,29 @@ Pour la souris, voir [Le panneau](panel.md#souris).
 | Souris | Faire tourner la caméra |
 | **Maj** | Aller plus vite |
 | **Entrée** | Enregistrer la nouvelle position |
-| **Échap** | Annuler et remettre la caméra à sa place |
+| **Échap** | Annuler : la caméra reprend sa place, et l'écran revient à la vue que vous aviez |
+
+## En regardant à travers une caméra
+
+Quand vous jouez en regardant à travers une caméra fixe (**Ctrl droit + C** ou
+**Ctrl droit + V**), une barre en bas de l'écran rappelle les touches. Elle fait partie du
+HUD et disparaît dès que le HUD est masqué.
+
+| Touche | Action |
+| --- | --- |
+| **Ctrl droit + C** | Revenir à votre propre vue |
+| **Ctrl droit + V** | Passer à la caméra fixe suivante |
+| **Ctrl droit + K** | Ouvrir le panneau pour gérer vos caméras |
+
+## En regardant à travers une caméra depuis la carte
+
+Après **Passer à la caméra** sur la carte du menu pause :
+
+| Touche | Action |
+| --- | --- |
+| **Ctrl droit + P** | Placer la caméra en vol libre. Cette touche ne fonctionne qu'ici |
+| **Ctrl droit + K** | Ouvrir le panneau ; le fermer vous ramène à la vue que vous aviez avant la carte |
+| **Échap** | Revenir à la vue que vous aviez avant la carte |
 
 ## Pendant la lecture de la timeline
 

@@ -3,12 +3,16 @@
 All of the mod's settings are in one panel on the right of the screen. Press
 **Right Ctrl + K** to open it and **Right Ctrl + K** or **Esc** to close it. The game keeps
 running while the panel is open, but your keys control the panel instead of your character
-or vehicle.
+or vehicle. The game is dimmed behind the panel while it is open. When you close the panel,
+you are back at the view you opened it from, even if you looked through a static camera
+while it was open. If you have unsaved changes to a profile, the panel asks whether to save
+them before it closes.
 
 ## Layout
 
-The title bar reads TILT SHIFT CAMERA CONFIG. The switch at its right end, next to the eye
-icon, turns all effects on and off, like **Right Ctrl + J**.
+The title bar reads TILT SHIFT CAMERA CONFIG. The Esc chip at its left end closes the panel.
+The switch at its right end, next to the eye icon, turns all effects on and off, like
+**Right Ctrl + J**.
 
 The line under the title tells you what the effect settings currently apply to: your own
 view or a static camera, and which saved profile or built-in look it started from.
@@ -18,9 +22,13 @@ which you can fold and unfold. Only the first section is open the first time you
 panel; after that it remembers which sections you left open. The legend at the bottom shows
 the keys you can use on the selected row.
 
-Values you have changed since you last applied a look or saved a profile are shown in green.
+Values you have changed since you last applied a look or saved a profile are shown in green,
+with an asterisk after the row's name. The header of a section with a changed value carries
+the asterisk too, so a folded section still shows that something inside it changed.
 
 ![The panel with the TILT SHIFT section open](assets/panel-main.png){ width="480" }
+
+![A changed value in green with an asterisk, and its section header marked too](assets/panel-changed.png){ width="480" }
 
 ## Keyboard and gamepad
 

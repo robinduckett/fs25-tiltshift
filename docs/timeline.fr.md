@@ -3,7 +3,7 @@
 La timeline caméra passe automatiquement d'une caméra fixe à l'autre. Vous créez une liste
 de plans, chacun montrant une caméra pendant un nombre de secondes donné, puis vous lancez
 la timeline. C'est pratique, par exemple, pour enregistrer un timelapse pendant que vos
-ouvriers travaillent aux champs.
+ouvriers travaillent aux champs, ou une vidéo qui passe d'un angle de la ferme à l'autre.
 
 !!! info "Activez-la d'abord"
     La timeline nécessite les [caméras fixes](static-cameras.md) et les
@@ -103,7 +103,9 @@ appuyez sur **Ctrl droit + T**. Le panneau se ferme et toutes les fenêtres sont
 y compris les fenêtres épinglées, de même que le HUD du jeu. Le message « La timeline
 démarre dans 3.. » fait un compte à rebours, avec « Appuyez sur Échap pour revenir » en
 dessous. Ensuite, les messages disparaissent et la timeline est jouée dans la vue
-principale. Aucun message ne s'affiche lors des changements de caméra.
+principale. Aucun message ne s'affiche lors des changements de caméra. Pendant la lecture,
+rien du mod n'apparaît à l'écran : lancez votre enregistrement d'écran une fois le compte à
+rebours terminé et arrêtez-le avant d'appuyer sur Échap.
 
 En mode **En boucle**, la timeline recommence jusqu'à ce que vous l'arrêtiez. En mode
 **Une fois**, elle joue chaque plan une fois puis reste sur la dernière caméra.

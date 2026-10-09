@@ -10,7 +10,7 @@ La pluie, la neige et la grêle sont simulées
 
 Certains matériaux transparents sont masqués
 :   Certains autocollants, le verre et d'autres matériaux transparents ne sont pas visibles
-    quand les effets sont activés. Cela vient du fait que les effets travaillent sur une
+    quand le flou tilt-shift est activé. Cela vient du fait que le flou travaille sur une
     copie de l'image que le jeu crée avant de dessiner les matériaux transparents.
 
 Les fenêtres d'aperçu montrent l'image sans effets
@@ -19,7 +19,7 @@ Les fenêtres d'aperçu montrent l'image sans effets
 
 Troisième personne uniquement
 :   L'effet ne s'applique qu'aux caméras à la troisième personne. Les vues cabine, la
-    première personne et les caméras fixes des véhicules ne sont pas concernées.
+    première personne et les caméras de véhicule non orientables ne sont pas concernées.
 
 ## FAQ
 
@@ -33,14 +33,30 @@ Où sont les caméras fixes ?
     caméra s'activent au même endroit, l'une après l'autre.
 
 Pourquoi ma vue est-elle passée de la première à la troisième personne ?
-:   Tant que vous regardez à travers une caméra fixe, le jeu vous passe à la troisième
-    personne à pied pour que votre personnage soit visible. Appuyez sur **Ctrl droit + C**
-    pour revenir à la vue directe.
+:   Tant que vous regardez à travers une caméra fixe, le mod vous passe à la troisième
+    personne à pied pour que votre personnage soit visible, et vous ramène à la première
+    personne quand vous revenez à la vue directe. Appuyez sur **Ctrl droit + C** pour
+    revenir à la vue directe.
 
 La touche caméra du jeu (C) ne fait rien.
 :   Elle est désactivée tant que vous regardez à travers une caméra fixe, pour ne pas vous
     faire quitter la caméra par erreur. Appuyez sur **Ctrl droit + C** pour revenir à la
     vue directe.
+
+Je regarde à travers une caméra et la souris ne fait pas bouger la vue.
+:   Une caméra fixe reste là où vous l'avez placée : la souris et les touches font toujours
+    bouger votre personnage ou votre véhicule, que vous ne voyez peut-être pas depuis la
+    caméra. La barre en bas de l'écran indique comment revenir : **Ctrl droit + C** pour
+    votre propre vue. Si vous avez choisi la caméra sur la carte, appuyez sur **Échap**.
+    Fermer le panneau vous ramène toujours à la vue depuis laquelle vous l'avez ouvert.
+
+Comment masquer le HUD pour filmer ?
+:   Le jeu lui-même n'a pas de touche pour masquer tout le HUD. Lancer la timeline masque
+    pour vous le HUD, le panneau et toutes les fenêtres, épinglées comprises. Passer à la
+    caméra sur la carte du menu pause masque le HUD, mais les fenêtres d'aperçu épinglées
+    restent à l'écran. Quand vous regardez à travers une caméra avec **Ctrl droit + C** ou
+    **Ctrl droit + V**, le HUD reste à l'écran, et avec lui la barre de touches en bas, qui
+    fait partie du HUD.
 
 Je ne peux pas conduire quand le panneau est ouvert.
 :   Tant que le panneau est ouvert, vos touches commandent le panneau. Fermez-le avec
@@ -56,6 +72,18 @@ J'ai modifié des réglages puis appuyé sur une touche de profil. Mes modificat
     le profil immédiatement. Seule la ligne Rendu du panneau demande confirmation avant
     d'abandonner des modifications non enregistrées. Voir
     [Rendus et profils](looks-and-profiles.md).
+
+Le mod enregistre-t-il des vidéos ?
+:   Non. Il prépare l'image : le rendu, les caméras et la timeline. Enregistrez avec votre
+    logiciel d'enregistrement d'écran habituel. Tout ce que fait le mod est dessiné en
+    direct dans le jeu : l'enregistrement est l'image finale.
+
+J'ai copié ma sauvegarde et les caméras ont disparu.
+:   Les caméras sont rangées dans le dossier de réglages du mod
+    (`Documents/My Games/FarmingSimulator2025/modSettings/FS25_TiltShift`) et liées à
+    l'emplacement, à la carte et à la date de création de la partie où vous les avez créées,
+    pas au dossier de la sauvegarde. Pour changer de PC, copiez aussi ce dossier. Une
+    sauvegarde copiée vers un autre emplacement démarre sans caméras.
 
 Le mod fonctionne-t-il en multijoueur ?
 :   Oui. Il ne modifie que l'image sur votre propre écran, et chaque joueur a ses propres

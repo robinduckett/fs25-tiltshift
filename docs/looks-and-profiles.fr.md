@@ -9,7 +9,7 @@ profils.
 
 ## Rendus prédéfinis
 
-Robin 3rd Person
+Robin 3e personne
 :   Le rendu recommandé pour la troisième personne : le flou tilt-shift avec « Netteté suit
     le sujet », « Flou selon la distance » et le bokeh. Tous les autres effets sont
     désactivés.
@@ -17,16 +17,16 @@ Robin 3rd Person
 Miniature
 :   Le flou de distance du jeu sur l'arrière-plan et un étalonnage marqué.
 
-Miniature + Stop Motion
+Miniature + stop motion
 :   Miniature à 15 images par seconde.
 
-Subtle
+Subtil
 :   Un flou de distance et un étalonnage plus légers.
 
-Everything Off
+Tout désactiver
 :   Désactive tous les effets, comme **Réinitialiser tous les effets**.
 
-Miniature, Miniature + Stop Motion et Subtle ne modifient ni le flou tilt-shift ni les
+Miniature, Miniature + stop motion et Subtil ne modifient ni le flou tilt-shift ni les
 réglages météo. Vous ne pouvez pas modifier un rendu prédéfini, mais vous pouvez changer
 ses réglages et enregistrer le résultat comme profil.
 
@@ -44,10 +44,13 @@ Les profils enregistrés qui ont un raccourci affichent leur numéro devant leur
 exemple **2 · Moisson**.
 
 Dès que vous modifiez un réglage, la ligne Rendu ajoute « (modifié) », par exemple
-**2 · Moisson (modifié)**, et les valeurs modifiées passent en vert. Si vous appliquez
-ensuite un autre rendu, le jeu demande d'abord « Abandonner les modifications non
-enregistrées et appliquer … ? ». Choisissez **Appliquer** pour continuer ou **Annuler** pour
-garder vos modifications.
+**2 · Moisson (modifié)**, et les valeurs modifiées passent en vert et reçoivent un
+astérisque. Si vous appliquez ensuite un autre rendu, le jeu demande d'abord « Abandonner
+les modifications non enregistrées et appliquer … ? ». Choisissez **Appliquer** pour
+continuer ou **Annuler** pour garder vos modifications. Si vous fermez plutôt le panneau, il
+demande « Enregistrer vos modifications du profil … avant de fermer ? » : **Enregistrer**
+les écrit dans le profil, **Ne pas enregistrer** ferme le panneau et les garde à l'écran
+comme modifications non enregistrées.
 
 Si les réglages actuels ne correspondent à aucun rendu de la liste, par exemple parce que
 vous avez supprimé le profil dont ils venaient, la ligne Rendu affiche **Personnalisé**.
@@ -80,7 +83,7 @@ Pour modifier un profil qui n'est pas le profil actuel, appliquez-le d'abord dan
 Rendu.
 
 Au premier lancement après l'installation, le mod enregistre ses réglages par défaut sous
-le nom **Profile 1**, sur le raccourci 1.
+le nom **Profil 1**, sur le raccourci 1.
 
 ## Raccourcis clavier
 

@@ -40,7 +40,29 @@ For the mouse, see [The panel](panel.md#mouse).
 | Mouse | Turn the camera |
 | **Shift** | Move faster |
 | **Enter** | Save the new position |
-| **Esc** | Cancel and put the camera back |
+| **Esc** | Cancel: the camera goes back where it was, and the screen to the view you had |
+
+## Looking through a camera
+
+While you play looking through a static camera (**Right Ctrl + C** or **Right Ctrl + V**),
+a bar at the bottom of the screen shows the keys. It is part of the HUD and goes away
+whenever the HUD is hidden.
+
+| Key | What it does |
+| --- | --- |
+| **Right Ctrl + C** | Go back to your own view |
+| **Right Ctrl + V** | Switch to the next static camera |
+| **Right Ctrl + K** | Open the panel to manage your cameras |
+
+## Looking through a camera from the map
+
+After **Switch to Camera** on the pause-menu map:
+
+| Key | What it does |
+| --- | --- |
+| **Right Ctrl + P** | Fly the camera into place. This key only works here |
+| **Right Ctrl + K** | Open the panel; closing it takes you back to the view you had before the map |
+| **Esc** | Go back to the view you had before the map |
 
 ## While the timeline plays
 

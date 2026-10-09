@@ -41,7 +41,29 @@ Zur Bedienung mit der Maus siehe [Das Panel](panel.md#maus).
 | Maus | Kamera drehen |
 | **Umschalt** | Schneller fliegen |
 | **Enter** | Neue Position speichern |
-| **Esc** | Abbrechen und die Kamera an ihren alten Platz zurücksetzen |
+| **Esc** | Abbrechen: Die Kamera kehrt an ihren alten Platz zurück und der Bildschirm zu deiner vorherigen Ansicht |
+
+## Durch eine Kamera schauen
+
+Solange du spielst und dabei durch eine statische Kamera schaust (**Rechts-Strg + C** oder
+**Rechts-Strg + V**), zeigt eine Leiste unten am Bildschirm die Tasten. Sie gehört zum HUD
+und verschwindet, sobald das HUD ausgeblendet ist.
+
+| Taste | Funktion |
+| --- | --- |
+| **Rechts-Strg + C** | Zurück zu deiner eigenen Ansicht |
+| **Rechts-Strg + V** | Zur nächsten statischen Kamera wechseln |
+| **Rechts-Strg + K** | Das Panel öffnen, um deine Kameras zu verwalten |
+
+## Von der Karte aus durch eine Kamera schauen
+
+Nach **Zur Kamera wechseln** auf der Karte im Pausenmenü:
+
+| Taste | Funktion |
+| --- | --- |
+| **Rechts-Strg + P** | Die Kamera in Position fliegen. Diese Taste wirkt nur hier |
+| **Rechts-Strg + K** | Das Panel öffnen; schließt du es, kehrst du zu deiner Ansicht vor der Karte zurück |
+| **Esc** | Zurück zu deiner Ansicht vor der Karte |
 
 ## Während die Zeitleiste läuft
 

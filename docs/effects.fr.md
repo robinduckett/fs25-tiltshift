@@ -20,8 +20,8 @@ Flou tilt-shift
 ### NETTETÉ
 
 Netteté suit le sujet
-:   Garde la zone nette sur ce autour de quoi tourne votre caméra : votre personnage, votre
-    véhicule ou le sujet d'une caméra fixe. Plus vous dézoomez, plus la zone nette se
+:   Garde la zone nette sur le point autour duquel tourne votre caméra : votre personnage,
+    votre véhicule ou le sujet d'une caméra fixe. Plus vous dézoomez, plus la zone nette se
     rétrécit.
 
 Zone nette du sujet (0,05 à 2)

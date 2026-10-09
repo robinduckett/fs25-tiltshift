@@ -3,12 +3,17 @@
 Alle Einstellungen der Mod befinden sich in einem Panel am rechten Bildschirmrand. Mit
 **Rechts-Strg + K** öffnest du es, mit **Rechts-Strg + K** oder **Esc** schließt du es.
 Das Spiel läuft weiter, während das Panel offen ist, aber deine Tasten steuern dann das
-Panel statt deiner Spielfigur oder deines Fahrzeugs.
+Panel statt deiner Spielfigur oder deines Fahrzeugs. Solange das Panel offen ist, wird das
+Spiel dahinter abgedunkelt. Wenn du das Panel schließt, bist du wieder bei der Ansicht, von
+der aus du es geöffnet hast, auch wenn du in der Zwischenzeit durch eine statische Kamera
+geschaut hast. Hast du ungespeicherte Änderungen an einem Profil, fragt das Panel vor dem
+Schließen, ob sie gespeichert werden sollen.
 
 ## Aufbau
 
-In der Titelleiste steht TILT SHIFT CAMERA CONFIG. Der Schalter am rechten Ende neben dem
-Augensymbol schaltet alle Effekte ein und aus, genau wie **Rechts-Strg + J**.
+In der Titelleiste steht TILT-SHIFT-KONFIGURATION. Der Esc-Chip an ihrem linken Ende
+schließt das Panel. Der Schalter am rechten Ende neben dem Augensymbol schaltet alle Effekte
+ein und aus, genau wie **Rechts-Strg + J**.
 
 Die Zeile unter dem Titel zeigt, worauf sich die Effekteinstellungen gerade beziehen:
 auf deine eigene Ansicht oder auf eine statische Kamera, und von welchem gespeicherten
@@ -20,9 +25,13 @@ Abschnitt aufgeklappt, danach merkt sich das Panel, welche Abschnitte du offen g
 hast. Die Legende unten zeigt die Tasten, die für die gewählte Zeile gelten.
 
 Werte, die du seit dem letzten Anwenden eines Looks oder Speichern eines Profils geändert
-hast, werden grün angezeigt.
+hast, werden grün angezeigt, mit einem Sternchen hinter dem Namen der Zeile. Auch die
+Überschrift eines Abschnitts mit einem geänderten Wert trägt das Sternchen, sodass ein
+eingeklappter Abschnitt zeigt, dass sich darin etwas geändert hat.
 
 ![Das Panel mit geöffnetem Abschnitt TILT-SHIFT](assets/panel-main.png){ width="480" }
+
+![Ein geänderter Wert in Grün mit Sternchen, und auch die Überschrift seines Abschnitts ist markiert](assets/panel-changed.png){ width="480" }
 
 ## Tastatur und Gamepad
 

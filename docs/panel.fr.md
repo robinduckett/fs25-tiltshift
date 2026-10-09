@@ -3,13 +3,17 @@
 Tous les réglages du mod se trouvent dans un panneau sur la droite de l'écran. Appuyez sur
 **Ctrl droit + K** pour l'ouvrir, et sur **Ctrl droit + K** ou **Échap** pour le fermer.
 Le jeu continue de tourner quand le panneau est ouvert, mais vos touches commandent alors
-le panneau au lieu de votre personnage ou de votre véhicule.
+le panneau au lieu de votre personnage ou de votre véhicule. Le jeu est assombri derrière le
+panneau tant qu'il est ouvert. Quand vous fermez le panneau, vous retrouvez la vue depuis
+laquelle vous l'avez ouvert, même si vous avez regardé à travers une caméra fixe
+entre-temps. Si vous avez des modifications non enregistrées d'un profil, le panneau vous
+demande avant de se fermer si vous voulez les enregistrer.
 
 ## Disposition
 
-La barre de titre indique TILT SHIFT CAMERA CONFIG. L'interrupteur à son extrémité droite,
-à côté de l'icône en forme d'œil, active et désactive tous les effets, comme
-**Ctrl droit + J**.
+La barre de titre indique CONFIGURATION TILT-SHIFT. Le bouton Échap à son extrémité gauche
+ferme le panneau. L'interrupteur à son extrémité droite, à côté de l'icône en forme d'œil,
+active et désactive tous les effets, comme **Ctrl droit + J**.
 
 La ligne sous le titre indique à quoi s'appliquent actuellement les réglages des effets :
 à votre propre vue ou à une caméra fixe, et de quel profil enregistré ou rendu prédéfini
@@ -21,9 +25,13 @@ dépliée ; ensuite, le panneau mémorise les sections que vous avez laissées o
 légende en bas indique les touches utilisables sur la ligne sélectionnée.
 
 Les valeurs que vous avez modifiées depuis la dernière application d'un rendu ou le dernier
-enregistrement d'un profil s'affichent en vert.
+enregistrement d'un profil s'affichent en vert, avec un astérisque après le nom de la ligne.
+L'en-tête d'une section contenant une valeur modifiée porte aussi l'astérisque : une section
+repliée montre ainsi que quelque chose a changé à l'intérieur.
 
 ![Le panneau avec la section TILT-SHIFT ouverte](assets/panel-main.png){ width="480" }
+
+![Une valeur modifiée en vert avec un astérisque, et l'en-tête de sa section marqué aussi](assets/panel-changed.png){ width="480" }
 
 ## Clavier et manette
 

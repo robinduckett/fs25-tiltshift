@@ -2,7 +2,8 @@
 
 The camera timeline switches between your static cameras automatically. You make a list of
 shots, each showing one camera for a set number of seconds, and then start the timeline.
-It is useful for recording a timelapse while your workers do the fieldwork.
+It is useful for recording a timelapse while your workers do the fieldwork, or a video that
+cuts between several angles of the farm.
 
 !!! info "Switch it on first"
     The timeline needs [static cameras](static-cameras.md) and
@@ -95,7 +96,9 @@ To start the timeline, click **Start Timeline**, choose the Play row, or press
 **Right Ctrl + T**. The panel closes and all windows are hidden, including pinned ones, as
 well as the game's HUD. The message "Timeline starting in 3.." counts down, with "Press Esc
 to go back" below it. Then the messages disappear and the timeline plays on the main view.
-No messages are shown when the timeline changes camera.
+No messages are shown when the timeline changes camera. Nothing of the mod is on screen
+while the timeline plays, so start your screen recording once the countdown has gone and
+stop it before you press Esc.
 
 With **Loop**, the timeline repeats until you stop it. With **Once**, it plays every shot
 once and then stays on the last camera.

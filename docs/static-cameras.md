@@ -25,18 +25,29 @@ the top of the screen shows which camera you are looking through.
 
 While you are looking through a static camera:
 
-- if you are on foot, the game switches you to third person so that your character is
-  visible;
+- a bar at the bottom of the screen shows the keys: **Right Ctrl + C** to go back to your
+  view, **Right Ctrl + V** for the next camera, **Right Ctrl + K** to manage cameras. It is
+  part of the game's HUD, so it goes away whenever the HUD is hidden (the game itself has no
+  key for that; see [Filming](getting-started.md#filming));
+- if you are on foot, the mod switches you to third person so that your character is
+  visible, and back to first person when you return to the live view;
 - the game's own camera key (**C**) does nothing until you go back to the live view, so it
   cannot switch you away from the static camera by accident;
 - getting into or out of a vehicle does not change the view;
 - menus, the sleep screen and cinematic camera mods still take over the screen as usual.
 
+![Looking through a static camera: the bar at the bottom shows the keys](assets/view-hint.jpg)
+
 ## The STATIC CAMERAS section
 
+When you close the panel, the screen goes back to the view you opened it from. The View
+row, Edit Camera and flying a camera let you look through a camera while the panel is open.
+To keep playing while you look through a camera, close the panel and use
+**Right Ctrl + C** or **Right Ctrl + V**.
+
 View
-:   What is on screen: **Live** (your own view) or one of your cameras. Press Left or Right
-    to switch.
+:   What is on screen while the panel is open: **Live** (your own view) or one of your
+    cameras. Press Left or Right to switch.
 
 Add Camera Here
 :   Adds a camera at your current view, like **Right Ctrl + N**.
@@ -75,21 +86,36 @@ Delete Camera
 Choose **Fly Into Place** in the panel, or click the fly button on the camera's preview
 window. The panel closes and you look through the camera. Use your movement keys
 (**W A S D**) to move the camera and the mouse to turn it. Hold **Shift** to move faster.
-Press **Enter** to save the new position, or **Esc** to cancel and put the camera back
-where it was.
+Press **Enter** to save the new position, or **Esc** to cancel: the camera goes back where
+it was, and the screen goes back to the view you had before you started flying.
 
-When you finish, the panel opens again and you are still looking through the camera.
+When you finish, the panel opens again: after **Enter** you are looking through the camera
+at its new position. Closing the panel takes you back to the view you opened it from.
 
 ## On the map
 
-Each static camera is shown on the map in the pause menu and on the minimap. Select a
+Each static camera is marked on the minimap and on the map in the pause menu. Select a
 camera on the pause-menu map to see two more options: **Switch to Camera** to look through
 it, and **Delete Camera** to delete it (you are asked to confirm).
 
+After **Switch to Camera** the menu closes and you look through the camera, with the HUD
+hidden and a bar at the bottom of the screen showing three keys:
+
+| Key | What it does |
+| --- | --- |
+| **Right Ctrl + P** | Fly the camera into place (see above). When you finish, you are back looking through it from the map |
+| **Right Ctrl + K** | Open the panel to manage your cameras. Closing it takes you back to the view you had before the map |
+| **Esc** | Go back to the view you had before the map |
+
+![A camera picked on the map, with its three keys](assets/map-watch.jpg)
+
 ## Saving
 
-Cameras are part of your savegame and are saved when you save the game. In multiplayer,
-each player has their own cameras.
+Cameras belong to the savegame you made them in and are written when you save the game.
+The mod keeps its cameras in its own settings folder
+(`Documents/My Games/FarmingSimulator2025/modSettings/FS25_TiltShift`), not in the savegame
+folder, so they do not travel with a copied savegame. In multiplayer, each player has their
+own cameras.
 
 If you set **Static Cameras** to OFF in the panel, the cameras and everything related to
 them are hidden and you go back to the live view. Your cameras are not deleted: they come

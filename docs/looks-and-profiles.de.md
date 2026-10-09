@@ -13,20 +13,20 @@ Robin 3rd Person
     dem Ziel“, „Unschärfe nach Entfernung“ und Bokeh. Alle anderen Effekte werden
     ausgeschaltet.
 
-Miniature
+Miniatur
 :   Die Entfernungsunschärfe des Spiels auf dem Hintergrund und eine kräftige
     Farbkorrektur.
 
-Miniature + Stop Motion
-:   Miniature mit 15 Bildern pro Sekunde.
+Miniatur + Stop-Motion
+:   Miniatur mit 15 Bildern pro Sekunde.
 
-Subtle
+Dezent
 :   Eine schwächere Entfernungsunschärfe und Farbkorrektur.
 
-Everything Off
+Alles aus
 :   Schaltet alle Effekte aus, wie **Alle Effekte zurücksetzen**.
 
-Miniature, Miniature + Stop Motion und Subtle ändern weder die Tilt-Shift-Unschärfe noch
+Miniatur, Miniatur + Stop-Motion und Dezent ändern weder die Tilt-Shift-Unschärfe noch
 die Wettereinstellungen. Einen Vorgabe-Look kannst du nicht bearbeiten, aber du kannst
 seine Einstellungen ändern und das Ergebnis als Profil speichern.
 
@@ -45,10 +45,13 @@ Gespeicherte Profile mit Tastenkombination zeigen die Nummer vor dem Namen, zum 
 **2 · Ernte**.
 
 Sobald du eine Einstellung änderst, steht in der Zeile Look zusätzlich „(geändert)“, etwa
-**2 · Ernte (geändert)**, und die geänderten Werte werden grün. Wendest du dann einen
-anderen Look an, fragt das Spiel zuerst: „Ungespeicherte Änderungen verwerfen und …
-anwenden?“ Wähle **Anwenden**, um fortzufahren, oder **Abbrechen**, um deine Änderungen zu
-behalten.
+**2 · Ernte (geändert)**, und die geänderten Werte werden grün und bekommen ein Sternchen.
+Wendest du dann einen anderen Look an, fragt das Spiel zuerst: „Ungespeicherte Änderungen
+verwerfen und … anwenden?“ Wähle **Anwenden**, um fortzufahren, oder **Abbrechen**, um
+deine Änderungen zu behalten. Schließt du stattdessen das Panel, fragt es „Änderungen am
+Profil … vor dem Schließen speichern?“: **Speichern** schreibt sie ins Profil,
+**Nicht speichern** schließt das Panel und behält sie als ungespeicherte Änderungen auf dem
+Bildschirm.
 
 Gehören die aktuellen Einstellungen zu keinem Look in der Liste, zum Beispiel weil du das
 Profil gelöscht hast, aus dem sie stammen, zeigt die Zeile Look **Eigener**.
@@ -81,7 +84,7 @@ Um ein Profil zu ändern, das gerade nicht angewendet ist, wende es zuerst in de
 an.
 
 Beim ersten Start nach der Installation speichert die Mod ihre Standardeinstellungen als
-**Profile 1** auf der Tastenkombination 1.
+**Profil 1** auf der Tastenkombination 1.
 
 ## Tastenkombinationen
 
@@ -103,7 +106,7 @@ beziehen und von welchem Look sie stammen:
 | --- | --- |
 | Bearbeitung: Live-Ansicht | Deine eigene Ansicht, ohne gespeichertes Profil oder Vorgabe-Look |
 | Bearbeitung: Live-Ansicht, aus Profil Ernte | Deine eigene Ansicht, auf Grundlage eines gespeicherten Profils |
-| Bearbeitung: Live-Ansicht, Vorgabe-Look Miniature | Deine eigene Ansicht, auf Grundlage eines Vorgabe-Looks |
+| Bearbeitung: Live-Ansicht, Vorgabe-Look Miniatur | Deine eigene Ansicht, auf Grundlage eines Vorgabe-Looks |
 | Bearbeitung: Kamera 1, eigener Look | Eine statische Kamera mit eigenen Einstellungen |
 | Bearbeitung: Kamera 1, nutzt Profil Ernte | Eine statische Kamera, die ein gespeichertes Profil nutzt |
 

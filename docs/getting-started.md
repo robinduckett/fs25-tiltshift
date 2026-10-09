@@ -1,9 +1,10 @@
 # Getting started
 
-Tilt Shift Camera adds a tilt-shift effect to Farming Simulator 25's third-person views. A
-band across the screen stays sharp and everything above and below it is blurred, which
-makes the scene look like a miniature model. By default the sharp band follows whatever
-your camera orbits, so your tractor or your character stays in focus.
+Tilt Shift Camera is made for filming your farm. It gives Farming Simulator 25's
+third-person views the look of a tilt-shift photograph: a band across the screen stays sharp
+and everything above and below it is blurred, which makes the scene look like a miniature
+model. By default the sharp band follows whatever your camera orbits, so your tractor or
+your character stays in focus.
 
 On top of the blur you can add bokeh on bright points, raise the saturation and contrast,
 and darken the corners. The panel also gives you lens controls (field of view, a view
@@ -14,8 +15,12 @@ You can save a look you like as a profile and bring it back with a hotkey.
 
 There are three optional extras, all off at first: [static cameras](static-cameras.md)
 that you place around the map, [preview windows](preview-windows.md) that show what each
-camera sees, and a [camera timeline](timeline.md) that switches between the cameras on its
+camera sees, and a [camera timeline](timeline.md) that cuts between the cameras on its
 own, for example to record a timelapse of your workers in the field.
+
+Everything is drawn live in the game, so what your screen recorder captures is the finished
+picture. The mod does not record anything itself: use the recording software you already
+have. See [Filming](#filming) below.
 
 ## Quick start
 
@@ -47,6 +52,25 @@ row only appears once that one is on:
 1. **Static Cameras**
 2. **Preview Windows**, once Static Cameras is on
 3. **Camera Timeline**, once Preview Windows is on
+
+## Filming
+
+The mod sets up the picture; your screen recording software captures it. A few things to
+know before you record:
+
+- **The look is in the game.** The tilt-shift blur, the weather and the colours are rendered
+  live, so the recording needs no editing afterwards. **Right Ctrl + 1** to **9** switch
+  profiles while you record.
+- **Your own work from the side.** Place a [static camera](static-cameras.md) at the edge of
+  the field and press **Right Ctrl + C**: you keep driving while the camera films you. The
+  game is not paused.
+- **Timelapses and multi-camera videos.** Build a [camera timeline](timeline.md) and press
+  **Right Ctrl + T**. The panel, all windows and the HUD disappear, a countdown runs, and
+  the timeline cuts between your cameras without any message on screen. Start the recording
+  once the countdown has gone.
+- **The HUD.** The game itself has no key to hide the whole HUD. The timeline and the map's
+  Switch to Camera hide it for you; while you look through a camera with **Right Ctrl + C**,
+  the HUD stays on screen, and so does the mod's bar of keys at the bottom.
 
 ## Multiplayer
 
